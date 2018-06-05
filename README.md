@@ -8,3 +8,5 @@ In this repository collate all CSS, HTML and other files for use on the MPharm K
   <li>Image files for the key people sections;</li>
   <li>Other files as needed.</li>
 </ul>
+<p></p>
+Create a new repository for each academic year by cloning the previous year repository and then updating the files.
