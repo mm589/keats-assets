@@ -1,0 +1,39 @@
+.mpharm-1819-homepage-current {
+  border: 2px black solid;
+  overflow: auto;	
+}
+
+.mpharm-1819-homepage-past {
+  border: 2px black solid;
+  overflow: auto;
+}
+
+.mpharm-1819-homepage-current h4 {
+  margin: 5px;	
+}
+
+.mpharm-1819-homepage-current h5 {
+  margin: 5px;
+}
+
+.mpharm-1819-homepage-past ul {
+  list-style: square;
+}
+
+.handbook-scroll {
+	-webkit-overflow-scrolling: touch;
+	overflow-y: scroll;
+	width: 569px;
+	height: 500px;
+}
+
+.mpharm-1819-homepage-handbook-pdf {
+  margin-right: 5px;
+  margin-left: 5px;
+  width: 100%;
+  height: 100%;
+}
+
+.modified {
+  display: none;
+}

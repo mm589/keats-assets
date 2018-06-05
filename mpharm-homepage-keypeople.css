@@ -1,0 +1,49 @@
+.mpharm-1819-keypeople {
+  font: 14px sans-serif;
+}
+
+.mpharm-teaching-staff {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.mpharm-teaching-staff th[scope="col"], td[scope="col"] {
+  border: 3px solid #7d9fd3;
+  font: bold italic 14px sans-serif;
+  text-align: left;
+  padding: 5px;
+}
+
+.mpharm-teaching-staff td[scope="row"] {
+  border: 3px solid #7d9fd3;
+  text-align: left;
+  padding: 5px;
+}
+
+#mpharm-years {
+  font: bold italic 14px sans-serif;
+}
+
+#caption {
+  margin: 3px;
+  padding: 2px;
+  color: grey;
+  text-align: left;
+  font: bold 18px sans-serif;
+}
+
+.year1-modules ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none !important;
+  margin-left: 0;
+  padding: 0;
+  vertical-align: top;
+  font: 14px sans-serif;
+}
+
+.year1-modules ul li:nth-child(2n+1) {
+  border: dotted 2px;
+  background-color: #e6e9eb;
+}
