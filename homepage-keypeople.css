@@ -13,6 +13,7 @@
   font: bold italic 14px sans-serif;
   text-align: left;
   padding: 5px;
+  background-color: #e6e9eb;
 }
 
 .mpharm-teaching-staff td[scope="row"] {
@@ -23,6 +24,7 @@
 
 #mpharm-years {
   font: bold italic 14px sans-serif;
+  background-color: #e6e9eb;
 }
 
 #caption {
@@ -46,4 +48,8 @@
 .year-modules ul li:nth-child(2n+1) {
   border: dotted 2px;
   background-color: #e6e9eb;
+}
+
+.modified {
+  display: none;
 }
