@@ -33,7 +33,7 @@
   font: bold 18px sans-serif;
 }
 
-.year1-modules ul {
+.year-modules ul {
   display: flex;
   flex-direction: column;
   list-style-type: none !important;
@@ -43,7 +43,7 @@
   font: 14px sans-serif;
 }
 
-.year1-modules ul li:nth-child(2n+1) {
+.year-modules ul li:nth-child(2n+1) {
   border: dotted 2px;
   background-color: #e6e9eb;
 }
