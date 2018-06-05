@@ -46,8 +46,7 @@
 }
 
 .year-modules ul li:nth-child(2n+1) {
-  border: dotted 2px;
-  background-color: #e6e9eb;
+  border: dotted 2px;  
 }
 
 .modified {
