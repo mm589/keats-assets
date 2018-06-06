@@ -76,7 +76,7 @@
 
 .mpharm-panel .year-modules ul li:nth-child(2n+1) {
   border: dotted 2px;
-  background-color: #d4d8d9;
+  background-color: #eeeeee;
 }
 
 .accordion::after {
