@@ -5,6 +5,7 @@ This repository contains all CSS, HTML, JavaScript and other files for use on th
 <ul>
   <li>CSS stylesheets to define the HTML files for the Year Course Noticeboards, the MPharm homepage and other KEATS course pages;</li>
   <li>HTML files to match each CSS file provided;</li>
+  <li>JavaScript files for additional features;</li>
   <li>Image files for the key people sections;</li>
   <li>Other files as needed.</li>
 </ul>
