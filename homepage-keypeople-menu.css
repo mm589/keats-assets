@@ -46,11 +46,6 @@
   font: 14px sans-serif;
 }
 
-.year-modules ul li:nth-child(2n+1) {
-  border: dotted 2px;
-  background-color: #d4d8d9;
-}
-
 .accordion {
   background-color: #eee;
   font: 14px sans-serif;
@@ -77,6 +72,16 @@
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;  
+}
+
+.panel ul li {
+  padding: 0.1em;
+  margin: 0;
+}
+
+.year-modules ul li:nth-child(2n+1) {
+  border: dotted 2px;
+  background-color: #d4d8d9;
 }
 
 .accordion::after {
