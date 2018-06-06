@@ -107,6 +107,7 @@
 
 .active::after {
   content: "\f139";
+  font-family: FontAwesome;
 }
 
 .mpharm-years, .mpharm1, .mpharm2, .mpharm3, .mpharm4 {
