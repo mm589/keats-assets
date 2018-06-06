@@ -2,6 +2,10 @@
   font: 14px sans-serif;
 }
 
+.mpharm-1819-keypeople ul li::before {
+  content: \f149;
+}
+
 .mpharm-teaching-staff {
   width: 100%;
   table-layout: fixed;
