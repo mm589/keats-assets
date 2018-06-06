@@ -65,7 +65,7 @@
   border: #7d9fd3 2px solid;
 }
 
-.panel {
+.mpharm-panel {
   margin: 2px;
   padding: 0;
   background-color: white;
@@ -74,12 +74,7 @@
   transition: max-height 0.2s ease-out;  
 }
 
-.panel ul li {
-  padding: 0.1em;
-  margin: 0;
-}
-
-.year-modules ul li:nth-child(2n+1) {
+.mpharm-panel .year-modules ul li:nth-child(2n+1) {
   border: dotted 2px;
   background-color: #d4d8d9;
 }
