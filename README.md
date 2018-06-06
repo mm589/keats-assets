@@ -1,7 +1,7 @@
 # keats-sbe-mpharm-1819
 <h4>Repository for KEATS MPharm 18-19 course pages</h4>
 <p></p>
-In this repository collate all CSS, HTML and other files for use on the MPharm KEATS pages:
+This repository contains all CSS, HTML and other files for use on the MPharm KEATS pages:
 <ul>
   <li>CSS stylesheets to define the HTML files for the Year Course Noticeboards, the MPharm homepage and other KEATS course pages;</li>
   <li>HTML files to match each CSS file provided;</li>
