@@ -2,8 +2,19 @@
   font: 14px sans-serif;
 }
 
-.mpharm-1819-keypeople ul li::before {
-  content: \f149;
+.departmental-links li {
+  list-style-type: none;
+  margin-left: -20px;
+}
+
+.departmental-links li::before {
+  content: "\f015  ";
+  font-family: FontAwesome;
+}
+
+.departmental-links ul li:first-child::before {
+  content: "\f149  ";
+  font-family: FontAwesome;
 }
 
 .mpharm-teaching-staff {
