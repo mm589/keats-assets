@@ -4,7 +4,6 @@
 
 .departmental-links li {
   list-style-type: none;
-  margin-left: -20px;
 }
 
 .departmental-links li::before {
