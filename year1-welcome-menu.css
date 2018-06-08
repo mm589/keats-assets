@@ -5,6 +5,7 @@
 /* Fixing image frames for key people */
 .resize-image {
   display: inline;
+  float: left;
   margin-right: 5px;
   position: relative;
   width: 150px;
