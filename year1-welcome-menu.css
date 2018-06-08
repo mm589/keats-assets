@@ -2,15 +2,9 @@
   font-size: 14px;
 }
 
-.year1-keypeople {
-  height: 100%;
-  width: 100%;
-}
-
 /* Fixing image frames for key people */
 .resize-image {
-  display: inline-block;
-  float: left;
+  display: inline;
   margin-right: 5px;
   position: relative;
   width: 150px;
