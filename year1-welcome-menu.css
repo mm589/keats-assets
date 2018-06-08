@@ -15,8 +15,8 @@
 
 #B-Jubraj {
   height: 140px;
-  width: 200px;
-  margin-left: -27px;
+  width: 168px;
+  margin-left: -14px;
   filter: brightness(1.15);
 }
 
@@ -85,7 +85,17 @@
   font-family: FontAwesome;
 }
 
-@media only screen and (min-width: 375px) and (max-width: 766px) {
+@media only screen and (min-width: 320px) {
+  /* mobile phones */
+  .accordion::after {
+    right: 5%;
+  }
+  .active-year1::after {
+    right: 5%;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 767px) {
   /* mobile phones */
   .accordion::after {
     right: 4%;
