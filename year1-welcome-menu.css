@@ -53,7 +53,7 @@
   transition: 0.4s;
 }
 
-.active-mpharm, .accordion:hover {
+.active-year1, .accordion:hover {
   background-color: #ccc;
   border: #7d9fd3 2px solid;
   color: #fff;
@@ -79,7 +79,7 @@
   right: 2%;
 }
 
-.active:after {
+.active-year1:after {
   content: "\f139";
   font-family: FontAwesome;
 }
@@ -89,7 +89,7 @@
   .accordion::after {
     right: 4%;
   }
-  .active-mpharm::after {
+  .active-year1::after {
     right: 4%;
   }
 }
