@@ -119,6 +119,16 @@
   }
 }
 
+@media only screen and (min-width: 375px) and (max-width: 766px) {
+  /* mobile phones */
+  .accordion::after {
+    right: 4%;
+  }
+  .active-mpharm::after {
+    right: 4%;
+  }
+}
+
 .mpharm-years, .mpharm1, .mpharm2, .mpharm3, .mpharm4 {
   border: 3px solid #7d9fd3;
 }
