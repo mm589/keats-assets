@@ -1,13 +1,3 @@
-@media only screen and (max-width: 767px) {
-  /* mobile phones */
-  .accordion::after {
-    right: 5%;
-  }
-  .active-mpharm::after {
-    right: 5%;
-  }
-}
-
 .mpharm-1819-keypeople {
   font: 14px sans-serif;
 }
@@ -117,6 +107,16 @@
 .active-mpharm::after {
   content: "\f139";
   font-family: FontAwesome;
+}
+
+@media only screen and (max-width: 767px) {
+  /* mobile phones */
+  .accordion::after {
+    right: 5%;
+  }
+  .active-mpharm::after {
+    right: 5%;
+  }
 }
 
 .mpharm-years, .mpharm1, .mpharm2, .mpharm3, .mpharm4 {
