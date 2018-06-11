@@ -26,6 +26,7 @@
   margin-top: -2px;
   filter: brightness(1.05);
   margin-right: 8px;
+  image-rendering: auto;
 }
 /* End fix image frames*/
 
@@ -61,7 +62,7 @@
 }
 
 .year1-panel {
-  margin: 2px;
+  margin: 2px 2px 5px 2px;
   padding: 0;
   background-color: white;
   max-height: 0;
