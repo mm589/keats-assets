@@ -1,0 +1,100 @@
+.mbbs-acadctr {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.mbbs-acadctr th[scope="col"], td[scope="col"] {
+  font: bold 13px sans-serif;
+  border: 3px solid #7d9fd3;
+  text-align: left;
+  padding: 5px;
+  background-color: #eeeeee;
+}
+
+.mbbs-acadctr td[scope="row"] {
+  font: bold 13px sans-serif;
+  border: 3px solid #7d9fd3;
+  text-align: left;
+  padding: 5px;
+}
+
+#caption {
+  margin: 3px;
+  padding: 2px;
+  text-align: left;
+  font: bold 18px sans-serif;
+}
+/* styling for collapsible menus */
+.accordion {
+  background-color: #eee;
+  font: 14px sans-serif;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  margin-bottom: 2px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.active-mbbs, .accordion:hover {
+  background-color: #ccc;
+  border: #7d9fd3 2px solid;
+}
+
+.mbbs-panel {
+  margin: 2px;
+  padding: 0;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;  
+}
+
+.accordion::after {
+  content: "\f13a";
+  font-family: FontAwesome;
+  font-size: 1.5em;
+  height: 1.3em;
+  text-align: center;
+  width: 1.5em;
+  position: absolute;
+  right: 2%;
+}
+
+.active-mbbs::after {
+  content: "\f139";
+  font-family: FontAwesome;
+}
+
+@media only screen and (max-width: 767px) {
+  /* mobile phones */
+  .accordion::after {
+    right: 5%;
+  }
+  .active-mbbs::after {
+    right: 5%;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 766px) {
+  /* mobile phones */
+  .accordion::after {
+    right: 4%;
+  }
+  .active-mbbs::after {
+    right: 4%;
+  }
+}
+/* end styling collapsible menus */
+
+.mbbs-roles {
+  border: 3px solid #7d9fd3;
+}
+
+.modified {
+  display: none;
+}
