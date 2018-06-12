@@ -71,6 +71,15 @@
   transition: max-height 0.2s ease-out; 
 }
 
+.person-desc {
+  font: bold 14px sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  vertical-align: middle;
+}
+
 .year1-panel table {
   box-sizing: border-box;
   border-collapse: collapse;
