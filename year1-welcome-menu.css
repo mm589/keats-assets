@@ -1,5 +1,5 @@
 .year1-welcome p {
-  font-size: 14px;
+  font: 14px sans-serif;
 }
 
 /* Fixing image frames for key people */
@@ -14,6 +14,7 @@
 }
 
 #B-Jubraj {
+  margin-top: 3px;
   height: 140px;
   width: 168px;
   margin-left: -14px;
@@ -66,8 +67,20 @@
   padding: 0;
   background-color: white;
   max-height: 0;
-  overflow: hidden;
+  overflow-x: auto;
   transition: max-height 0.2s ease-out; 
+}
+
+.year1-panel table {
+  box-sizing: border-box;
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: auto;
+  border: 2px solid #7d9fd3;
+}
+
+.year1-panel td {
+  background-color: #f4f5f7;
 }
 
 .accordion:after {
