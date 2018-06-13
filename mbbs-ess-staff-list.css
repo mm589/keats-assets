@@ -1,6 +1,6 @@
 .mbbs-acadctr {
   width: 99%;
-  table-layout: auto;
+  table-layout: fixed;
   border-collapse: collapse;
 }
 
@@ -22,8 +22,8 @@
 
 .mbbs-acadctr-teams {
   width: 100%;
+  table-layout: fixed;
   border-collapse: collapse;
-  table-layout: auto;
 }
 
 #caption {
@@ -32,7 +32,7 @@
   font: bold 18px sans-serif;
   color: rgb(46,116,181);
   text-align: center;
-  line-height: 2.5;
+  line-height: 2;
 }
 /* styling for collapsible menus */
 .accordion {
@@ -95,13 +95,12 @@
   .mbbs-panel {
     overflow: auto;
   }  
-  .mbbs-acadctr, .mbbs-acadctr-teams {
-    table-layout: fixed;
-    display: table;
+  #caption {
+    line-height: 1.5;
   }
 }
 
-@media only screen and (min-width: 321px) and (max-width: 374px) {
+@media only screen and (min-width: 321px) and (max-width: 366px) {
   /* mobile phones */
   .accordion::after {
     right: 5%;
@@ -112,13 +111,12 @@
   .mbbs-panel {
     overflow: auto;
   }
-  .mbbs-acadctr, .mbbs-acadctr-teams {
-    table-layout: fixed;
-    display: table;
+  #caption {
+    line-height: 1.5;
   }
 }
 
-@media only screen and (min-width: 375px) and (max-width: 767px) {
+@media only screen and (min-width: 367px) and (max-width: 767px) {
   /* mobile phones */
   .accordion::after {
     right: 4%;
@@ -129,11 +127,8 @@
   .mbbs-panel {
     overflow: auto;
   }
-  .mbbs-acadctr, .mbbs-acadctr-teams {
-    table-layout: fixed;
-    display: table;
-  }
 }
+
 /* end styling collapsible menus */
 
 .mbbs-roles {
