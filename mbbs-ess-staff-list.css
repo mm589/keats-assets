@@ -29,7 +29,7 @@
 #caption {
   margin: 3px;
   padding: 2px;
-  font: bold 16px sans-serif;
+  font: bold 18px sans-serif;
   color: rgb(46,116,181);
   text-align: center;
   line-height: 2.5;
@@ -52,6 +52,10 @@
 .active-mbbs, .accordion:hover {
   background-color: #ccc;
   border: #7d9fd3 2px solid;
+}
+
+.accordion:focus, .accordion:active {
+  color: rgb(46,116,181);
 }
 
 .mbbs-panel {
@@ -91,6 +95,10 @@
   .mbbs-panel {
     overflow: auto;
   }  
+  .mbbs-acadctr, .mbbs-acadctr-teams {
+    table-layout: fixed;
+    display: table;
+  }
 }
 
 @media only screen and (min-width: 321px) and (max-width: 374px) {
@@ -102,7 +110,11 @@
     right: 5%;
   }
   .mbbs-panel {
-    overflow-y: auto;
+    overflow: auto;
+  }
+  .mbbs-acadctr, .mbbs-acadctr-teams {
+    table-layout: fixed;
+    display: table;
   }
 }
 
@@ -115,7 +127,11 @@
     right: 4%;
   }
   .mbbs-panel {
-    overflow-y: auto;
+    overflow: auto;
+  }
+  .mbbs-acadctr, .mbbs-acadctr-teams {
+    table-layout: fixed;
+    display: table;
   }
 }
 /* end styling collapsible menus */
