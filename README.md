@@ -7,7 +7,7 @@ This repository contains all CSS, HTML, JavaScript and other files for use on th
   <li>HTML files to match each CSS file provided;</li>
   <li>JavaScript files for additional features;</li>
   <li>Image files for the key people sections;</li>
-  <li>Other files as needed.</li>
+  <li>Other files as needed, e.g. other SBE programme web files.</li>
 </ul>
 <p></p>
 Create a new repository for each academic year by cloning the previous year repository and then updating the files.
