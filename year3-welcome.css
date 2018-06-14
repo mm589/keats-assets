@@ -109,7 +109,7 @@
   .accordion::after {
     right: 5%;
   }
-  .active-year1::after {
+  .active-year3::after {
     right: 5%;
   }
   .year3-panel {
@@ -122,7 +122,7 @@
   .accordion::after {
     right: 5%;
   }
-  .active-year1::after {
+  .active-year3::after {
     right: 5%;
   }
   .year3-panel {
@@ -135,7 +135,7 @@
   .accordion::after {
     right: 4%;
   }
-  .active-year1::after {
+  .active-year3::after {
     right: 4%;
   }
   .year3-panel {
