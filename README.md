@@ -10,4 +10,4 @@ This repository contains all CSS, HTML, JavaScript and other files for use on th
   <li>Other files as needed, e.g. other SBE programme web files.</li>
 </ul>
 <p></p>
-<b>Instructions for updating the repository:</b> Create a new repository for each academic year, e.g. 1819 as needed by copying the previous year repository and then updating the relevant files.
+Create a new repository for each academic year, e.g. 1819 as needed by copying the previous year repository and then updating the relevant files.
