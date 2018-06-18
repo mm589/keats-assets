@@ -7,6 +7,7 @@ This repository contains all CSS, HTML, JavaScript and other files for use on th
   <li>HTML files to match each CSS file provided;</li>
   <li>JavaScript files for additional features;</li>
   <li>Image files for the key people sections;</li>
+  <li>King's Corporate web font formats;</li>
   <li>Other files as needed, e.g. other SBE programme web files.</li>
 </ul>
 <p></p>
