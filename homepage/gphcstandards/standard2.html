@@ -1,0 +1,186 @@
+<style>
+  @import url("https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+  @font-face {
+    font-family: 'BureauGrotesqueThreeSeven';
+    src: url(https://cdn.rawgit.com/mm589/keats-sbe-mpharm-1819/957df747/Fonts/BureauGrotesqueThreeSeven.woff) format('woff'),
+      url(https://cdn.rawgit.com/mm589/keats-sbe-mpharm-1819/957df747/Fonts/KingsBureauGrot-ThreeSeven.ttf) format('truetype');
+    font-family: 'Kings Caslon Display';
+    src: url(https://cdn.rawgit.com/mm589/keats-sbe-mpharm-1819/957df747/Fonts/KingsCaslonDisplay.ttf) format('truetype');
+  }
+  
+  .standard2 {
+    font-family: 'Kings Caslon Display', Georgia, sans-serif;
+    font-size: 16px;
+  }
+
+  button.accordion {
+    background-color: whitesmoke;
+    font-family: 'Kings Caslon Display';
+    font-weight: bold;
+    font-size: 18px;
+    color: #444;
+    cursor: pointer;
+    padding: 20px;
+    margin-bottom: 2px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  .gphcpanel {
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out;
+    border-left: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+  }
+  
+  button.accordion:hover, button.accordion.is-open {
+    background-color: #ddd;
+  }
+  
+  button.accordion::after {
+    content: "\f13a";
+    font-family: 'FontAwesome';
+    font-size: 16px;
+    height: 1.3em;
+    text-align: center;
+    width: 1.5em;
+    position: absolute;
+    right: 2%;
+  }
+  
+  button.accordion.is-open::after {
+    content: "\f139";
+    font-family: 'FontAwesome';
+  }
+  
+  @media only screen and (max-width: 320px) {
+    /* mobile phones */
+    button.accordion::after {
+      right: 5%;
+    }
+    button.accordion.is-open::after {
+      right: 5%;
+    }
+    .gphcpanel {
+      overflow-y: auto;
+    }
+  }
+
+  @media only screen and (min-width: 321px) and (max-width: 374px) {
+    /* mobile phones */
+    button.accordion::after {
+      right: 5%;
+    }
+    button.accordion.is-open::after {
+      right: 5%;
+    }
+    .gphcpanel {
+      overflow-y: auto;
+    }
+  }
+
+  @media only screen and (min-width: 375px) and (max-width: 767px) {
+    /* mobile phones */
+    button.accordion::after {
+      right: 4%;
+    }
+    button.accordion.is-open::after {
+      right: 4%;
+    }
+    .gphcpanel {
+      overflow-y: auto;
+    }
+  }
+  
+</style>
+<body>
+<div class="standard2">
+<h4><p style="color:#00B9E1">2.   The quality of pharmacy education and training must be monitored, reviewed and evaluated in a systematic and developmental way.</p></h4>
+<button class="accordion" role="button">Criteria to meet this standard</button>
+<div class="gphcpanel">
+    <p>2.1   There must be systems and policies in place covering the following:</p>
+<ul>
+<li>information about roles and responsibilities and lines of accountability;</li>
+<li>university information on:</li>
+<ul style="list-style-type:circle">
+<li>entry requirements;</li>
+<li>the quality of teaching, learning and assessment;</li>
+<li>the quality of placements and other practice learning opportunities;</li>
+<li>appraisal and feedback systems for students <i>and trainees</i>;</li>
+<li>supervision requirements;</li>
+<li>educational resources and capacity;</li>
+<p>These must be monitored, reviewed and evaluated systematically. When an issue is identified it must be documented and dealt with promptly;</p>
+</ul>
+<li><i>pre-registration tutors evaluating trainees. To do this, tutors must have access to reliable evidence about a trainee's performance. Tutors must be competent to assess the performance of trainees;</i></li>
+<li><i>the quality and development of pre-registration tutors.</i></li>
+</ul>
+  </div>
+  <button class="accordion" role="button">Evidence required for meeting this standard</button>
+  <div class="gphcpanel">
+    <p>2.2   Evidence sources for meeting this standard include:</p>
+<ul>
+<li>evidence that the quality of initial education and training is evaluated in an integrated way (by integrated we mean an evaluation that looks at all aspects of provision);</li>
+<li>evidence that MPharm degrees are developed with input from external stakeholders, including patients and the public;</li>
+<li>quality monitoring data from universities;</li>
+<li>quality monitoring data from placement providers and other practice learning sources;</li>
+<li>GPhC accreditation reports and annual data return;</li>
+<li>achievement in the Registration Assessment;</li>
+<li><i>quality monitoring data from pre-registration providers;</i></li>
+<li><i>pre-registration tutor evaluations of trainees;</i></li>
+<li><i>trainee evaluations of pre-registration tutors;</i></li>
+<li><i>premises inspection reports.</i></li>
+</ul>
+<p>2.3   The required evidence includes:</p>
+<ul>
+<li>entry requirements and evidence of how they support the aims and philosophy of the programme;</li>
+<li>outcomes of integrated evaluations of initial education and training;</li>
+<li>views of external stakeholders, including patients and the public, and evidence demonstrating how their views have informed course design and delivery;</li>
+<li>outcomes of evaluations of the quality of teaching, learning and assessment;</li>
+<li>outcomes of evaluations of resources and capacity;</li>
+<li>outcomes of evaluations of the quality of placements and other practice learning opportunities;</li>
+<li>outcomes of appraisal and feedback systems for students <i>and trainees;</i></li>
+<li>outcomes of achievement in the Registration Assessment;</li>
+<li><i>outcomes of pre-registration tutor evaluations of trainees;</i></li>
+<li><i>outcomes of trainee evaluations of pre-registration tutors.</i></li>
+<p>Note that the evidence above is likely to be included in evaluation processes already in place (and existing processes may well deal with more than one category of evidence).</p>
+</ul>
+  </div>
+  <button class="accordion" role="button">Guidance on meeting this standard</button>
+  <div class="gphcpanel">
+    <p></p>
+2.4   Evaluation strategies must evidence 2.3.
+<p></p>
+2.5   Evaluation should include action which is agreed and monitored.
+<p></p>
+</div>
+<button class="accordion" role="button">Pre-requisites for meeting this standard</button>
+  <div class="gphcpanel">
+<p>2.6   University quality assurance processes are robust, rigorous and transparent.</p>
+<p></p>
+2.7   Universities are open with the GPhC about matters affecting an accredited MPharm degree. It is a requirement of The Pharmacy Order 2010 that course providers assist the GPhC in its work by providing information on request.
+<p></p>
+2.8   Universities raise relevant issues proactively with the GPhC.
+  </div>
+  </div>
+  <script type="text/javascript">
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("is-open");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight){
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        } 
+      });
+    }
+  </script>
+</body>
