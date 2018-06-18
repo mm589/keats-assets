@@ -25,4 +25,4 @@ link rel="stylesheet" href="repository path to your CSS stylesheet.css">
 </code>
 </blockquote>
 
-For reference, <code>.woff</code> is for Web Open Font Formats and <code>.ttf</code> is for TrueType font formats. Other font formats that are supported include <code>.eot</code> for Embedded OpenType fonts, which are a compact form of OpenType fonts designed and only supported by Microsoft IE.
+For reference, <code>.woff</code> is for Web Open Font Formats and <code>.ttf</code> is for TrueType font formats. Other font formats that are supported include <code>.eot</code> for Embedded OpenType fonts, which are a compact form of OpenType fonts designed and only supported by Microsoft IE. To ensure acceptable font use on IE, ensure you include the alternative fonts, i.e. Impact and Georgia.
