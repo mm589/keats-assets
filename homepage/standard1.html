@@ -1,0 +1,170 @@
+<style>
+  @font-face {
+    font-family: 'BureauGrotesqueThreeSeven';
+    src: url(https://cdn.rawgit.com/mm589/keats-sbe-mpharm-1819/957df747/Fonts/BureauGrotesqueThreeSeven.woff) format('woff'),
+      url(https://cdn.rawgit.com/mm589/keats-sbe-mpharm-1819/957df747/Fonts/KingsBureauGrot-ThreeSeven.ttf) format('truetype');
+    font-family: 'Kings Caslon Display';
+    src: url(https://cdn.rawgit.com/mm589/keats-sbe-mpharm-1819/957df747/Fonts/KingsCaslonDisplay.ttf) format('truetype');
+  }
+  
+  .standard1 {
+    font-family: 'Kings Caslon Display', Georgia, sans-serif;
+    font-size: 16px;
+  }
+
+  button.accordion {
+    background-color: whitesmoke;
+    font-family: 'Kings Caslon Display';
+    font-weight: bold;
+    font-size: 18px;
+    color: #444;
+    cursor: pointer;
+    padding: 20px;
+    margin-bottom: 2px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  .gphcpanel {
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out;
+    border-left: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+  }
+  
+  button.accordion:hover, button.accordion.is-open {
+    background-color: #ddd;
+  }
+  
+  button.accordion:after {
+    content: "\f13a";
+    font-family: 'FontAwesome';
+    font-size: 16px;
+    height: 1.3em;
+    text-align: center;
+    width: 1.5em;
+    position: absolute;
+    right: 2%;
+  }
+  
+  button.accordion.is-open:after {
+    content: "\f139";
+    font-family: 'FontAwesome';
+  }
+  
+  @media only screen and (max-width: 320px) {
+    /* mobile phones */
+    .accordion::after {
+      right: 5%;
+    }
+    .accordion.is-open::after {
+      right: 5%;
+    }
+    .gphcpanel {
+      overflow-y: auto;
+    }
+  }
+
+  @media only screen and (min-width: 321px) and (max-width: 374px) {
+    /* mobile phones */
+    .accordion::after {
+      right: 5%;
+    }
+    .accordion.is-open::after {
+      right: 5%;
+    }
+    .gphcpanel {
+      overflow-y: auto;
+    }
+  }
+
+  @media only screen and (min-width: 375px) and (max-width: 767px) {
+    /* mobile phones */
+    .accordion::after {
+      right: 4%;
+    }
+    .accordion.is-open::after {
+      right: 4%;
+    }
+    .gphcpanel {
+      overflow-y: auto;
+    }
+  }
+  
+</style>
+<head>
+<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+</head>
+<body>
+<div class="standard1">
+<h4><p style="color:#00B9E1">1. &nbsp; There must be clear procedures to address concerns about patient safety arising from initial pharmacy education and training. Concerns must be addressed immediately.</p></h4>
+<button class="accordion" role="button">Criteria to meet this standard</button>
+<div class="gphcpanel">
+    <p>1.1 &nbsp; There must be effective systems in place to ensure that students <i>and trainees</i>:</p>
+    <ul>
+      <li>do not jeopardise patient safety;</li>
+      <li>only do tasks for which they are competent, sometimes under supervision;</li>
+      <li>are monitored and assessed to ensure that they always practise safely. Causes for concern should be addressed immediately;</li>
+      <li>have access to support for health, conduct and academic issues;</li>
+      <li>must not be awarded an accredited degree <i>or pass pre-registration training</i> if they might pose a risk to patients or the public. Where an accredited degree cannot be awarded, it may be possible to award another, unaccredited qualification such as a certificate, diploma or BSc;</li>
+      <li>understand what is and what is not professional behaviour and are familiar with the GPhC’s <i>Code of conduct for pharmacy students</i> (2010) and <i>Standards of conduct, ethics and performance</i> (2010);</li>
+      <li>understand what fitness to practise mechanisms apply to them. All schools of pharmacy must have fitness to practise procedures to deal with student causes for concern;</li>
+      <li>undergo required health and good character checks;</li>
+      <li>understand that it is an offence to impersonate a pharmacist. Pharmacists are registrants of the GPhC.</li>
+    </ul>
+  </div>
+  <button class="accordion" role="button">Evidence required for meeting this standard</button>
+  <div class="gphcpanel">
+    <p>1.2 &nbsp; Evidence sources used to demonstrate meeting this standard include:</p>
+    <ul>
+      <li>fitness to practise policies;</li>
+      <li><i>premises inspection reports;</i></li>
+      <li><i>pre-registration tutor assessments of trainees.</i></li>
+    </ul>
+    <p>1.3 &nbsp; The required evidence includes:</p>
+    <ul>
+      <li>evidence that the <i>Code of conduct for pharmacy students</i> and <i>Standards of conduct, ethics and performance</i> are used to promote professional conduct;</li>
+      <li>summary outcomes of student fitness to practise hearings;</li>
+      <li><i>summary outcomes of premises inspection reports;</i></li>
+      <li><i>analyses of pre-registration tutor assessments of trainees and follow-up actions.</i></li>
+    </ul>
+  </div>
+  <button class="accordion" role="button">Guidance on meeting this standard</button>
+  <div class="gphcpanel">
+    <p>1.4 &nbsp; Anyone who teaches, supervises, counsels, employs or works with students <i>and trainees</i> has a responsibility to protect patients and the public. Where serious concerns are raised about a student <i>or a trainee</i> they must be investigated as soon as possible.</p>
+    <p>1.5 &nbsp; Students <i>and trainees</i> should not be put in a situation where they are asked to work beyond their competence and they must be supervised where necessary.</p>
+    <p>1.6 &nbsp; Anyone responsible for the initial education and training of pharmacists has a responsibility to share information relating to the health, conduct or performance of students <i>and trainees</i> with appropriate people. A student <i>or trainee</i> should be asked to agree to this. If they do not or cannot agree, consideration must be given to whether disclosure should take place on patient safety grounds. Patient safety is paramount at all times.</p>
+    <p>1.7 &nbsp; Students <i>and trainees</i> must not be allowed to continue education and training if they pose a risk to patients or the public.</p>
+    <p>1.8 &nbsp; By awarding an accredited degree a university is confirming that a pharmacy graduate is fit to enter pre-registration training. If preregistration training is included in a degree, students must not be allowed to enter a training period unless they are fit to do so. The latter point applies to degrees with intercalated periods of pre-registration training as well as integrated degrees.</p>
+    <p>1.9 &nbsp; To be eligible to apply to register as a pharmacist, a trainee must have been evaluated successfully by their tutor at several points in the 52 weeks of pre-registration training. The training may be continuous or in blocks.</p>
+    <p>1.10 &nbsp; Towards the end of the 52 weeks of pre-registration training, a tutor signs off a trainee to confirm they have met the <i>pre-registration performance standards.</i></p>
+    <p>1.11 &nbsp; School fitness to practise policies and procedures must be introduced to students as developmental tools as well as instruments of public protection.</p>
+  </div>
+  <button class="accordion" role="button">Note</button>
+  <div class="gphcpanel">
+    <p></p>
+    1.12 &nbsp; This standard should be read in conjunction with the GPhC’s <i>Guidance on student fitness to practise procedures in schools of pharmacy</i> (2010), which has further guidance on what constitutes student fitness to practise.
+  </div>
+  </div>
+  <script type="text/javascript">
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("is-open");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight){
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        } 
+      });
+    }
+  </script>
+</body>
