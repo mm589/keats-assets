@@ -18,10 +18,10 @@ src:  url(repository path for your .woff font file) format('woff'),
 </code>
 </blockquote>
 
-<strong>To link to your font formats in the head of your HTML code,</strong>
+<strong>To link to a CSS stylesheet in which the fonts are referenced externally,</strong>
 <blockquote>
 <code>
-link rel="stylesheet" href="repository path to your woff font format.woff">
+link rel="stylesheet" href="repository path to your CSS stylesheet.css">
 </code>
 </blockquote>
 
