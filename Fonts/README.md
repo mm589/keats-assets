@@ -2,7 +2,7 @@
 <p style="font-size: 14px, sans-serif;">For more information please consult the <a href="https://internal.kcl.ac.uk/erd/depts/brand/Visual-Identity/Fonts.aspx" target="_self"><u>King's Corporate Fonts</u></a> webpage and make sure that the most recent version of the corporate fonts is being used. The font package, including the .ttf, .oet and .woff files can be downloaded from that page. Since almost all browsers support <code>.ttf</code> and <code>.woff</code>, you may link or <code>@font-face</code> to those two primary file formats.</p>
 <h4>Linking or <code>@font-face</code> to the King's Corporate fonts</h4>
 <ol>
-<li><p style="font-size: 14px, sans-serif;">Download the font family package from the King's Corporate Fonts page;</li>
+<li><p style="font-size: 14px, sans-serif;">Download the font family package from the King's Corporate Fonts page, which is stored on the King's Digital Assets repository;</li>
 <li>Upload to your GitHub or other repository and serve each individual font package/file <i>separately</i>, i.e. do not link to the entire font package directory or folder;</li>
 <li>On your KEATS pages, reference each individual font separately in your HTML code. You may reference the font format using inline CSS and <code><style></code> tags or use @-rules.</p></li>
 </ol>
