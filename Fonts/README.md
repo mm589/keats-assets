@@ -1,4 +1,4 @@
-<h4>King's Corporate Fonts</h4>
+<h3>King's Corporate Fonts</h3>
 <p style="font-size: 14px, sans-serif;">For more information please consult the <a href="https://internal.kcl.ac.uk/erd/depts/brand/Visual-Identity/Fonts.aspx" target="_self"><u>King's Corporate Fonts</u></a> webpage and make sure that the most recent version of the corporate fonts is being used. The font package, including the .ttf, .oet and .woff files can be downloaded from that page. Since almost all browsers support .ttf and .woff, you may link or <code>@font-face</code> to those two primary file formats.</p>
 <strong>Linking or <code>@font-face</code> to the King's Corporate fonts</strong>
 <ol>
