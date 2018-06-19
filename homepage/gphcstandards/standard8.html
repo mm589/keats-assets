@@ -1,0 +1,169 @@
+<style>
+  @import url("https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+  @font-face {
+    font-family: 'BureauGrotesqueThreeSeven';
+    src: url(https://cdn.rawgit.com/mm589/keats-sbe-mpharm-1819/957df747/Fonts/BureauGrotesqueThreeSeven.woff) format('woff'),
+      url(https://cdn.rawgit.com/mm589/keats-sbe-mpharm-1819/957df747/Fonts/KingsBureauGrot-ThreeSeven.ttf) format('truetype');
+    font-family: 'Kings Caslon Display';
+    src: url(https://cdn.rawgit.com/mm589/keats-sbe-mpharm-1819/957df747/Fonts/KingsCaslonDisplay.ttf) format('truetype');
+  }
+  
+  .standard8 {
+    font-family: 'Kings Caslon Display', Georgia, sans-serif;
+    font-size: 16px;
+  }
+
+  button.accordion {
+    background-color: whitesmoke;
+    font-family: 'Kings Caslon Display';
+    font-weight: bold;
+    font-size: 18px;
+    color: #444;
+    cursor: pointer;
+    padding: 20px;
+    margin-bottom: 2px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  .gphcpanel {
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out;
+    border-left: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+  }
+  
+  button.accordion:hover, button.accordion.is-open {
+    background-color: #ddd;
+  }
+  
+  button.accordion::after {
+    content: "\f13a";
+    font-family: 'FontAwesome';
+    font-size: 16px;
+    height: 1.3em;
+    text-align: center;
+    width: 1.5em;
+    position: absolute;
+    right: 2%;
+  }
+  
+  button.accordion.is-open::after {
+    content: "\f139";
+    font-family: 'FontAwesome';
+  }
+  
+  @media only screen and (max-width: 320px) {
+    /* mobile phones */
+    button.accordion::after {
+      right: 5%;
+    }
+    button.accordion.is-open::after {
+      right: 5%;
+    }
+    .gphcpanel {
+      overflow-y: auto;
+    }
+  }
+
+  @media only screen and (min-width: 321px) and (max-width: 374px) {
+    /* mobile phones */
+    button.accordion::after {
+      right: 5%;
+    }
+    button.accordion.is-open::after {
+      right: 5%;
+    }
+    .gphcpanel {
+      overflow-y: auto;
+    }
+  }
+
+  @media only screen and (min-width: 375px) and (max-width: 767px) {
+    /* mobile phones */
+    button.accordion::after {
+      right: 4%;
+    }
+    button.accordion.is-open::after {
+      right: 4%;
+    }
+    .gphcpanel {
+      overflow-y: auto;
+    }
+  }
+  
+</style>
+<body>
+<div class="standard8">
+<h4><p style="color:#00B9E1">8. &nbsp; Initial pharmacist education and training must be planned and maintained through transparent processes which must show who is responsible for what at each stage.</p></h4>
+<button class="accordion" role="button">Criteria to meet this standard</button>
+<div class="gphcpanel">
+  <p>8.1 &nbsp; All education and training will be supported by a defined management plan with:
+</p><ul>
+<li>a schedule of responsibilities;</li>
+<li>defined structures and processes to manage the delivery of education and training.</li>
+</ul>
+  </div>
+  <button class="accordion" role="button">Evidence required for meeting this standard</button>
+  <div class="gphcpanel">
+  <p>8.2 &nbsp; Evidence sources should include:
+</p><ul>
+<li>management plans. For students this will be course documents. <i>For trainees it will be at least a Pre-registration Training Plan</i>;</li>
+<li>evidence of working arrangements between stakeholders, such as clear plans and service-level agreements for certain activities;</li>
+<li>university quality monitoring processes and the outcomes of these processes;</li>
+<li><i>pre-registration tutor evaluations of trainees and trainee evaluations of pre-registration tutors.</i></li>
+</ul>
+<p></p>
+8.3 &nbsp; Required evidence includes:
+<ul>
+<li>outcomes of university quality management process affecting pharmacy;</li>
+<li>service-level agreements or other agreements between stakeholders;</li>
+<li>evaluations of the relationship between stakeholders and actions taken to address issues;</li>
+<li><i>evaluations of pre-registration training.</i></li>
+</ul>
+</div>
+  <button class="accordion" role="button">Guidance on meeting this standard</button>
+  <div class="gphcpanel">
+  <p></p>
+8.4 &nbsp; Systems and structures should be in place to manage the learning of students in the academic environment. They must take account of:
+<ul>
+<li>access to and availability of suitable learning facilities;</li>
+<li>the balance between taught components, directed learning and student/<i>trainee</i> self-study;</li>
+<li>student attendance, particularly minimum requirements and what is compulsory;</li>
+<li>mechanisms to ensure that structured, off-site learning is quality assured and linked to specified areas of the curriculum and outcomes. This must include the quality assurance of placements and placement staff.</li>
+</ul>
+<p></p>
+8.5 &nbsp; Systems and structures should be in place to manage the learning of students <i>and trainees</i> in practice. They must take account of:
+<ul>
+<li>placement capacity and sustainability;</li>
+<li>allocation of students to placements;</li>
+<li>management of student progress through placements;</li>
+<li>mechanisms for data collection to support audit of placements;</li>
+<li>access to and availability of suitable learning facilities;</li>
+<li>managing and monitoring attendance;</li>
+<li>ways in which students <i>and trainees</i> can communicate with tutors and staff when they are off-site.</li>
+</ul>
+</div>
+  </div>
+  <script type="text/javascript">
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("is-open");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight){
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        } 
+      });
+    }
+  </script>
+</body>
