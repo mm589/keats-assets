@@ -23,6 +23,7 @@ For reference, <code>.woff</code> is for Web Open Font Formats and <code>.ttf</c
 <strong>To reference the font in your CSS stylesheet for a certain <code>p</code> element,</strong>
 <br>
 <code>p { font-family: 'BureauGrotesqueThreeSeven', Impact, sans-serif; }</code>
+
 For HTML, <code><p style="font-family: BureauGrotesqueThreeSeven";></code>
 
 The acceptable alternative font for Bureau Grotesque 37 is Impact, for Kings Caslon Display (or Kings Caslon Text) it is Georgia regular. Reference the King's Corporate Fonts <a href="https://internal.kcl.ac.uk/erd/depts/brand/Documents/Branding-essentials.pdf" target="_self"><u>Branding Essentials</u></a> document for more information.
