@@ -1,0 +1,167 @@
+<style>
+  @import url("https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+  @font-face {
+    font-family: 'BureauGrotesqueThreeSeven';
+    src: url(https://cdn.rawgit.com/mm589/keats-sbe-mpharm-1819/957df747/Fonts/BureauGrotesqueThreeSeven.woff) format('woff'),
+      url(https://cdn.rawgit.com/mm589/keats-sbe-mpharm-1819/957df747/Fonts/KingsBureauGrot-ThreeSeven.ttf) format('truetype');
+    font-family: 'Kings Caslon Display';
+    src: url(https://cdn.rawgit.com/mm589/keats-sbe-mpharm-1819/957df747/Fonts/KingsCaslonDisplay.ttf) format('truetype');
+  }
+  
+  .standard10 {
+    font-family: 'Kings Caslon Display', Georgia, sans-serif;
+    font-size: 16px;
+  }
+
+  button.accordion {
+    background-color: whitesmoke;
+    font-family: 'Kings Caslon Display';
+    font-weight: bold;
+    font-size: 18px;
+    color: #444;
+    cursor: pointer;
+    padding: 20px;
+    margin-bottom: 2px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  .gphcpanel {
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out;
+    border-left: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+  }
+  
+  button.accordion:hover, button.accordion.is-open {
+    background-color: #ddd;
+  }
+  
+  button.accordion::after {
+    content: "\f13a";
+    font-family: 'FontAwesome';
+    font-size: 16px;
+    height: 1.3em;
+    text-align: center;
+    width: 1.5em;
+    position: absolute;
+    right: 2%;
+  }
+  
+  button.accordion.is-open::after {
+    content: "\f139";
+    font-family: 'FontAwesome';
+  }
+  
+  @media only screen and (max-width: 320px) {
+    /* mobile phones */
+    button.accordion::after {
+      right: 5%;
+    }
+    button.accordion.is-open::after {
+      right: 5%;
+    }
+    .gphcpanel {
+      overflow-y: auto;
+    }
+  }
+
+  @media only screen and (min-width: 321px) and (max-width: 374px) {
+    /* mobile phones */
+    button.accordion::after {
+      right: 5%;
+    }
+    button.accordion.is-open::after {
+      right: 5%;
+    }
+    .gphcpanel {
+      overflow-y: auto;
+    }
+  }
+
+  @media only screen and (min-width: 375px) and (max-width: 767px) {
+    /* mobile phones */
+    button.accordion::after {
+      right: 4%;
+    }
+    button.accordion.is-open::after {
+      right: 4%;
+    }
+    .gphcpanel {
+      overflow-y: auto;
+    }
+  }
+
+h4 {
+display: none;
+}
+  
+</style>
+<body>
+<div class="standard10">
+<p style="color:#00B9E1; font-size: 20px; font-weight: bold;">Standards 10.9-10.15</p>
+<p></p>
+<button class="accordion" role="button">Describing and assessing outcomes</button>
+<div class="gphcpanel">
+  10.9 &nbsp; The outcome levels in Standard 10 have been derived from a competence and assessment hierarchy, known as Miller’s triangle. Although Miller developed the triangle for clinical work, it can be applied to science too.&nbsp;<p></p><img src="https://cdn.rawgit.com/mm589/keats-sbe-mpharm-1819/64a31f2b/homepage/gphcstandards/Standard10_MillerTriangle.PNG" alt="GPhC Standard 10 Miller (1990) Assessment of clinical skills" width="600" height="420" class="img-responsive atto_image_button_text-bottom"><br><p></p>
+10.10 &nbsp; As what is being assessed at each of the four levels is different, the assessment types associated with the levels are different too, although there will be some overlap.
+<ul>
+<li><strong>Level 1 – Knows.</strong> Knowledge that may be applied in the future to demonstrate competence. Assessments may include essays, oral examinations and multiple choice questions.</li>
+<li><strong>Level 2 – Knows how.</strong> Context-based tests – knows how to use knowledge and skills. Assessments may include essays, oral examinations, multiple choice questions and laboratory books.</li>
+<li><strong>Level 3 – Shows how.</strong> A student <i>or trainee</i> is able to demonstrate that they can perform in a simulated environment or in real life. Assessments may include objective structured clinical examinations (OSCEs), simulated patient assessments, designing, conducting and reporting an experiment, dispensing tests and taking a patient history.</li>
+<li><strong>Level 4 – Does.</strong> Acting independently and consistently in the complex situation of an everyday or familiar context. Evidence for this level is showing in this context that one is able to demonstrate the outcomes in a complex everyday situation repeatedly and reliably. Assessments may include OSCEs, taking a patient history <i>and a trainee demonstrating things in the pre-registration performance standards repeatedly, accurately and safely. The trainee needs to be observed doing these things by their tutor and others.</i></li>
+<p></p>
+Note that these levels do not equate to years of study.
+</ul>
+<p></p>
+  </div>
+  <button class="accordion" role="button">Teaching and learning</button>
+<div class="gphcpanel">
+  10.11 &nbsp; A curriculum should not be formulaic and should include a variety of teaching and learning methods. Typically, teaching and learning methods should result in:
+<ul>
+<li>learning based on experience that provides clinical education in a range of practices and procedures;</li>
+<li>learning based on experience that provides scientific education in a range of practices and procedures;</li>
+<li>learning based on experience that provides education in interprofessional practices and procedures with other healthcare professionals;</li>
+<li>learning that enables the demonstration of behaviours, attitudes and values set out in the GPhC’s <i>Code of conduct for pharmacy students</i> and <i>Standards of conduct, ethics and performance</i>;</li>
+<li>learning including research and research methods to ensure that students meet the research requirements for master’s degrees in the QAA’s qualifications frameworks;</li>
+<li>learning that integrates theory and practice opportunities for developing the skills students/<i>trainees</i> need to become self-directed learners;</li>
+<li>opportunities to reflect on learning and practice and to discuss issues with staff and peers. This should include activities such as pharmacist CPD;</li>
+<li>opportunities for students to develop specialist knowledge, for example veterinary/industrial pharmacy or recent advances in science relevant to pharmacy.</li>
+</ul>
+10.12 &nbsp; MPharm degree students may study abroad for specified periods if the period abroad is mapped onto relevant learning outcomes and the school knows what a student will be doing in advance. The maximum period of study overseas permissible is two years.
+<p></p>
+10.13 &nbsp; <i>Pre-registration trainee pharmacists may spend up to 13 weeks of their 52 weeks of training in another EU member state.</i>
+<p></p>
+  </div>
+  <button class="accordion" role="button">The link between teaching and learning and assessment</button>
+<div class="gphcpanel">
+  10.14 &nbsp; The link between teaching and learning and assessment must be explicit. Assessment must complement teaching and learning. Assessment must test competence and the achievement of the outcomes in this standard. Ensuring this will be a central feature of our quality assurance processes.
+<p></p>
+  </div>
+  <button class="accordion" role="button">Devolution</button>
+<div class="gphcpanel">
+  10.15 &nbsp; The GPhC’s register covers Great Britain. By country of residence the split is 80%+ in England, 10% in Scotland, 5% in Wales, with the remainder overseas. As students may work in any country, they must be made aware of the similarities and differences in the provision of healthcare in the countries of Great Britain.<p></p>
+  </div>
+</div>
+  <script type="text/javascript">
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("is-open");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight){
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        } 
+      });
+    }
+  </script>
+</body>
