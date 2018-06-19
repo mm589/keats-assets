@@ -19,3 +19,9 @@ src:  url(repository path for your .woff font file.woff) format('woff'),
 </blockquote>
 
 For reference, <code>.woff</code> is for Web Open Font Formats and <code>.ttf</code> is for TrueType font formats. Other font formats that are supported include <code>.eot</code> for Embedded OpenType fonts, which are a compact form of OpenType fonts designed and only supported by Microsoft IE. To ensure acceptable font use on IE, ensure you include the alternative fonts, i.e. Impact and Georgia.
+
+<strong>To reference the font in your HTML for a certain <code>p</code> element,</strong>
+<br>
+<code>p { font-family: 'BureauGrotesqueThreeSeven', Impact, sans-serif; }</code>
+<p></p>
+The acceptable alternative font for Bureau Grotesque 37 is Impact, for Kings Caslon Display it is Georgia. Reference the King's Corporate Fonts <a href="https://internal.kcl.ac.uk/erd/depts/brand/Documents/Branding-essentials.pdf" target="_self"><u>Branding Essentials</u></a> document for more information.
