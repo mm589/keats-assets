@@ -12,8 +12,8 @@
 <code>
 @font-face { 
 font-family: 'BureauGrotesqueThreeSeven'
-src:  url(repository path for your .woff font file) format('woff'),
-      url(repository path for your .ttf font file) format('truetype');
+src:  url(repository path for your .woff font file.woff) format('woff'),
+      url(repository path for your .ttf font file.ttf) format('truetype');
 }
 </code>
 </blockquote>
