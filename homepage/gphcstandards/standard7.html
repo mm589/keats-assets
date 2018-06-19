@@ -1,0 +1,149 @@
+<style>
+  @import url("https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+  @font-face {
+    font-family: 'BureauGrotesqueThreeSeven';
+    src: url(https://cdn.rawgit.com/mm589/keats-sbe-mpharm-1819/957df747/Fonts/BureauGrotesqueThreeSeven.woff) format('woff'),
+      url(https://cdn.rawgit.com/mm589/keats-sbe-mpharm-1819/957df747/Fonts/KingsBureauGrot-ThreeSeven.ttf) format('truetype');
+    font-family: 'Kings Caslon Display';
+    src: url(https://cdn.rawgit.com/mm589/keats-sbe-mpharm-1819/957df747/Fonts/KingsCaslonDisplay.ttf) format('truetype');
+  }
+  
+  .standard7 {
+    font-family: 'Kings Caslon Display', Georgia, sans-serif;
+    font-size: 16px;
+  }
+
+  button.accordion {
+    background-color: whitesmoke;
+    font-family: 'Kings Caslon Display';
+    font-weight: bold;
+    font-size: 18px;
+    color: #444;
+    cursor: pointer;
+    padding: 20px;
+    margin-bottom: 2px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  .gphcpanel {
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out;
+    border-left: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+  }
+  
+  button.accordion:hover, button.accordion.is-open {
+    background-color: #ddd;
+  }
+  
+  button.accordion::after {
+    content: "\f13a";
+    font-family: 'FontAwesome';
+    font-size: 16px;
+    height: 1.3em;
+    text-align: center;
+    width: 1.5em;
+    position: absolute;
+    right: 2%;
+  }
+  
+  button.accordion.is-open::after {
+    content: "\f139";
+    font-family: 'FontAwesome';
+  }
+  
+  @media only screen and (max-width: 320px) {
+    /* mobile phones */
+    button.accordion::after {
+      right: 5%;
+    }
+    button.accordion.is-open::after {
+      right: 5%;
+    }
+    .gphcpanel {
+      overflow-y: auto;
+    }
+  }
+
+  @media only screen and (min-width: 321px) and (max-width: 374px) {
+    /* mobile phones */
+    button.accordion::after {
+      right: 5%;
+    }
+    button.accordion.is-open::after {
+      right: 5%;
+    }
+    .gphcpanel {
+      overflow-y: auto;
+    }
+  }
+
+  @media only screen and (min-width: 375px) and (max-width: 767px) {
+    /* mobile phones */
+    button.accordion::after {
+      right: 4%;
+    }
+    button.accordion.is-open::after {
+      right: 4%;
+    }
+    .gphcpanel {
+      overflow-y: auto;
+    }
+  }
+  
+</style>
+<body>
+<div class="standard7">
+<h4><p style="color:#00B9E1">7. &nbsp; Anyone delivering initial education and training should be supported to develop in their professional role.</p></h4>
+<button class="accordion" role="button">Criteria to meet this standard</button>
+<div class="gphcpanel">
+  <p>7.1 &nbsp; There must be a range of mechanisms in place to support anyone delivering initial education and training to develop in their professional role.</p>
+<p>7.2 &nbsp; Induction programmes are provided for tutors and university staff as appropriate. There should also be induction programmes for non-pharmacists working on MPharm degrees.</p>
+<p>7.3 &nbsp; Everyone involved in delivering the curriculum should have:</p>
+<ul>
+<li>effective supervision;</li>
+<li>an appropriate and realistic workload;</li>
+<li>effective personal support;</li>
+<li>mentoring;</li>
+<li>time to learn;</li>
+<li>continuing professional development opportunities.</li>
+</ul>
+7.4 &nbsp; <i>Tutors should have an identified source of peer support.</i>
+<p></p>
+  </div>
+  <button class="accordion" role="button">Evidence required for meeting this standard</button>
+  <div class="gphcpanel">
+  <p>7.5 &nbsp; Evidence that staff appraisal systems address performance issues (anonymised).</p>
+<p>7.6 &nbsp; Evidence that staff development systems affect course delivery.</p>
+</div>
+  <button class="accordion" role="button">Guidance on meeting this standard</button>
+  <div class="gphcpanel">
+  <p></p>
+7.7 &nbsp; Staff appraisal schemes should take account of the needs of all categories of staff, including practice staff and part-time staff.
+<p></p>
+7.8 &nbsp; Staff development should be in place for non-pharmacist staff to help them understand how their expertise contributes to the initial education and training of pharmacists and how it can best be delivered in a pharmaceutical context.
+</div>
+  </div>
+  <script type="text/javascript">
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("is-open");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight){
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        } 
+      });
+    }
+  </script>
+</body>
