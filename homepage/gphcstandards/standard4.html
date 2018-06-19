@@ -1,0 +1,156 @@
+<style>
+  @import url("https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+  @font-face {
+    font-family: 'BureauGrotesqueThreeSeven';
+    src: url(https://cdn.rawgit.com/mm589/keats-sbe-mpharm-1819/957df747/Fonts/BureauGrotesqueThreeSeven.woff) format('woff'),
+      url(https://cdn.rawgit.com/mm589/keats-sbe-mpharm-1819/957df747/Fonts/KingsBureauGrot-ThreeSeven.ttf) format('truetype');
+    font-family: 'Kings Caslon Display';
+    src: url(https://cdn.rawgit.com/mm589/keats-sbe-mpharm-1819/957df747/Fonts/KingsCaslonDisplay.ttf) format('truetype');
+  }
+  
+  .standard4 {
+    font-family: 'Kings Caslon Display', Georgia, sans-serif;
+    font-size: 16px;
+  }
+
+  button.accordion {
+    background-color: whitesmoke;
+    font-family: 'Kings Caslon Display';
+    font-weight: bold;
+    font-size: 18px;
+    color: #444;
+    cursor: pointer;
+    padding: 20px;
+    margin-bottom: 2px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  .gphcpanel {
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out;
+    border-left: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+  }
+  
+  button.accordion:hover, button.accordion.is-open {
+    background-color: #ddd;
+  }
+  
+  button.accordion::after {
+    content: "\f13a";
+    font-family: 'FontAwesome';
+    font-size: 16px;
+    height: 1.3em;
+    text-align: center;
+    width: 1.5em;
+    position: absolute;
+    right: 2%;
+  }
+  
+  button.accordion.is-open::after {
+    content: "\f139";
+    font-family: 'FontAwesome';
+  }
+  
+  @media only screen and (max-width: 320px) {
+    /* mobile phones */
+    button.accordion::after {
+      right: 5%;
+    }
+    button.accordion.is-open::after {
+      right: 5%;
+    }
+    .gphcpanel {
+      overflow-y: auto;
+    }
+  }
+
+  @media only screen and (min-width: 321px) and (max-width: 374px) {
+    /* mobile phones */
+    button.accordion::after {
+      right: 5%;
+    }
+    button.accordion.is-open::after {
+      right: 5%;
+    }
+    .gphcpanel {
+      overflow-y: auto;
+    }
+  }
+
+  @media only screen and (min-width: 375px) and (max-width: 767px) {
+    /* mobile phones */
+    button.accordion::after {
+      right: 4%;
+    }
+    button.accordion.is-open::after {
+      right: 4%;
+    }
+    .gphcpanel {
+      overflow-y: auto;
+    }
+  }
+  
+</style>
+<body>
+<div class="standard4">
+<h4><p style="color:#00B9E1">4. &nbsp; Selection processes must be open and fair and comply with relevant legislation. Processes must ensure that students <i>and trainees</i> are fit to practise as students <i>or trainees</i> at the point of selection. Selection includes recruitment and admissions.</p></h4>
+<button class="accordion" role="button">Criteria to meet this standard</button>
+<div class="gphcpanel">
+  <p>4.1 &nbsp; Selection processes must give applicants the guidance they need to make an informed application.</p>
+<p>4.2 &nbsp; Selection criteria must be explicit. They should include:</p>
+<ul>
+<li>meeting academic and professional entry requirements;</li>
+<li>meeting English language requirements appropriate to MPharm degree study. Guidelines issued by English language testing bodies should be followed to ensure that admissions language requirements are appropriate;</li>
+<li>meeting numeracy requirements;</li>
+<li>taking account of good character checks, such as Criminal Records Bureau (CRB)/Disclosure Scotland checks;</li>
+<li>taking account of health checks;</li>
+<li>recognising prior learning, where that is appropriate.</li>
+</ul>
+<p></p>
+4.3 &nbsp; Selectors should apply the selection criteria fairly. They should be trained to do this. Training should include equality and diversity awareness.
+  </div>
+  <button class="accordion" role="button">Evidence required for meeting this standard</button>
+  <div class="gphcpanel">
+  <p>4.4 &nbsp; Evidence that selection processes and procedures comply with relevant legislation.</p>
+<p>4.5 &nbsp; Evidence that the criteria in 4.2 above are being applied.</p>
+<p>4.6 &nbsp; Evidence that staff involved in selection have been trained appropriately and are aware of relevant legislative requirements.</p>
+</div>
+  <button class="accordion" role="button">Guidance on meeting this standard</button>
+  <div class="gphcpanel">
+  <p></p>
+4.7 &nbsp; All selection requirements should be set out clearly in guidance made available to applicants. Applicants must know what will happen to them during selection, including what health and good character checks will be made.
+<p></p>
+4.8 &nbsp; Guidance should include information about the additional costs associated with making an application.
+<p></p>
+4.9 &nbsp; It must be made clear to students <i>and trainees</i> that the GPhC will carry out its own health, good character and identity checks before registering an applicant. It must be made clear to students <i>and trainees</i> that these checks relate to registration and are additional to checks made by universities and employers. It must be made clear to students <i>and trainees</i> that the GPhC may not register a student if a check is failed, even if they have passed previous checks.
+<p></p>
+4.10 &nbsp; It must be made clear to students <i>and trainees</i> that the GPhC will not offer prospective registration advice.
+<p></p>
+4.11 &nbsp; It must be made clear to students <i>and trainees</i> that an applicant can appeal against a registration refusal and that appeals must be made to the GPhC’s Appeals Committee.
+<p></p>
+</div>
+  </div>
+  <script type="text/javascript">
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("is-open");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight){
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        } 
+      });
+    }
+  </script>
+</body>
