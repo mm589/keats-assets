@@ -1,0 +1,181 @@
+<style>
+  @import url("https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+  @font-face {
+    font-family: 'BureauGrotesqueThreeSeven';
+    src: url(https://cdn.rawgit.com/mm589/keats-sbe-mpharm-1819/957df747/Fonts/BureauGrotesqueThreeSeven.woff) format('woff'),
+      url(https://cdn.rawgit.com/mm589/keats-sbe-mpharm-1819/957df747/Fonts/KingsBureauGrot-ThreeSeven.ttf) format('truetype');
+    font-family: 'Kings Caslon Display';
+    src: url(https://cdn.rawgit.com/mm589/keats-sbe-mpharm-1819/957df747/Fonts/KingsCaslonDisplay.ttf) format('truetype');
+  }
+  
+  .standard9 {
+    font-family: 'Kings Caslon Display', Georgia, sans-serif;
+    font-size: 16px;
+  }
+
+  button.accordion {
+    background-color: whitesmoke;
+    font-family: 'Kings Caslon Display';
+    font-weight: bold;
+    font-size: 18px;
+    color: #444;
+    cursor: pointer;
+    padding: 20px;
+    margin-bottom: 2px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  .gphcpanel {
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out;
+    border-left: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+  }
+  
+  button.accordion:hover, button.accordion.is-open {
+    background-color: #ddd;
+  }
+  
+  button.accordion::after {
+    content: "\f13a";
+    font-family: 'FontAwesome';
+    font-size: 16px;
+    height: 1.3em;
+    text-align: center;
+    width: 1.5em;
+    position: absolute;
+    right: 2%;
+  }
+  
+  button.accordion.is-open::after {
+    content: "\f139";
+    font-family: 'FontAwesome';
+  }
+  
+  @media only screen and (max-width: 320px) {
+    /* mobile phones */
+    button.accordion::after {
+      right: 5%;
+    }
+    button.accordion.is-open::after {
+      right: 5%;
+    }
+    .gphcpanel {
+      overflow-y: auto;
+    }
+  }
+
+  @media only screen and (min-width: 321px) and (max-width: 374px) {
+    /* mobile phones */
+    button.accordion::after {
+      right: 5%;
+    }
+    button.accordion.is-open::after {
+      right: 5%;
+    }
+    .gphcpanel {
+      overflow-y: auto;
+    }
+  }
+
+  @media only screen and (min-width: 375px) and (max-width: 767px) {
+    /* mobile phones */
+    button.accordion::after {
+      right: 4%;
+    }
+    button.accordion.is-open::after {
+      right: 4%;
+    }
+    .gphcpanel {
+      overflow-y: auto;
+    }
+  }
+  
+</style>
+<body>
+<div class="standard9">
+<h4><p style="color:#00B9E1">9. &nbsp; Resources and capacity are sufficient to deliver outcomes.</p></h4>
+<button class="accordion" role="button">Criteria to meet this standard</button>
+<div class="gphcpanel">
+  <p>9.1 &nbsp; There must be:
+</p><ul>
+<li>robust and transparent mechanisms for securing an appropriate level of resource for delivering an accreditable MPharm degree;</li>
+<li>sufficient staff from relevant disciplines to deliver the curriculum to students <i>and trainees.</i> Staff must be appropriately qualified and experienced. The staffing profile must include:</li>
+<ul style="list-style-type:circle">
+<li>sufficient numbers of pharmacists – registrants of the GPhC – with experience of teaching in higher education to ensure that an MPharm degree can produce students equipped to enter pharmacist pre-registration training in Great Britain;</li>
+<li>sufficient numbers of pharmacists to act as tutors and professional mentors at university <i>and in pre-registration.</i> Not all personal tutors must be pharmacists;</li>
+<li>pharmacists who are leaders in the profession, the school and their university, who can influence school and university policy relevant to pharmacy;</li>
+<li>non-pharmacist academics who can influence school and university policy relevant to pharmacy;</li>
+<li>staff who are sufficiently experienced to supervise research. It would be unusual for anyone to supervise research at a particular academic level unless they had previously researched to that level or beyond. New research supervisors must be mentored and signed off as being fit to supervise after a period of mentoring;</li>
+<li>science academics who understand the relevance of their discipline to pharmacy and deliver their area of expertise in a pharmaceutical context;</li>
+<li>academic pharmacists and other experienced MPharm degree staff who act as mentors to non-pharmacist colleagues;</li>
+</ul>
+<li><i>pre-registration tutors who meet the GPHC’s standards for preregistration tutors;</i></li>
+<li>career pathways in universities for all staff teaching on MPharm degrees, including pathways for practice staff;</li>
+<li>clear lines of authority and responsibility for the strategic organisation and day-to-day management of placements;</li>
+<li>training and ongoing support for all non-pharmacists involved in the delivery of MPharm degrees which must help them understand:</li>
+<ul style="list-style-type:circle">
+<li>the relevance of their work to pharmacy;</li>
+<li>how to deliver their area of expertise in a pharmaceutical context;</li>
+</ul>
+<li>appropriate learning resources;</li>
+<li>accommodation and facilities that are fit for purpose;</li>
+<li><i>pre-registration premises which meet the GPhC’s standards for preregistration premises.</i></li>
+</ul>
+  </div>
+  <button class="accordion" role="button">Evidence required for meeting this standard</button>
+  <div class="gphcpanel">
+  <p>9.2 &nbsp; Required evidence includes:
+</p><ul>
+<li>evidence that there are mechanisms for securing sufficient levels of resource to deliver an MPharm degree to the required standard;</li>
+<li>evidence that the staffing profile can support the delivery of the course and the student experience;</li>
+<li>evidence that the staffing profile includes pharmacists who are leaders in the profession, the school and their university, who can influence school and university policy relevant to pharmacy;</li>
+<li>evidence that the staffing profile includes non-pharmacists who can influence school and university policy relevant to pharmacy;</li>
+<li>evidence that there are career structures for all categories of staff, including practice staff;</li>
+<li>evidence that the staffing profile includes a critical mass of pharmacists – registrants of the GPhC – sufficient to ensure that the course is focused on the profession of pharmacy in Great Britain;</li>
+<li>evidence that all staff supervising student research are appropriately qualified to do so. This must include criteria for eligibility to supervise research at the required level;</li>
+<li>evidence that there is recognised training and ongoing support for all non-pharmacist staff to ensure that their contribution to an accredited course is orientated to pharmacy;</li>
+<li>evidence that learning resources are fit for purpose;</li>
+<li>evidence that accommodation and facilities are fit for purpose;</li>
+<li><i>evidence that pre-registration tutors and premises meet the GPhC’s standards.</i></li>
+</ul>
+</div>
+  <button class="accordion" role="button">Guidance on meeting this standard</button>
+  <div class="gphcpanel">
+  <p></p>
+9.3 &nbsp; Initial education and training providers exercise an appropriate level of autonomy over pharmacy resources to deliver an MPharm degree to the required standard and in an appropriate learning environment. The precise nature of the autonomy of pharmacy and its senior managers will be determined by the institutional context in which pharmacy finds itself. However, whatever the context, there must be robust and transparent ways of securing resources for pharmacy.
+<p></p>
+9.4 &nbsp; Initial education and training environments must support students <i>and trainees</i> to achieve the outcomes in Standard 10.
+<p></p>
+9.5 &nbsp; These standards describe the types of staff required to deliver an MPharm degree <i>and pre-registration training. All pre-registration tutors must be pharmacists</i> and some MPharm degree staff must be pharmacists. It is important to remember what the legal definition of a pharmacist is:
+<p></p>
+<blockquote>‘A person practises as a pharmacist or a pharmacy technician if, whilst acting in the capacity of or purporting to be a pharmacist or a pharmacy technician, that person undertakes any work or gives any advice in relation to the preparation, assembly, dispensing, sale, supply or use of medicines, the science of medicines, the practice of pharmacy or the provision of healthcare.’ (The Pharmacy Order 2010)</blockquote>
+<p></p>
+In a university context, this definition is not restricted to staff who teach pharmacy practice but includes staff involved in ‘the provision of healthcare’ and ‘the science of medicines’ among other things. This definition means that staff other than teacher-practitioners or pharmacy practice staff may be registered as pharmacists.
+<p></p>
+Note: The GPhC does not have a non-practising registration category. Membership of other organisations is not equivalent to registration as a pharmacist.
+</div>
+  </div>
+  <script type="text/javascript">
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("is-open");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight){
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        } 
+      });
+    }
+  </script>
+</body>
