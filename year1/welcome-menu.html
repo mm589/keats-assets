@@ -1,8 +1,154 @@
-<!--HTML template file for all year welcome pages-->
-<head>
-<link rel="stylesheet" href="https://cdn.rawgit.com/mm589/keats-sbe-mpharm-1819/d46855c7/year1-welcome-menu.css">
-<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-</head>
+<style>
+@import url(https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+
+/* Template CSS stylesheet for all year welcome pages */
+.year1-welcome p {
+  font: 14px sans-serif;
+}
+
+/* Fixing image frames for key people */
+.resize-image {
+  display: inline;
+  float: left;
+  position: relative;
+  margin-right: 8px;
+  width: 140px;
+  height: 140px;
+  overflow: hidden;
+}
+
+#B-Jubraj {
+  height: 140px;
+  width: 168px;
+  margin-left: -16px;
+  filter: brightness(1.15);
+}
+
+#RBP {
+  height: 180px;
+  width: 140px;
+  margin-top: -2px;
+  filter: brightness(1.05);
+  margin-right: 8px;
+  image-rendering: auto;
+}
+/* End fix image frames*/
+
+.year1-keypeople a {
+  font: 14px sans-serif;  
+  line-height: 1.3;
+  display: inline;
+}
+
+.year1-keypeople img {
+  float: left;
+}
+
+/* accordion menu styling */
+.accordion {
+  background-color: #eee;
+  font: 14px sans-serif;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  margin-bottom: 2px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.active-year1, .accordion:hover {
+  background-color: #ccc;
+  border: #7d9fd3 2px solid;
+  color: #fff;
+}
+
+.year1-panel {
+  margin: 2px 2px 5px 2px;
+  padding: 0;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out; 
+}
+
+.person-desc {
+  font: bold 14px sans-serif;
+}
+
+.year1-panel table {
+  box-sizing: border-box;
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: auto;
+  border: 2px solid #7d9fd3;
+}
+
+.year1-panel td {
+  background-color: #f4f5f7;
+}
+
+.accordion:after {
+  content: "\f13a";
+  font-family: FontAwesome;
+  font-size: 1.5em;
+  height: 1.3em;
+  text-align: center;
+  width: 1.5em;
+  position: absolute;
+  right: 2%;
+}
+
+.active-year1:after {
+  content: "\f139";
+  font-family: FontAwesome;
+}
+
+@media only screen and (max-width: 320px) {
+  /* mobile phones */
+  .accordion::after {
+    right: 5%;
+  }
+  .active-year1::after {
+    right: 5%;
+  }
+  .year1-panel {
+    overflow-y: auto;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 374px) {
+  /* mobile phones */
+  .accordion::after {
+    right: 5%;
+  }
+  .active-year1::after {
+    right: 5%;
+  }
+  .year1-panel {
+    overflow-y: auto;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+  /* mobile phones */
+  .accordion::after {
+    right: 4%;
+  }
+  .active-year1::after {
+    right: 4%;
+  }
+  .year1-panel {
+    overflow-y: auto;
+  }
+}
+
+.modified {
+  display: none;
+}
+</style>
 <body>
   <div class="mpharm-year1">
     <div class="year1-welcome">
@@ -21,7 +167,7 @@
         <tr>
           <td>
       <div class="resize-image">
-        <img src="https://cdn.rawgit.com/mm589/keats-sbe-mpharm-1819/ef1f29b7/Parsons_Richard_140x180.png" alt="Dr Richard Parsons" id="RBP">
+        <img src="https://cdn.rawgit.com/mm589/keats-sbe-mpharm-1819/a518cba1/Key%20People%20Images/Parsons_Richard_140x180.png" alt="Dr Richard Parsons" id="RBP">
       </div>
       <div class="person-desc">
       <a href="https://www.kcl.ac.uk/lsm/research/divisions/ips/about/people/Parsons/index.aspx" target="_blank"><u>Dr Richard Parsons</u></a><br>Senior Lecturer in Biochemical Toxicology<br>Telephone number: <a href="tel:+4402078484048">+44 (0)20 7848 4048</a><br>Email: <a href="mailto:richard.parsons@kcl.ac.uk"><u>Richard.Parsons@kcl.ac.uk</u></a>
@@ -37,7 +183,7 @@
           <td>
       <div class="year1-keypeople-2">
         <div class="resize-image" style="margin-right: 10px;">
-          <img src="https://cdn.rawgit.com/mm589/keats-sbe-mpharm-1819/ef1f29b7/Jubraj_Barry_180x148.png" alt="Mr Barry Jubraj" id="B-Jubraj">
+          <img src="https://cdn.rawgit.com/mm589/keats-sbe-mpharm-1819/a518cba1/Key%20People%20Images/Jubraj_Barry_180x148.png" alt="Mr Barry Jubraj" id="B-Jubraj">
         </div>
         <div class="person-desc">
         <a href="https://www.kcl.ac.uk/lsm/research/divisions/ips/about/people/jubraj/Barry-Jubraj.aspx" target="_blank"><u>Mr Barry Jubraj, FHEA, FFRPS, FRPharmS</u></a><br>MPharm Programme Director<br>Clinical Senior Lecturer in Medicines Optimisation<br>Telephone number: <a href="tel:+4402078484818">+44 (0)20 7848 4818</a><br>Email: <a href="mailto:Barry.Jubraj@kcl.ac.uk"><u>Barry.Jubraj@kcl.ac.uk</u></a>
@@ -47,6 +193,21 @@
         </tr>
       </table>
     </div>
-    <script type="text/javascript" src="https://cdn.rawgit.com/mm589/keats-sbe-mpharm-1819/833d482f/year1-welcome-menu.js"></script>
   </div>
+<script type="text/javascript">
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active-year1");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
 </body>
