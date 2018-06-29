@@ -12,7 +12,7 @@
 <blockquote>
 <code>
 @font-face { 
-font-family: 'BureauGrotesqueThreeSeven'
+font-family: 'BureauGrotesqueThreeSeven';
 src:  url(repository path for your .woff font file.woff) format('woff'),
       url(repository path for your .ttf font file.ttf) format('truetype');
 }
