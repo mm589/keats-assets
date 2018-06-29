@@ -5,6 +5,7 @@
 <li><p style="font-size: 14px, sans-serif;">Download the font family package from the King's Corporate Fonts page, which is stored on the King's Digital Assets repository;</li>
 <li>Upload to your GitHub or other repository and serve each individual font package/file <i>separately</i>, i.e. do not link to the entire font package directory or folder;</li>
 <li>On your KEATS pages, reference each individual font separately in your HTML code. You may reference the font format using inline CSS, <code><style></code> tags and @-rules.</p></li>
+      <li>The font files are already available in this repository, but you will need to serve each file again using a CDN of your choice, e.g. RawGit.</li>
 </ol>
 
 <strong>To use <code>@font-face</code>,</strong>
