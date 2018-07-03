@@ -1,22 +1,21 @@
 {
-  "moduleCode" : "4BBP0131",
-  "active" : true,
-  "keyPeople" : [
-    {
-      "title" : "Mr",
-	  "firstName" : "Barry",
-	  "lastName" : "Jubraj",
-      "email" : "Barry.Jubraj@kcl.ac.uk",
-	  "position" : "Professional Lead",
-	  "moduleAbbrv" : "PCC"
-    },
-	{
-	 "title" : "Dr",
-	  "firstName" : "Richard",
-	  "lastName" : "Parsons",
-      "email" : "Richard.Parsons@kcl.ac.uk",
-	  "position" : "Academic Leader",
-	  "moduleAbbrv" : "BBT"
-	}
-  ]
+	"moduleCode": "4BBP0131",
+	"active": true,
+	"keypeople": [{
+			"title": "Mr",
+			"firstName": "Barry",
+			"lastName": "Jubraj",
+			"email": "Barry.Jubraj@kcl.ac.uk",
+			"position": "Professional Lead",
+			"moduleAbbrv": "PCC"
+		},
+		{
+			"title": "Dr",
+			"firstName": "Richard",
+			"lastName": "Parsons",
+			"email": "Richard.Parsons@kcl.ac.uk",
+			"position": "Academic Leader",
+			"moduleAbbrv": "BBT"
+		}
+	]
 }
