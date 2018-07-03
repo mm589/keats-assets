@@ -1,15 +1,22 @@
 {
-	"moduleAbbrv": "PCC",
-	"moduleCode": "4BBP0132",
-	"moduleName": "Principles of Clinical Care",
-	"year" : 1,
 	"active": true,
-	"keypeople": [{
+	"contacts": [{
 			"title": "Mr",
 			"firstName": "Barry",
 			"lastName": "Jubraj",
-			"email": "Barry.Jubraj@kcl.ac.uk",
-			"position": "Professional Lead"
+			"position": "Professional Lead",
+			"moduleAbbrv": "PCC",
+			"moduleCode": "4BBP0132",
+			"moduleName": "Principles of Clinical Care"
+		},
+		{
+			"title": "Dr",
+			"firstName": "Richard",
+			"lastName": "Parsons",
+			"position": "Academic Lead",
+			"moduleAbbrv": "BBT",
+			"moduleCode": "4BBP0131",
+			"moduleName": "Biochemical Basis of Therapeutics"
 		}
 	]
 }
