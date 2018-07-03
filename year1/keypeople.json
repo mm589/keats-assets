@@ -7,7 +7,8 @@
 			"lastName": "Jubraj",
 			"email": "Barry.Jubraj@kcl.ac.uk",
 			"position": "Professional Lead",
-			"moduleAbbrv": "PCC"
+			"moduleAbbrv": "PCC",
+			"year": 1
 		},
 		{
 			"title": "Dr",
@@ -15,7 +16,8 @@
 			"lastName": "Parsons",
 			"email": "Richard.Parsons@kcl.ac.uk",
 			"position": "Academic Leader",
-			"moduleAbbrv": "BBT"
+			"moduleAbbrv": "BBT",
+			"year": 1
 		}
 	]
 }
