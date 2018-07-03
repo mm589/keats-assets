@@ -1,0 +1,15 @@
+{
+	"moduleAbbrv": "PCC",
+	"moduleCode": "4BBP0132",
+	"moduleName": "Principles of Clinical Care",
+	"year" : 1,
+	"active": true,
+	"keypeople": [{
+			"title": "Mr",
+			"firstName": "Barry",
+			"lastName": "Jubraj",
+			"email": "Barry.Jubraj@kcl.ac.uk",
+			"position": "Professional Lead"
+		}
+	]
+}
