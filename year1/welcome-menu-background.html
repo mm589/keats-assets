@@ -153,7 +153,6 @@
     }
   }
 
-/* Styling for introductory section */
   .mpharm-year1 {
     background-image: url('https://cdn.rawgit.com/mm589/keats-sbe-mpharm-1819/704ae284/Key%20People%20Images/mpharm_green_m.png');
     background-color: rgb(201, 218, 234);
@@ -164,7 +163,7 @@
 
   .year1-box {    
     background-color: rgba(199, 215, 233, 0.7);
-    margin: 5% 0 10px 0;
+    margin: 3em 0 0.75em 0;
     padding: 10px 15px 15px 15px;
     overflow: auto;
     height: auto;
@@ -173,37 +172,17 @@
     color: #000000;
   }
   
-  @media only screen and (max-width: 320px) {
+  @media only screen and (min-width: 320px) and (max-width: 767px) {
     .mpharm-year1 {
       background-image: none;
     }
     
     .year1-box {
       background-color: rgb(201, 218, 234);
+margin: 2em 0 -1em 0;
     }
   }
   
-  @media only screen and (min-width: 321px) and (max-width: 374px) {
-    .mpharm-year1 {
-      background-image: none;
-    }
-
-    .year1-box {
-      background-color: rgb(201, 218, 234);
-    }
-  }
-  
-  @media only screen and (min-width: 375px) and (max-width: 767px) {
-    .mpharm-year1 {
-      background-image: none;
-    }
-
-    .year1-box {
-      background-color: rgb(201, 218, 234);
-    }
-  }
-
-/* Remove the modified tag at bottom of page*/
   .modified {
     display: none;
   }
