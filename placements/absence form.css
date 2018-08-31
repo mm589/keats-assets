@@ -7,7 +7,7 @@
   }
 
 .qn-question, .qn-answer {
-	font-size: 1.1em;
+	font-size: 1.2em;
 	font-family: "Kings Caslon Display";
 }
 
@@ -17,7 +17,7 @@
 }
 
 .addInfo {
-	font-family: "BureauGrotesqueThreeSeven";
+	font-family: "Kings Caslon Display";
 	font-size: 1.2em;
 }
 
@@ -26,8 +26,9 @@
 }
 
 .surveyTitle {
-	font-family: "Kings Caslon Display";
-	font-size: 1.4em;
+	font-family: "BureauGrotesqueThreeSeven";
+	font-size: 1.8em;
+	color: #0b5584;
 }
 
 .qn-info h2.qn-number {
@@ -50,7 +51,7 @@
 	font-size: 1.2em;
 }
 
-.complete {
+.complete, .yourresponse, .allresponses {
 	font-family: "Kings Caslon Display";
 	font-size: 1.2em;
 }
