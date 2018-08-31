@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'BureauGrotesqueThreeSeven';
+    src: url(https://cdn.rawgit.com/mm589/keats-sbe-mpharm-1819/957df747/Fonts/BureauGrotesqueThreeSeven.woff) format('woff'),
+      url(https://cdn.rawgit.com/mm589/keats-sbe-mpharm-1819/957df747/Fonts/KingsBureauGrot-ThreeSeven.ttf) format('truetype');
+    font-family: 'Kings Caslon Display';
+    src: url(https://cdn.rawgit.com/mm589/keats-sbe-mpharm-1819/957df747/Fonts/KingsCaslonDisplay.ttf) format('truetype');
+  }
+
+.qn-question, .qn-answer {
+	font-size: 1.1em;
+	font-family: "Kings Caslon Display";
+}
+
+.surveyPage {
+	font-family: "Kings Caslon Display";
+	font-size: 1.2em;
+}
+
+.addInfo {
+	font-family: "BureauGrotesqueThreeSeven";
+	font-size: 1.2em;
+}
+
+.addInfo ol li a {
+	border: 2px dotted;
+}
+
+.surveyTitle {
+	font-family: "Kings Caslon Display";
+	font-size: 1.4em;
+}
+
+.qn-info h2.qn-number {
+	font-family: "Kings Caslon Display";
+}
+
+.mod_questionnaire_viewpage h2 {
+	font-family: "Kings Caslon Display";
+	font-size: 1.4em;
+}
+
+.mod_questionnaire_viewpage .intro {
+	font-family: "Kings Caslon Display";
+	font-size: 1.2em;
+}
+
+.mod_questionnaire_viewpage .intro p {
+	font-family: "Kings Caslon Display";
+	font-size: 1.2em;
+}
+
+.qn-datemsg {
+	display: none;
+}
