@@ -11,6 +11,11 @@
 	font-family: "Kings Caslon Display";
 }
 
+.qn-question label {
+	font-family: "Kings Caslon Display";
+	font-size: 1em;
+}
+
 .surveyPage {
 	font-family: "Kings Caslon Display";
 	font-size: 1.2em;
