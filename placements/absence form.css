@@ -36,7 +36,17 @@
 
 .mod_questionnaire_viewpage h2 {
 	font-family: "Kings Caslon Display";
-	font-size: 1.4em;
+	font-size: 1.2em;
+	color: #0b5584;
+}
+
+.mod_questionnaire_viewpage p {
+	font-family: "Kings Caslon Display";
+	font-size: 1.1em;
+}
+
+.complete {
+	font-family: "Kings Caslon Display";
 }
 
 .mod_questionnaire_viewpage .intro {
