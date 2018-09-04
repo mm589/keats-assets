@@ -1,3 +1,5 @@
+@import src("https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+
 .mbbs-acadctr {
   width: 99%;
   table-layout: fixed;
@@ -5,7 +7,7 @@
 }
 
 .mbbs-acadctr th[scope="col"], td[scope="col"] {
-  font: bold 14px sans-serif;
+  font: bold 1.2em sans-serif;
   border: 3px solid #7d9fd3;
   text-align: left;
   padding: 5px;
@@ -13,7 +15,7 @@
 }
 
 .mbbs-acadctr td[scope="row"] {
-  font: bold 13px sans-serif;
+  font: bold 1.1em sans-serif;
   border: 3px solid #7d9fd3;
   text-align: left;
   padding: 5px;
@@ -29,16 +31,16 @@
 #caption {
   margin: 3px;
   padding: 2px;
-  font: bold 18px sans-serif;
-  color: rgb(46,116,181);
+  font: bold 2em sans-serif;
+  color: #0B5578;
   text-align: center;
   line-height: 2;
 }
 /* styling for collapsible menus */
 .accordion {
   background-color: #eee;
-  font: 16px sans-serif;
-  color: rgb(46,116,181);
+  font: 1.2em sans-serif;
+  color: #0B5578;
   cursor: pointer;
   padding: 18px;
   margin-bottom: 2px;
@@ -51,11 +53,10 @@
 
 .active-mbbs, .accordion:hover {
   background-color: #ccc;
-  border: #7d9fd3 2px solid;
 }
 
 .accordion:focus, .accordion:active {
-  color: rgb(46,116,181);
+  color: #0B5578;
 }
 
 .mbbs-panel {
@@ -71,7 +72,7 @@
   content: "\f13a";
   font-family: FontAwesome;
   font-size: 1.5em;
-  height: 1.3em;
+  height: 1.2em;
   text-align: center;
   width: 1.5em;
   position: absolute;
@@ -133,6 +134,10 @@
 
 .mbbs-roles {
   border: 3px solid #7d9fd3;
+}
+
+h2 {
+display: none;
 }
 
 .modified {
