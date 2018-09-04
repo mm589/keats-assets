@@ -1,174 +1,30 @@
-<style>
-@import src("https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
-
-.mbbs-acadctr {
-  width: 99%;
-  table-layout: fixed;
-  border-collapse: collapse;
-}
-
-.mbbs-acadctr th[scope="col"], td[scope="col"] {
-  font: bold 14px sans-serif;
-  border: 3px solid #7d9fd3;
-  text-align: left;
-  padding: 5px;
-  background-color: #eeeeee;
-}
-
-.mbbs-acadctr td[scope="row"] {
-  font: bold 13px sans-serif;
-  border: 3px solid #7d9fd3;
-  text-align: left;
-  padding: 5px;
-  line-height: 1.5;
-}
-
-.mbbs-acadctr-teams {
-  width: 100%;
-  table-layout: fixed;
-  border-collapse: collapse;
-}
-
-#caption {
-  margin: 3px;
-  padding: 2px;
-  font: bold 18px sans-serif;
-  color: rgb(46,116,181);
-  text-align: center;
-  line-height: 2;
-}
-/* styling for collapsible menus */
-.accordion {
-  background-color: #eee;
-  font: 16px sans-serif;
-  color: rgb(46,116,181);
-  cursor: pointer;
-  padding: 18px;
-  margin-bottom: 2px;
-  width: 100%;
-  text-align: left;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-}
-
-.active-mbbs, .accordion:hover {
-  background-color: #ccc;
-  border: #7d9fd3 2px solid;
-}
-
-.accordion:focus, .accordion:active {
-  color: rgb(46,116,181);
-}
-
-.mbbs-panel {
-  margin: 2px;
-  padding: 0;
-  background-color: white;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;  
-}
-
-.accordion::after {
-  content: "\f13a";
-  font-family: FontAwesome;
-  font-size: 1.5em;
-  height: 1.3em;
-  text-align: center;
-  width: 1.5em;
-  position: absolute;
-  right: 3%;
-  color: black;
-}
-
-.active-mbbs::after {
-  content: "\f139";
-  font-family: FontAwesome;
-}
-
-@media only screen and (max-width: 320px) {
-  /* mobile phones */
-  .accordion::after {
-    right: 5%;
-  }
-  .active-mbbs::after {
-    right: 5%;
-  }
-  .mbbs-panel {
-    overflow: auto;
-  }  
-  #caption {
-    line-height: 1.5;
-  }
-}
-
-@media only screen and (min-width: 321px) and (max-width: 366px) {
-  /* mobile phones */
-  .accordion::after {
-    right: 5%;
-  }
-  .active-mbbs::after {
-    right: 5%;
-  }
-  .mbbs-panel {
-    overflow: auto;
-  }
-  #caption {
-    line-height: 1.5;
-  }
-}
-
-@media only screen and (min-width: 367px) and (max-width: 767px) {
-  /* mobile phones */
-  .accordion::after {
-    right: 4%;
-  }
-  .active-mbbs::after {
-    right: 4%;
-  }
-  .mbbs-panel {
-    overflow: auto;
-  }
-}
-
-/* end styling collapsible menus */
-
-.mbbs-roles {
-  border: 3px solid #7d9fd3;
-}
-
-.modified {
-  display: none;
-}
-</style>
-<body>
+<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/mm589/keats-sbe-mpharm-1819/a2706edc/mbbs/ess-staff-list.css" media="screen">
 <div class="mbbs-keypeople">
   <table class="mbbs-acadctr">
     <caption id="caption" style="caption-side: top">Education Support Services Staff List</caption>
     <tbody>
       <tr class="mbbs-roles" colspan=4></tr>
-      <tr class="mbbs-roles" colspand=4>
+      <tr class="mbbs-roles" colspand=4 style="border-left-width: 5px";>
         <td scope="col" colspan=1>Name</td>
         <td scope="col" colspan=2>Position</td>
         <td scope="col" colspan=1>Email</td>
       </tr>
-      <tr class="mbbs-roles" scope="row" colspan=2>
+      <tr class="mbbs-roles" scope="row" colspan=2 style="border-left-width: 5px";>
       <td scope="row" colspan=1>Louise Merritt</td>
         <td scope="row" colspan=2>Associate Director (PSRB Programmes)</td>
         <td scope="row"><a href="mailto:louise.merritt@kcl.ac.uk"><u>louise.merritt@kcl.ac.uk</u></a></td>
       </tr>
-      <tr class="mbbs-roles" scope="row" colspan=2>
+      <tr class="mbbs-roles" scope="row" colspan=2 style="border-left-width: 5px";>
         <td scope="row" colspan=1>Rosalind Fuller</td>
         <td scope="row" colspan=2>Head of Programme Management</td>
         <td scope="row"><a href="mailto:rosalind.fuller@kcl.ac.uk"><u>rosalind.fuller@kcl.ac.uk</u></a></td>
       </tr>
-      <tr class="mbbs-roles" scope="row" colspan=2>
+      <tr class="mbbs-roles" scope="row" colspan=2 style="border-left-width: 5px";>
         <td scope="row" colspan=1>Estelle Jacobs</td>
         <td scope="row" colspan=2>Head of Assessment & Examinations</td>
         <td scope="row"><a href="mailto:estelle.jacobs@kcl.ac.uk"><u>estelle.jacobs@kcl.ac.uk</u></a></td>
       </tr>
-      <tr class="mbbs-roles" colspan=4>
+      <tr class="mbbs-roles" colspan=4 style="border-left-width: 5px";>
         <td colspan=4>
           <button class="accordion" style="text-align: left;"><b>Programme Team</b></button>
           <div class="mbbs-panel">
@@ -216,7 +72,8 @@
               <tr scope="row">
                 <td scope="row" colspan=1><b>Hannah Hibbert</b></td>
                 <td scope="row" colspan=2><b>Programme Officer</b></td>
-                <td scope="row"><a href="mailto:mbbsstage3@kcl.ac.uk"><u>mbbsstage3@kcl.ac.uk</u></a></td>
+                <td scope="row"><a href="mailto:mbbsstage2andphase3@kcl.ac.uk"><u>mbbsstage2andphase3@kcl.ac.uk</u>
+</a></td>
               </tr>
               <tr scope="row">
                 <td scope="row" colspan=1><b>Steve Hodgetts</b></td>
@@ -262,7 +119,7 @@
           </div>
         </td>
       </tr>
-      <tr class="mbbs-roles" colspan=4>
+      <tr class="mbbs-roles" colspan=4 style="border-left-width: 5px";>
         <td colspan=4>
           <button class="accordion" style="text-align: left;"><b>Assessment & Examinations Team</b></button>
           <div class="mbbs-panel">
@@ -321,7 +178,7 @@
           </div>
         </td>
       </tr>
-      <tr class="mbbs-roles" colspan=4>
+      <tr class="mbbs-roles" colspan=4 style="border-left-width: 5px";>
         <td colspan=4>
           <button class="accordion" style="text-align: left;"><b>Student Support Team</b></button>
           <div class="mbbs-panel">
@@ -350,7 +207,7 @@
           </div>
         </td>
       </tr>
-      <tr class="mbbs-roles" colspan=4>
+      <tr class="mbbs-roles" colspan=4 style="border-left-width: 5px";>
         <td colspan=4>
           <button class="accordion" style="text-align: left;"><b>Quality Team</b></button>
           <div class="mbbs-panel">
@@ -394,4 +251,3 @@ for (i = 0; i < acc.length; i++) {
   });
 }
   </script>
-</body>
