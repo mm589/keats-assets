@@ -52,17 +52,17 @@
   }
 
   @media only screen and (min-width: 50px) and (max-width: 374px) {
-    .section1 {
+    .vctel-section1 {
       display: none;
     }
-    .section2 {
+    .vctel-section2 {
       padding-bottom: 1em;
     }
-    #subtitle {
+    #vctel-subtitle {
       padding-bottom: 0;
       font-size: 1.5em;
     }
-    #date {
+    #vctel-date {
       padding-bottom: 0;
       font-size: 1.5em;
     }
@@ -76,17 +76,17 @@
   }
 
   @media only screen and (min-width: 375px) and (max-width: 424px) {
-    .section1 {
+    .vctel-section1 {
       display: none;
     }
-    .section2 {
+    .vctel-section2 {
       padding-bottom: 1em;
     }
-    #subtitle {
+    #vctel-subtitle {
       padding-bottom: 0;
       font-size: 1.8em;
     }
-    #date {
+    #vctel-date {
       padding-bottom: 0;
       font-size: 1.8em;
     }
@@ -100,17 +100,17 @@
   }
 
   @media only screen and (min-width: 425px) and (max-width: 767px) {
-    .section1 {
+    .vctel-section1 {
       display: none;
     }
-    .section2 {
+    .vctel-section2 {
       padding-bottom: 1em;
     }
-    #subtitle {
+    #vctel-subtitle {
       padding-bottom: 0;
       font-size: 2em;
     }
-    #date {
+    #vctel-date {
       padding-bottom: 0;
       font-size: 2em;
     }
