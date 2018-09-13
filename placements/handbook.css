@@ -18,26 +18,26 @@
     margin-top: 10px;
   }
 
-  #title {
+  #vctel-title {
     font-family: "BureauGrotesqueThreeSeven", Impact, sans-serif;
     font-size: 2em;
     color: black;
   }
 
-  #title-cont {
+  #vctel-titlecont {
     font-family: "KingsBureauGrot FiveOne", Impact, sans-serif;
     font-size: 1.8em;
     color: black;
   }
 
-  #subtitle {
+  #vctel-subtitle {
     font-family: "Kings Caslon Display", Georgia, sans-serif;
     font-size: 3.2em;
     color: black;
     display: inline;
   }
 
-  #date {
+  #vctel-date {
     font-family: "Kings Caslon Display", Georgia, sans-serif;
     font-size: 3.2em;
     color: black;
