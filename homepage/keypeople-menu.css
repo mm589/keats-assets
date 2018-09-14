@@ -1,138 +1,174 @@
-.mpharm-1819-keypeople {
-  font: 14px sans-serif;
+  @import url('https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
+  
+  .mpharm-1819-keypeople {
+    font: 1.1em sans-serif;
+  }
+
+  .departmental-links li {
+    list-style-type: none;
+  }
+
+  .departmental-links li::before {
+    content: "\f015  ";
+    font-family: FontAwesome;
+  }
+
+  .departmental-links ul li:first-child::before {
+    content: "\f149  ";
+    font-family: FontAwesome;
+  }
+
+  .mpharm-teaching-staff, .mpharm-senior-leadership {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+  }
+
+@media only screen and (min-width: 150px) and (max-width: 370px) {
+.mpharm-teaching-staff, .mpharm-senior-leadership {
+table-layout: auto;
+}
 }
 
-.departmental-links li {
-  list-style-type: none;
-}
+  .mpharm-teaching-staff th[scope="col"], td[scope="col"], .mpharm-senior-leadership th[scope="col"], td[scope="col"] {
+    border: 3px solid #7d9fd3;
+    font: bold 1.1em sans-serif;
+    text-align: left;
+    padding: 5px;
+    background-color: #eeeeee;
+  }
 
-.departmental-links li::before {
-  content: "\f015  ";
-  font-family: FontAwesome;
-}
+  .mpharm-teaching-staff td[scope="row"], .mpharm-senior-leadership td[scope="row"] {
+    font: 1em sans-serif;
+    border: 3px solid #7d9fd3;
+    text-align: left;
+    padding: 5px;
+  }
 
-.departmental-links ul li:first-child::before {
-  content: "\f149  ";
-  font-family: FontAwesome;
-}
+  #mpharm-years {
+    font: bold 1.1em sans-serif;
+    background-color: #eeeeee;
+  }
 
-.mpharm-teaching-staff {
-  width: 100%;
-  table-layout: fixed;
-  border-collapse: collapse;
-}
+  #caption {
+    margin: 3px;
+    padding: 2px;
+    color: #545454;
+    text-align: left;
+    font: bold 1.6em sans-serif;
+  }
 
-.mpharm-teaching-staff th[scope="col"], td[scope="col"] {
-  border: 3px solid #7d9fd3;
-  font: bold 14px sans-serif;
-  text-align: left;
-  padding: 5px;
-  background-color: #eeeeee;
-}
+  .year-modules ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none !important;
+    margin-left: 0;
+    padding: 0;
+    vertical-align: top;
+    font: 1em sans-serif;
+  }
 
-.mpharm-teaching-staff td[scope="row"] {
-  font: 14px sans-serif;
-  border: 3px solid #7d9fd3;
-  text-align: left;
-  padding: 5px;
-}
+  .accordion {
+    background-color: #eee;
+    font: 1em sans-serif;
+    color: #333;
+    cursor: pointer;
+    padding: 18px;
+    margin-bottom: 2px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
 
-#mpharm-years {
-  font: bold 14px sans-serif;
-  background-color: #eeeeee;
-}
+  .active-mpharm, .accordion:hover {
+    background-color: #ccc;
+  }
 
-#caption {
-  margin: 3px;
-  padding: 2px;
-  color: grey;
-  text-align: left;
-  font: bold 18px sans-serif;
-}
+  .mpharm-panel {
+    margin: 2px;
+    padding: 0;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;  
+  }
 
-.year-modules ul {
-  display: flex;
-  flex-direction: column;
-  list-style-type: none !important;
-  margin-left: 0;
-  padding: 0;
-  vertical-align: top;
-  font: 14px sans-serif;
-}
+  .mpharm-panel .year-modules ul li:nth-child(2n+1) {
+    border: dotted 2px;
+    background-color: #eeeeee;
+  }
 
-.accordion {
-  background-color: #eee;
-  font: 14px sans-serif;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  margin-bottom: 2px;
-  width: 100%;
-  text-align: left;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-}
-
-.active-mpharm, .accordion:hover {
-  background-color: #ccc;
-  border: #7d9fd3 2px solid;
-}
-
-.mpharm-panel {
-  margin: 2px;
-  padding: 0;
-  background-color: white;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;  
-}
-
-.mpharm-panel .year-modules ul li:nth-child(2n+1) {
-  border: dotted 2px;
-  background-color: #eeeeee;
-}
-
-.accordion::after {
-  content: "\f13a";
-  font-family: FontAwesome;
-  font-size: 1.5em;
-  height: 1.3em;
-  text-align: center;
-  width: 1.5em;
-  position: absolute;
-  right: 2%;
-}
-
-.active-mpharm::after {
-  content: "\f139";
-  font-family: FontAwesome;
-}
-
-@media only screen and (max-width: 767px) {
-  /* mobile phones */
   .accordion::after {
-    right: 5%;
+    content: "\f13a";
+    font-family: FontAwesome;
+    font-size: 1.5em;
+    height: 1.3em;
+    text-align: center;
+    width: 1.5em;
+    position: absolute;
+    right: 2%;
   }
+
   .active-mpharm::after {
-    right: 5%;
+    content: "\f139";
+    font-family: FontAwesome;
   }
-}
 
-@media only screen and (min-width: 375px) and (max-width: 766px) {
-  /* mobile phones */
-  .accordion::after {
-    right: 4%;
+  @media only screen and (max-width: 767px) {
+    /* mobile phones */
+    .accordion::after {
+      right: 5%;
+    }
+    .active-mpharm::after {
+      right: 5%;
+    }
   }
-  .active-mpharm::after {
-    right: 4%;
+
+  @media only screen and (min-width: 375px) and (max-width: 766px) {
+    /* mobile phones */
+    .accordion::after {
+      right: 4%;
+    }
+    .active-mpharm::after {
+      right: 4%;
+    }
   }
-}
 
-.mpharm-years, .mpharm1, .mpharm2, .mpharm3, .mpharm4 {
-  border: 3px solid #7d9fd3;
-}
+  .mpharm-years, .mpharm1, .mpharm2, .mpharm3, .mpharm4 {
+    border: 3px solid #7d9fd3;
+  }
 
-.modified {
-  display: none;
-}
+  /* Resizing images */
+    .resize-image {
+    display: inline;
+    float: left;
+    position: relative;
+    margin-right: 8px;
+    width: 140px;
+    height: 140px;
+    overflow: hidden;
+  }
+
+  #B-Jubraj {
+    height: 140px;
+    width: 168px;
+    margin-left: -16px;
+    filter: brightness(1.2);
+pointer-events: none;
+  }
+  
+  #SB {
+    height: 150px;
+    width: 200px;
+    margin-top: -10px;
+    margin-left: 0px;
+    filter: brightness(1.15);
+pointer-events: none;
+  }
+    /* End resizing images */
+
+  .modified {
+    display: none;
+  }
