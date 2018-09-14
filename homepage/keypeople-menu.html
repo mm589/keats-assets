@@ -1,387 +1,211 @@
-<style>
-  @import url('https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
-  
-  .mpharm-1819-keypeople {
-    font: 14px sans-serif;
-  }
-
-  .departmental-links li {
-    list-style-type: none;
-  }
-
-  .departmental-links li::before {
-    content: "\f015  ";
-    font-family: FontAwesome;
-  }
-
-  .departmental-links ul li:first-child::before {
-    content: "\f149  ";
-    font-family: FontAwesome;
-  }
-
-  .mpharm-teaching-staff, .mpharm-senior-leadership {
-    width: 100%;
-    table-layout: fixed;
-    border-collapse: collapse;
-  }
-
-@media only screen and (min-width: 320px) and (max-width: 370px) {
-.mpharm-teaching-staff, .mpharm-senior-leadership {
-table-layout: auto;
-}
-}
-
-  .mpharm-teaching-staff th[scope="col"], td[scope="col"], .mpharm-senior-leadership th[scope="col"], td[scope="col"] {
-    border: 3px solid #7d9fd3;
-    font: bold 14px sans-serif;
-    text-align: left;
-    padding: 5px;
-    background-color: #eeeeee;
-  }
-
-  .mpharm-teaching-staff td[scope="row"], .mpharm-senior-leadership td[scope="row"] {
-    font: 14px sans-serif;
-    border: 3px solid #7d9fd3;
-    text-align: left;
-    padding: 5px;
-  }
-
-  #mpharm-years {
-    font: bold 14px sans-serif;
-    background-color: #eeeeee;
-  }
-
-  #caption {
-    margin: 3px;
-    padding: 2px;
-    color: grey;
-    text-align: left;
-    font: bold 18px sans-serif;
-  }
-
-  .year-modules ul {
-    display: flex;
-    flex-direction: column;
-    list-style-type: none !important;
-    margin-left: 0;
-    padding: 0;
-    vertical-align: top;
-    font: 14px sans-serif;
-  }
-
-  .accordion {
-    background-color: #eee;
-    font: 14px sans-serif;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    margin-bottom: 2px;
-    width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-  }
-
-  .active-mpharm, .accordion:hover {
-    background-color: #ccc;
-    border: #7d9fd3 2px solid;
-  }
-
-  .mpharm-panel {
-    margin: 2px;
-    padding: 0;
-    background-color: white;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;  
-  }
-
-  .mpharm-panel .year-modules ul li:nth-child(2n+1) {
-    border: dotted 2px;
-    background-color: #eeeeee;
-  }
-
-  .accordion::after {
-    content: "\f13a";
-    font-family: FontAwesome;
-    font-size: 1.5em;
-    height: 1.3em;
-    text-align: center;
-    width: 1.5em;
-    position: absolute;
-    right: 2%;
-  }
-
-  .active-mpharm::after {
-    content: "\f139";
-    font-family: FontAwesome;
-  }
-
-  @media only screen and (max-width: 767px) {
-    /* mobile phones */
-    .accordion::after {
-      right: 5%;
-    }
-    .active-mpharm::after {
-      right: 5%;
-    }
-  }
-
-  @media only screen and (min-width: 375px) and (max-width: 766px) {
-    /* mobile phones */
-    .accordion::after {
-      right: 4%;
-    }
-    .active-mpharm::after {
-      right: 4%;
-    }
-  }
-
-  .mpharm-years, .mpharm1, .mpharm2, .mpharm3, .mpharm4 {
-    border: 3px solid #7d9fd3;
-  }
-
-  /* Resizing images */
-    .resize-image {
-    display: inline;
-    float: left;
-    position: relative;
-    margin-right: 8px;
-    width: 140px;
-    height: 140px;
-    overflow: hidden;
-  }
-
-  #B-Jubraj {
-    height: 140px;
-    width: 168px;
-    margin-left: -16px;
-    filter: brightness(1.15);
-  }
-  
-  #SB {
-    height: 150px;
-    width: 200px;
-    margin-top: -10px;
-    margin-left: 0px;
-    filter: brightness(1.15);
-  }
-    /* End resizing images */
-
-  .modified {
-    display: none;
-  }
-</style>
-<!-- Only edit HTML below this comment -->
-<body>
-  <div class="mpharm-1819-keypeople">
-    <h4>Departmental links</h4>
-    <ul class="departmental-links">
-      <li>
-        <a href="https://www.kcl.ac.uk/lsm/study/departments/pharmacy-forensic/index.aspx" target="_blank"><u>Department of Pharmacy &amp; Forensic Science</u></a></li>
-      <ul>
-        <li><a href="https://www.kcl.ac.uk/lsm/research/divisions/ips/index.aspx" target="_blank"><u>Institute of Pharmaceutic Science (IPS)</u></a>
-          <ul>
-            <li><a href="https://www.kcl.ac.uk/lsm/research/divisions/ips/about/people.aspx" target="_blank"><u><em>IPS Staff List</em></u></a></li>
-          </ul>
-        </li>
-      </ul>
+<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/mm589/keats-sbe-mpharm-1819/8e1ec5ec/homepage/keypeople-menu.css" media="screen">
+<div class="mpharm-1819-keypeople">
+  <h4>Departmental links</h4>
+  <ul class="departmental-links">
+    <li>
+      <a href="https://www.kcl.ac.uk/lsm/study/departments/pharmacy-forensic/index.aspx" target="_blank"><u>Department of Pharmacy &amp; Forensic Science</u></a></li>
+    <ul>
+      <li><a href="https://www.kcl.ac.uk/lsm/research/divisions/ips/index.aspx" target="_blank"><u>Institute of Pharmaceutic Science (IPS)</u></a>
+        <ul>
+          <li><a href="https://www.kcl.ac.uk/lsm/research/divisions/ips/about/people.aspx" target="_blank"><u><em>IPS Staff List</em></u></a></li>
+        </ul>
+      </li>
     </ul>
-    <br>
-    <table class="mpharm-senior-leadership">
-      <tbody>
+  </ul>
+  <br>
+  <table class="mpharm-senior-leadership">
+    <tbody>
       <tr>
         <td scope="row" colspan=1>
           <div class="resize-image" style="margin-right: 10px;">
             <img src="https://cdn.rawgit.com/mm589/keats-sbe-mpharm-1819/99f8013d/Key%20People%20Images/Bansal_Sukhi_200x150.png" alt="Dr Sukhi Bansal" id="SB">
           </div>
           <a href="mailto:sukhi.bansal@kcl.ac.uk"><u><b>Dr Sukhi Bansal</b></u></a>
-          <br><b>Head of Institute of Pharmaceutical Science<br>Head of Pharmacy Department</b>
+          <br><b>Head of Teaching Department of Pharmacy </b>
         </td>
         <td scope="row" colspan=1>
           <div class="resize-image" style="margin-right: 10px;">
-              <img src="https://cdn.rawgit.com/mm589/keats-sbe-mpharm-1819/a518cba1/Key%20People%20Images/Jubraj_Barry_180x148.png" alt="Mr Barry Jubraj" id="B-Jubraj">
-            </div>
+            <img src="https://cdn.rawgit.com/mm589/keats-sbe-mpharm-1819/a518cba1/Key%20People%20Images/Jubraj_Barry_180x148.png" alt="Mr Barry Jubraj" id="B-Jubraj">
+          </div>
           <a href="mailto:barry.jubraj@kcl.ac.uk" target="_&quot;self&quot;"><u><b>Mr Barry Jubraj</b></u></a>
           <br><b>MPharm Programme Director and Admissions link<br>Pre-registration Strategy Group Chair</b>
-            </td>
-        </tr>
-      </tbody>
-    </table>
-    <br>
-    <table class="mpharm-teaching-staff">
-      <caption id="caption" style="caption-side: top">Teaching Staff</caption>
-      <thead>
-        <tr>
-          <th scope="col" colspan=2>Name</th>
-          <th scope="col" colspan=2>Position</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td scope="row" colspan=2><a href="mailto:ben.forbes@kcl.ac.uk"><u><b>Professor Ben Forbes</b></u></a></td>
-          <td scope="row" colspan=2><b>Chair, MPharm Assessment Sub-Board</b></td>
-        </tr>
-        <tr>
-          <td scope="row" colspan=2><a href="mailto:cecile.dreiss@kcl.ac.uk" target="_&quot;self&quot;"><u><b>Dr Cécile Ayako Dreiss</b></u></a></td>
-          <td scope="row" colspan=2><b>Deputy Chair, MPharm Assessment Sub-Board</b></td>
-        </tr>
-        <tr>
-          <td scope="row" colspan=2><a href="mailto:khuloud.al-jamal@kcl.ac.uk"><u><b>Professor Khuloud Al-Jamal</b></u></a></td>
-          <td scope="row" colspan=2><b>Erasmus Coordinator</b></td>
-        </tr>
-        <tr>
-          <td scope="row" colspan=2><a href="mailto:paul.royall@kcl.ac.uk"><u><b>Dr Paul Royall</b></u></a></td>
-          <td scope="row" colspan=2><b>Careers Liaison</b></td>
-        </tr>
-        <tr>
-          <td scope="row" colspan=2><a href="mailto:janique.smit@kcl.ac.uk"><u><b>Mrs Janique Waghorn</b></u></a></td>
-          <td scope="row" colspan=2><b>Academic Placements Coordinator</b></td>
-        </tr>
-        <tr>
-          <td scope="row" colspan=2><a href="mailto:rita.shah@kcl.ac.uk"><u><b>Mrs Rita Shah</b></u></a></td>
-          <td scope="row" colspan=2><b>Team Based Learning (IPE) Pharmacy Lead</b></td>
-        </tr>
-        <tr>
-          <td scope="row" id="mpharm-years" colspan=4>Year Leaders and Deputy Leaders</td>
-        </tr>
-        <tr class="mpharm1" colspan=4>
-          <td colspan=4>
-            <button class="accordion" style="text-align: left;"><b>MPharm 1</b><br><i>Science underpinning practice</i></button>
-            <div class="mpharm-panel">
-              <table class="mpharm-teaching-staff">
-                <tr class="mpharm-years-headers">
-                  <td scope="col">Year</td>
-                  <td scope="col">Year Leader<br>Deputy Leader</td>
-                  <td scope="col" colspan=2>Module<br>Module Leader</td>
-                </tr>
-                <tr class="mpharm1">
-                  <td scope="row"><b>MPharm 1</b><br><i>Science underpinning practice</i></td>
-                  <td scope="row"><b>Year Leader:</b><br><a href="mailto:richard.parsons@kcl.ac.uk"><b><u>Dr Richard Parsons</u></b></a><br><br><b>Professional Lead:</b><br><a href="mailto:barry.jubraj@kcl.ac.uk"><b><u>Mr Barry Jubraj</u></b></a></td>
-                  <td scope="row" class="year-modules" valign="top" colspan=2>
-                    <ul>
-                      <li><i><b>Biochemical Basis of Therapeutics (4BBP0131)</b></i></li>
-                      <li>Dr Richard Parsons</li>
-                      <li><i><b>Principles of Clinical Care (4BBP0132)</b></i></li>
-                      <li>Mr Barry Jubraj</li>
-                      <li><i><b>Physical Pharmaceutics (4BBP0133)</b></i></li>
-                      <li>Dr Bahijja Raimi-Abraham</li>
-                      <li><i><b>Chemistry of Drugs (4BBP0134)</b></i></li>
-                      <li>Dr Khondaker Miraz Rahman</li>
-                    </ul>
-                  </td>
-                </tr>
-              </table>
-            </div>
-          </td>
-        </tr>
-        <tr class="mpharm2" colspan=4>
-          <td colspan=4>
-            <button class="accordion" style="text-align: left;"><b>MPharm 2</b><br><i>Science informing practice</i></button>
-            <div class="mpharm-panel">
-              <table class="mpharm-teaching-staff">
-                <tr class="mpharm-years-headers">
-                  <td scope="col">Year</td>
-                  <td scope="col">Year Leader<br>Deputy Leader</td>
-                  <td scope="col" colspan=2>Module<br>Module Leader</td>
-                </tr>
-                <tr class="mpharm2">
-                  <td scope="row"><b>MPharm 2</b><br><i>Science informing practice</i></td>
-                  <td scope="row"><b>Year Leader:</b><br><a href="mailto:ka_lung.chan@kcl.ac.uk"><b><u>Dr Andrew Chan</u></b></a><br><br><b>Professional Lead:</b><br><a href="mailto:rita.2.shah@kcl.ac.uk"><b><u>Mrs Rita Shah</u></b></a></td>
-                  <td scope="row" class="year-modules" valign="top" colspan=2>
-                    <ul>
-                      <li><i><b>Formulation and Analysis of Drugs (5BBP0259)</b></i></li>
-                      <li>Dr Andrew Chan</li>
-                      <li><i><b>Nervous System (5BBP0256)</b></i></li>
-                      <li>Professor Kim Wolff, MBE</li>
-                      <li><i><b>Respiratory and Musculoskeletal Systems (5BBP0257)</b></i></li>
-                      <li>Dr Daniele Castagnolo</li>
-                      <li><i><b>Cardiovascular and Renal Systems (5BBP0258)</b></i></li>
-                      <li>Professor Graham Davies</li>
-                    </ul>
-                  </td>
-                </tr>
-              </table>
-            </div>
-          </td>
-        </tr>
-        <tr class="mpharm3" colspan=4>
-          <td colspan=4>
-            <button class="accordion" style="text-align: left;"><b>MPharm 3</b><br><i>Science influencing practice</i></button>
-            <div class="mpharm-panel">
-              <table class="mpharm-teaching-staff">
-                <tr class="mpharm-years-headers">
-                  <td scope="col">Year</td>
-                  <td scope="col">Year Leader<br>Deputy Leader</td>
-                  <td scope="col" colspan=2>Module<br>Module Leader</td>
-                </tr>
-                <tr class="mpharm3">
-                  <td scope="row"><b>MPharm 3</b><br><i>Science influencing practice</i></td>
-                  <td scope="row"><b>Year Leader:</b><br><a href="mailto:paul.royall@kcl.ac.uk"><b><u>Dr Paul Royall</u></b></a><br><br><b>Professional Lead:</b><br><a href="mailto:niusha.shekarian@kcl.ac.uk"><b><u>Miss Niusha Shekarian</u></b></a></td>
-                  <td scope="row" class="year-modules" valign="top" colspan=2>
-                    <ul>
-                      <li><i><b>Medicines Discovery and Development (6BBP0361)</b></i></li>
-                      <li>Dr Cécile Ayako Dreiss</li>
-                      <li><i><b>Gastrointestinal System and Skin (6BBP0362)</b></i></li>
-                      <li>Dr Driton Vllasaliu</li>
-                      <li><i><b>Infection and Pharmaceutical Microbiology (6BBP0363)</b></i></li>
-                      <li>Dr Kenneth Deans Bruce</li>
-                      <li><i><b>Endocrine System and Cancer (6BBP0364)</b></i></li>
-                      <li>Mrs Janique Waghorn</li>
-                    </ul>
-                  </td>
-                </tr>
-              </table>
-            </div>
-          </td>
-        </tr>
-        <tr class="mpharm4" colspan=4>
-          <td colspan=4>
-            <button class="accordion" style="text-align: left;"><b>MPharm 4</b><br><i>Science advancing practice</i></button>
-            <div class="mpharm-panel">
-              <table class="mpharm-teaching-staff">
-                <tr class="mpharm-years-headers">
-                  <td scope="col">Year</td>
-                  <td scope="col">Year Leader<br>Deputy Leader</td>
-                  <td scope="col" colspan=2>Module<br>Module Leader</td>
-                </tr>
-                <tr class="mpharm4">
-                  <td scope="row"><b>MPharm 4</b><br><i>Science advancing practice</i></td>
-                  <td scope="row"><b>Year Leader and Professional Lead:</b><br><a href="mailto:jig.patel@kcl.ac.uk"><b><u>Dr Jig Patel</u></b></a></td>
-                  <td scope="row" class="year-modules" valign="top" colspan=2>
-                    <ul>
-                      <li><i><b>Research Project (7BBP0422)</b></i></li>
-                      <li>Professor Khuloud Al-Jamal</li>
-                      <li><i><b>Emerging Therapeutics and Modern Medicine (7BBP0424)</b></i></li>
-                      <li>Dr David Barlow</li>
-                      <li><i><b>Clinical Decision Making (7BBP0423)</b></i></li>
-                      <li>Dr Jig Patel</li>            
-                    </ul>
-                  </td>
-                </tr>
-              </table>
-            </div>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    <br>
-  </div>
-  <script type="text/javascript">
-    var acc = document.getElementsByClassName("accordion");
-    var i;
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <table class="mpharm-teaching-staff">
+    <caption id="caption" style="caption-side: top">Teaching Staff</caption>
+    <thead>
+      <tr>
+        <th scope="col" colspan=2>Name</th>
+        <th scope="col" colspan=2>Position</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td scope="row" colspan=2><a href="mailto:ben.forbes@kcl.ac.uk"><u><b>Professor Ben Forbes</b></u></a></td>
+        <td scope="row" colspan=2><b>Chair, MPharm Assessment Sub-Board</b></td>
+      </tr>
+      <tr>
+        <td scope="row" colspan=2><a href="mailto:cecile.dreiss@kcl.ac.uk" target="_&quot;self&quot;"><u><b>Dr Cécile Ayako Dreiss</b></u></a></td>
+        <td scope="row" colspan=2><b>Deputy Chair, MPharm Assessment Sub-Board</b></td>
+      </tr>
+      <tr>
+        <td scope="row" colspan=2><a href="mailto:khuloud.al-jamal@kcl.ac.uk"><u><b>Professor Khuloud Al-Jamal</b></u></a></td>
+        <td scope="row" colspan=2><b>Erasmus Coordinator</b></td>
+      </tr>
+      <tr>
+        <td scope="row" colspan=2><a href="mailto:paul.royall@kcl.ac.uk"><u><b>Dr Paul Royall</b></u></a></td>
+        <td scope="row" colspan=2><b>Careers Liaison</b></td>
+      </tr>
+      <tr>
+        <td scope="row" colspan=2><a href="mailto:janique.smit@kcl.ac.uk"><u><b>Mrs Janique Waghorn</b></u></a></td>
+        <td scope="row" colspan=2><b>Academic Placements Coordinator</b></td>
+      </tr>
+      <tr>
+        <td scope="row" colspan=2><a href="mailto:rita.2.shah@kcl.ac.uk"><u><b>Mrs Rita Shah</b></u></a></td>
+        <td scope="row" colspan=2><b>Team Based Learning (IPE) Pharmacy Lead</b></td>
+      </tr>
+      <tr>
+        <td scope="row" id="mpharm-years" colspan=4>Year Leaders and Deputy Leaders</td>
+      </tr>
+      <tr class="mpharm1" colspan=4>
+        <td colspan=4>
+          <button class="accordion" style="text-align: left;"><b>MPharm 1</b><br><i>Science underpinning practice</i></button>
+          <div class="mpharm-panel">
+            <table class="mpharm-teaching-staff">
+              <tr class="mpharm-years-headers">
+                <td scope="col">Year</td>
+                <td scope="col">Year Leader<br>Deputy Leader</td>
+                <td scope="col" colspan=2>Module<br>Module Leader</td>
+              </tr>
+              <tr class="mpharm1">
+                <td scope="row"><b>MPharm 1</b><br><i>Science underpinning practice</i></td>
+                <td scope="row"><b>Year Leader:</b><br><a href="mailto:richard.parsons@kcl.ac.uk"><b><u>Dr Richard Parsons</u></b></a><br><br><b>Professional Lead:</b><br><a href="mailto:barry.jubraj@kcl.ac.uk"><b><u>Mr Barry Jubraj</u></b></a></td>
+                <td scope="row" class="year-modules" valign="top" colspan=2>
+                  <ul>
+                    <li><i><b>Biochemical Basis of Therapeutics (4BBP0131)</b></i></li>
+                    <li>Dr Richard Parsons</li>
+                    <li><i><b>Principles of Clinical Care (4BBP0132)</b></i></li>
+                    <li>Mr Barry Jubraj</li>
+                    <li><i><b>Physical Pharmaceutics (4BBP0133)</b></i></li>
+                    <li>Dr Bahijja Raimi-Abraham</li>
+                    <li><i><b>Chemistry of Drugs (4BBP0134)</b></i></li>
+                    <li>Dr Miraz Rahman</li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </td>
+      </tr>
+      <tr class="mpharm2" colspan=4>
+        <td colspan=4>
+          <button class="accordion" style="text-align: left;"><b>MPharm 2</b><br><i>Science informing practice</i></button>
+          <div class="mpharm-panel">
+            <table class="mpharm-teaching-staff">
+              <tr class="mpharm-years-headers">
+                <td scope="col">Year</td>
+                <td scope="col">Year Leader<br>Deputy Leader</td>
+                <td scope="col" colspan=2>Module<br>Module Leader</td>
+              </tr>
+              <tr class="mpharm2">
+                <td scope="row"><b>MPharm 2</b><br><i>Science informing practice</i></td>
+                <td scope="row"><b>Year Leader:</b><br><a href="mailto:ka_lung.chan@kcl.ac.uk"><b><u>Dr Andrew Chan</u></b></a><br><br><b>Professional Lead:</b><br><a href="mailto:rita.2.shah@kcl.ac.uk"><b><u>Mrs Rita Shah</u></b></a></td>
+                <td scope="row" class="year-modules" valign="top" colspan=2>
+                  <ul>
+                    <li><i><b>Formulation and Analysis of Drugs (5BBP0259)</b></i></li>
+                    <li>Dr Andrew Chan</li>
+                    <li><i><b>Nervous System (5BBP0256)</b></i></li>
+                    <li>Professor Kim Wolff, MBE</li>
+                    <li><i><b>Respiratory and Musculoskeletal Systems (5BBP0257)</b></i></li>
+                    <li>Dr Daniele Castagnolo</li>
+                    <li><i><b>Cardiovascular and Renal Systems (5BBP0258)</b></i></li>
+                    <li>Professor Graham Davies</li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </td>
+      </tr>
+      <tr class="mpharm3" colspan=4>
+        <td colspan=4>
+          <button class="accordion" style="text-align: left;"><b>MPharm 3</b><br><i>Science influencing practice</i></button>
+          <div class="mpharm-panel">
+            <table class="mpharm-teaching-staff">
+              <tr class="mpharm-years-headers">
+                <td scope="col">Year</td>
+                <td scope="col">Year Leader<br>Deputy Leader</td>
+                <td scope="col" colspan=2>Module<br>Module Leader</td>
+              </tr>
+              <tr class="mpharm3">
+                <td scope="row"><b>MPharm 3</b><br><i>Science influencing practice</i></td>
+                <td scope="row"><b>Year Leader:</b><br><a href="mailto:paul.royall@kcl.ac.uk"><b><u>Dr Paul Royall</u></b></a><br><br><b>Professional Lead:</b><br><a href="mailto:niusha.shekarian@kcl.ac.uk"><b><u>Miss Niusha Shekarian</u></b></a></td>
+                <td scope="row" class="year-modules" valign="top" colspan=2>
+                  <ul>
+                    <li><i><b>Medicines Discovery and Development (6BBP0361)</b></i></li>
+                    <li>Dr Cécile Ayako Dreiss</li>
+                    <li><i><b>Gastrointestinal System and Skin (6BBP0362)</b></i></li>
+                    <li>Dr Driton Vllasaliu</li>
+                    <li><i><b>Infection and Pharmaceutical Microbiology (6BBP0363)</b></i></li>
+                    <li>Dr Kenneth Deans Bruce</li>
+                    <li><i><b>Endocrine System and Cancer (6BBP0364)</b></i></li>
+                    <li>Mrs Janique Waghorn</li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </td>
+      </tr>
+      <tr class="mpharm4" colspan=4>
+        <td colspan=4>
+          <button class="accordion" style="text-align: left;"><b>MPharm 4</b><br><i>Science advancing practice</i></button>
+          <div class="mpharm-panel">
+            <table class="mpharm-teaching-staff">
+              <tr class="mpharm-years-headers">
+                <td scope="col">Year</td>
+                <td scope="col">Year Leader<br>Deputy Leader</td>
+                <td scope="col" colspan=2>Module<br>Module Leader</td>
+              </tr>
+              <tr class="mpharm4">
+                <td scope="row"><b>MPharm 4</b><br><i>Science advancing practice</i></td>
+                <td scope="row"><b>Year Leader and Professional Lead:</b><br><a href="mailto:jig.patel@kcl.ac.uk"><b><u>Dr Jig Patel</u></b></a></td>
+                <td scope="row" class="year-modules" valign="top" colspan=2>
+                  <ul>
+                    <li><i><b>Research Project (7BBP0422)</b></i></li>
+                    <li>Professor Khuloud Al-Jamal</li>
+                    <li><i><b>Emerging Therapeutics and Modern Medicine (7BBP0424)</b></i></li>
+                    <li>Dr David Barlow</li>
+                    <li><i><b>Clinical Decision Making (7BBP0423)</b></i></li>
+                    <li>Dr Jig Patel</li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+</div>
+<script type="text/javascript">
+  var acc = document.getElementsByClassName("accordion");
+  var i;
 
-    for (i = 0; i < acc.length; i++) {
-      acc[i].addEventListener("click", function() {
-        this.classList.toggle("active-mpharm");
-        var panel = this.nextElementSibling;
-        if (panel.style.maxHeight){
-          panel.style.maxHeight = null;
-        } else {
-          panel.style.maxHeight = panel.scrollHeight + "px";
-        } 
-      });
-    }
-  </script>
-</body>
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active-mpharm");
+      var panel = this.nextElementSibling;
+      if (panel.style.maxHeight) {
+        panel.style.maxHeight = null;
+      } else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+      }
+    });
+  }
+
+</script>
