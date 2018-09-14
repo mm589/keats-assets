@@ -1,5 +1,4 @@
   @import url('https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
-  
   .mpharm-1819-keypeople {
     font: 1.1em sans-serif;
   }
@@ -18,19 +17,24 @@
     font-family: FontAwesome;
   }
 
-  .mpharm-teaching-staff, .mpharm-senior-leadership {
+  .mpharm-teaching-staff,
+  .mpharm-senior-leadership {
     width: 100%;
     table-layout: fixed;
     border-collapse: collapse;
   }
 
-@media only screen and (min-width: 150px) and (max-width: 370px) {
-.mpharm-teaching-staff, .mpharm-senior-leadership {
-table-layout: auto;
-}
-}
+  @media only screen and (min-width: 150px) and (max-width: 370px) {
+    .mpharm-teaching-staff,
+    .mpharm-senior-leadership {
+      table-layout: auto;
+    }
+  }
 
-  .mpharm-teaching-staff th[scope="col"], td[scope="col"], .mpharm-senior-leadership th[scope="col"], td[scope="col"] {
+  .mpharm-teaching-staff th[scope="col"],
+  td[scope="col"],
+  .mpharm-senior-leadership th[scope="col"],
+  td[scope="col"] {
     border: 3px solid #7d9fd3;
     font: bold 1.1em sans-serif;
     text-align: left;
@@ -38,7 +42,8 @@ table-layout: auto;
     background-color: #eeeeee;
   }
 
-  .mpharm-teaching-staff td[scope="row"], .mpharm-senior-leadership td[scope="row"] {
+  .mpharm-teaching-staff td[scope="row"],
+  .mpharm-senior-leadership td[scope="row"] {
     font: 1em sans-serif;
     border: 3px solid #7d9fd3;
     text-align: left;
@@ -82,7 +87,8 @@ table-layout: auto;
     transition: 0.4s;
   }
 
-  .active-mpharm, .accordion:hover {
+  .active-mpharm,
+  .accordion:hover {
     background-color: #ccc;
   }
 
@@ -92,7 +98,7 @@ table-layout: auto;
     background-color: white;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.2s ease-out;  
+    transition: max-height 0.2s ease-out;
   }
 
   .mpharm-panel .year-modules ul li:nth-child(2n+1) {
@@ -136,12 +142,17 @@ table-layout: auto;
     }
   }
 
-  .mpharm-years, .mpharm1, .mpharm2, .mpharm3, .mpharm4 {
+  .mpharm-years,
+  .mpharm1,
+  .mpharm2,
+  .mpharm3,
+  .mpharm4 {
     border: 3px solid #7d9fd3;
   }
 
   /* Resizing images */
-    .resize-image {
+
+  .resize-image {
     display: inline;
     float: left;
     position: relative;
@@ -156,18 +167,19 @@ table-layout: auto;
     width: 168px;
     margin-left: -16px;
     filter: brightness(1.2);
-pointer-events: none;
+    pointer-events: none;
   }
-  
+
   #SB {
     height: 150px;
     width: 200px;
     margin-top: -10px;
     margin-left: 0px;
     filter: brightness(1.15);
-pointer-events: none;
+    pointer-events: none;
   }
-    /* End resizing images */
+
+  /* End resizing images */
 
   .modified {
     display: none;
