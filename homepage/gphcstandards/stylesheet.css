@@ -166,17 +166,17 @@
     color: black;
   }
 
-  h4.standard1,
-  h4.standard2,
-  h4.standard3,
-  h4.standard4,
-  h4.standard5,
-  h4.standard6,
-  h4.standard7,
-  h4.standard8,
-  h4.standard9,
-  h4.standard10,
-  h4.outcomes {
+  .standard1 h4,
+  .standard2 h4,
+  .standard3 h4,
+  .standard4 h4,
+  .standard5 h4,
+  .standard6 h4,
+  .standard7 h4,
+  .standard8 h4,
+  .standard9 h4,
+  .standard10 h4,
+  .outcomes h4 {
     color: #0b5584;
   }
 
