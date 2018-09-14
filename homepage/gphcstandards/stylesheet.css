@@ -1,0 +1,288 @@
+  @import url("https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+  @font-face {
+    font-family: 'BureauGrotesqueThreeSeven';
+    src: url(https://cdn.rawgit.com/mm589/keats-sbe-mpharm-1819/957df747/Fonts/BureauGrotesqueThreeSeven.woff) format('woff'), url(https://cdn.rawgit.com/mm589/keats-sbe-mpharm-1819/957df747/Fonts/KingsBureauGrot-ThreeSeven.ttf) format('truetype');
+    font-family: 'Kings Caslon Display';
+    src: url(https://cdn.rawgit.com/mm589/keats-sbe-mpharm-1819/957df747/Fonts/KingsCaslonDisplay.ttf) format('truetype');
+  }
+
+  /* styling for title page */
+
+  .gphc-standards {
+    margin-top: 10px;
+  }
+
+  #gphc-title {
+    font-family: "BureauGrotesqueThreeSeven", Impact, sans-serif;
+    font-size: 3em;
+    color: black;
+  }
+
+  #gphc-subtitle {
+    font-family: "Kings Caslon Display", Georgia, sans-serif;
+    font-size: 2.5em;
+    color: black;
+    display: inline;
+  }
+
+  #gphc-date {
+    font-family: "Kings Caslon Display", Georgia, sans-serif;
+    font-size: 2em;
+    color: black;
+  }
+
+  .gphc-section1 {
+    padding-bottom: 16em;
+  }
+
+  .gphc-section2 {
+    padding-bottom: 4em;
+  }
+
+  @media only screen and (min-width: 50px) and (max-width: 374px) {
+    .gphc-section1 {
+      padding-bottom: 0;
+    }
+    .gphc-section2 {
+      padding-bottom: 1em;
+    }
+    #gphc-title {
+      line-height: 30px;
+      font-size: 1.6em;
+    }
+    #gphc-subtitle {
+      padding-bottom: 0;
+      font-size: 1.4em;
+    }
+    #gphc-date {
+      padding-bottom: 0;
+      font-size: 1.2em;
+    }
+    .img-responsive,
+    .atto_image_button_right {
+      display: none;
+    }
+    h2 {
+      display: none;
+    }
+  }
+
+  @media only screen and (min-width: 375px) and (max-width: 424px) {
+    .gphc-section1 {
+      padding-bottom: 0;
+    }
+    .gphc-section2 {
+      padding-bottom: 1em;
+    }
+    #gphc-title {
+      line-height: 30px;
+      font-size: 1.8em;
+    }
+    #gphc-subtitle {
+      padding-bottom: 0;
+      font-size: 1.6em;
+    }
+    #gphc-date {
+      padding-bottom: 0;
+      font-size: 1.4em;
+    }
+    .img-responsive,
+    .atto_image_button_right {
+      display: none;
+    }
+    h2 {
+      display: none;
+    }
+  }
+
+  @media only screen and (min-width: 425px) and (max-width: 767px) {
+    .gphc-section1 {
+      padding-bottom: 0;
+    }
+    .gphc-section2 {
+      padding-bottom: 1em;
+    }
+    #gphc-title {
+      line-height: 30px;
+      font-size: 2em;
+    }
+    #gphc-subtitle {
+      padding-bottom: 0;
+      font-size: 1.8em;
+    }
+    #gphc-date {
+      padding-bottom: 0;
+      font-size: 1.6em;
+    }
+    .img-responsive,
+    .atto_image_button_right {
+      display: none;
+    }
+    h2 {
+      display: none;
+    }
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 980px) {
+    h2 {
+      display: none;
+    }
+  }
+
+  /* end styling for title page */
+
+  /* styling for individual sections of GPhC standards book */
+
+  .path-mod-book .navtop {
+    display: none;
+  }
+
+  h2 {
+    font-family: 'BureauGrotesqueThreeSeven', Impact, sans-serif;
+  }
+
+  h3 {
+    font-family: "Kings Caslon Display", Georgia, sans-serif;
+    font-size: 1.5em;
+  }
+
+  .contentspage {
+    font-family: 'Kings Caslon Display', Georgia, sans-serif;
+    font-size: 1.2em;
+  }
+
+  .standard1,
+  .standard2,
+  .standard3,
+  .standard4,
+  .standard5,
+  .standard6,
+  .standard7,
+  .standard8,
+  .standard9,
+  .standard10 {
+    font-family: 'Kings Caslon Display', Georgia, sans-serif;
+    font-size: 1.2em;
+    color: black;
+  }
+
+  h4.standard1,
+  h4.standard2,
+  h4.standard3,
+  h4.standard4,
+  h4.standard5,
+  h4.standard6,
+  h4.standard7,
+  h4.standard8,
+  h4.standard9,
+  h4.standard10,
+  h4.outcomes {
+    color: #0b5584;
+  }
+
+  .outcomes,
+  .outcomes-tab {
+    font-family: 'Kings Caslon Display', Georgia, sans-serif;
+    font-size: 1.2em;
+    color: black;
+  }
+
+  button.accordion {
+    background-color: whitesmoke;
+    font-family: 'Kings Caslon Display', Georgia, sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #444;
+    cursor: pointer;
+    padding: 20px;
+    margin-bottom: 2px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+
+  .gphcpanel {
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out;
+    border-left: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+  }
+
+  button.accordion:hover,
+  button.accordion.is-open {
+    background-color: #ddd;
+  }
+
+  button.accordion::after {
+    content: "\f13a";
+    font-family: 'FontAwesome';
+    font-size: 16px;
+    height: 1.3em;
+    text-align: center;
+    width: 1.5em;
+    position: absolute;
+    right: 2%;
+  }
+
+  button.accordion.is-open::after {
+    content: "\f139";
+    font-family: 'FontAwesome';
+  }
+
+  .path-mod-book .navbottom {
+    margin-top: 2em;
+  }
+
+  @media only screen and (max-width: 320px) {
+    /* mobile phones */
+    button.accordion::after {
+      right: 5%;
+    }
+    button.accordion.is-open::after {
+      right: 5%;
+    }
+    .gphcpanel {
+      overflow-y: auto;
+    }
+    .path-mod-book .navbottom {
+      margin-top: 1em;
+    }
+  }
+
+  @media only screen and (min-width: 321px) and (max-width: 374px) {
+    /* mobile phones */
+    button.accordion::after {
+      right: 5%;
+    }
+    button.accordion.is-open::after {
+      right: 5%;
+    }
+    .gphcpanel {
+      overflow-y: auto;
+    }
+    .path-mod-book .navbottom {
+      margin-top: 1em;
+    }
+  }
+
+  @media only screen and (min-width: 375px) and (max-width: 767px) {
+    /* mobile phones */
+    button.accordion::after {
+      right: 4%;
+    }
+    button.accordion.is-open::after {
+      right: 4%;
+    }
+    .gphcpanel {
+      overflow-y: auto;
+    }
+    .path-mod-book .navbottom {
+      margin-top: 1em;
+    }
+  }
+
+  /* end styling for GPhC standards book */
