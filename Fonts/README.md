@@ -1,5 +1,5 @@
 <h3>King's Corporate Fonts</h3>
-<p style="font-size: 14px, sans-serif;">For more information please consult the <a href="https://internal.kcl.ac.uk/erd/depts/brand/Visual-Identity/Fonts.aspx" target="_self"><u>King's Corporate Fonts</u></a> webpage and make sure that the most recent version of the corporate fonts is being used. The font package, including the .ttf, .oet and .woff files can be downloaded from that page. Since almost all browsers support <code>.ttf</code> and <code>.woff</code>, you may link or <code>@font-face</code> to those two primary file formats.</p>
+<p style="font-size: 14px, sans-serif;">For more information please consult the King's Corporate Fonts webpage and make sure that the most recent version of the corporate fonts is being used. The font package, including the .ttf, .oet and .woff files can be downloaded from that page. Since almost all browsers support <code>.ttf</code> and <code>.woff</code>, you may link or <code>@font-face</code> to those two primary file formats.</p>
 <h4>Linking or <code>@font-face</code> to the King's Corporate fonts</h4>
 <ol>
       <li><p style="font-size: 14px, sans-serif;"><b>If starting with new font files:</b> Download the font family package from the King's Corporate Fonts page, which is stored on the King's Digital Assets repository;</li>
@@ -28,4 +28,4 @@ For reference, <code>.woff</code> is for Web Open Font Formats and <code>.ttf</c
 For HTML, <code><p style="font-family: BureauGrotesqueThreeSeven";></code>
 
 <h4>Acceptable font alternatives for web browser compatibility</h4>
-The acceptable alternative font for Bureau Grotesque 37 is Impact, for Kings Caslon Display (or Kings Caslon Text) it is Georgia regular. Reference the King's Corporate Fonts <a href="https://internal.kcl.ac.uk/erd/depts/brand/Documents/Branding-essentials.pdf" target="_self"><u>Branding Essentials</u></a> document for more information.
+The acceptable alternative font for Bureau Grotesque 37 is Impact, for Kings Caslon Display (or Kings Caslon Text) it is Georgia regular. Reference the King's Corporate Fonts Branding Essentials document for more information.
