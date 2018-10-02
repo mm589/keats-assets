@@ -1,0 +1,301 @@
+  @import url('https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
+  h2 {
+    display: none;
+  }
+
+  .year1-box h4,
+  .year2-box h4,
+  .year3-box h4,
+  .year4-box h4 {
+    font-size: 1.5em;
+    font-weight: 700;
+  }
+
+  .year1-box h5,
+  .year2-box h5,
+  .year3-box h5,
+  .year4-box h5 {
+    font-size: 1.2em;
+    font-weight: 700;
+  }
+
+  /* Fixing image frames for key people */
+
+  .resize-image {
+    display: inline;
+    float: left;
+    position: relative;
+    margin-right: 8px;
+    width: 140px;
+    height: 140px;
+    overflow: hidden;
+  }
+
+  /* Specific people pages for each year */
+
+  #B-Jubraj {
+    height: 140px;
+    width: 168px;
+    margin-left: -16px;
+    filter: brightness(1.2);
+    pointer-events: none;
+  }
+
+  #RBP {
+    height: 168px;
+    width: 200px;
+    margin-top: -10px;
+    filter: brightness(1.25);
+    margin-left: -37px;
+    image-rendering: auto;
+    pointer-events: none;
+  }
+
+  #PR {
+    height: 192px;
+    width: 240px;
+    margin-left: -90px;
+    margin-top: -17px;
+    filter: brightness(1.05);
+    image-rendering: auto;
+    pointer-events: none;
+  }
+
+  #RS {
+    height: 210px;
+    width: 150px;
+    margin-left: -3px;
+    filter: brightness(1.05);
+    image-rendering: auto;
+    pointer-events: none;
+  }
+
+  #DV {
+    margin-top: -10px;
+    filter: brightness(1.05);
+    image-rendering: auto;
+    pointer-events: none;
+  }
+
+  #NS {
+    height: 296px;
+    width: 197px;
+    margin-left: -60px;
+    margin-top: -65px;
+    filter: brightness(1.15);
+    image-rendering: auto;
+    pointer-events: none;
+  }
+
+  #JP {
+    height: 120px;
+    width: 180px;
+    margin-left: -28px;
+    filter: brightness(1.15);
+    image-rendering: auto;
+    pointer-events: none;
+  }
+
+  /* End fix image frames*/
+
+  .year1-keypeople a,
+  .year2-keypeople a,
+  .year3-keypeople a,
+  .year4-keypeople a {
+    font: 1em sans-serif;
+    display: inline;
+  }
+
+  .year1-keypeople img,
+  .year2-keypeople img,
+  .year3-keypeople img,
+  .year4-keypeople img {
+    float: left;
+  }
+
+  /* accordion menu styling */
+
+  .accordion {
+    background-color: #eee;
+    font: 1.1em sans-serif;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    margin-bottom: 2px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+
+  .active-year1,
+  .active-year2,
+  .active-year3,
+  .active-year4,
+  .accordion:hover {
+    background-color: #ccc;
+  }
+
+  .accordion:focus,
+  .accordion:active {
+    color: #333;
+  }
+
+  .year1-panel,
+  .year2-panel,
+  .year3-panel,
+  .year4-panel {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.25s ease-out;
+  }
+
+  .person-desc {
+    font: bold 1.1em sans-serif;
+    line-height: 1.3;
+  }
+
+  .year1-panel table,
+  .year2-panel table,
+  .year3-panel table,
+  .year4-panel table {
+    box-sizing: border-box;
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: auto;
+    border: 2px solid none;
+  }
+
+  .year1-panel td,
+  .year2-panel td,
+  .year3-panel td,
+  .year4-panel td {
+    background-color: #f4f5f7;
+  }
+
+  .accordion:after {
+    content: "\f13a";
+    font-family: FontAwesome;
+    font-size: 1.5em;
+    height: 1.3em;
+    text-align: center;
+    width: 1.5em;
+    position: absolute;
+    right: 2%;
+  }
+
+  .active-year1:after,
+  .active-year2:after,
+  .active-year3:after,
+  .active-year4:after {
+    content: "\f139";
+    font-family: FontAwesome;
+  }
+
+  @media only screen and (max-width: 320px) {
+    /* mobile phones */
+    .accordion::after {
+      right: 5%;
+    }
+    .active-year1::after,
+    .active-year2::after,
+    .active-year3::after,
+    .active-year4::after {
+      right: 5%;
+    }
+    .year1-panel,
+    .year2-panel,
+    .year3-panel,
+    .year4-panel {
+      overflow-y: auto;
+    }
+  }
+
+  @media only screen and (min-width: 321px) and (max-width: 374px) {
+    /* mobile phones */
+    .accordion::after {
+      right: 5%;
+    }
+    .active-year1::after,
+    .active-year2::after,
+    .active-year3::after,
+    .active-year4::after {
+      right: 5%;
+    }
+    .year1-panel,
+    .year2-panel,
+    .year3-panel,
+    .year4-panel {
+      overflow-y: auto;
+    }
+  }
+
+  @media only screen and (min-width: 375px) and (max-width: 767px) {
+    /* mobile phones */
+    .accordion::after {
+      right: 4%;
+    }
+    .active-year1::after,
+    .active-year2::after,
+    .active-year3::after,
+    .active-year4::after {
+      right: 4%;
+    }
+    .year1-panel,
+    .year2-panel,
+    .year3-panel,
+    .year4-panel {
+      overflow-y: auto;
+    }
+  }
+
+  /* Styling for introductory section*/
+
+  .mpharm-year1,
+  .mpharm-year2,
+  .mpharm-year3,
+  .mpharm-year4 {
+    background-image: url('https://cdn.rawgit.com/mm589/keats-sbe-mpharm-1819/704ae284/Key%20People%20Images/mpharm_green_m.png');
+    background-color: rgb(201, 218, 234);
+    background-repeat: no-repeat;
+    background-position: right top -80px;
+    overflow: auto;
+  }
+
+  .year1-box,
+  .year2-box,
+  .year3-box,
+  .year4-box {
+    background-color: rgba(199, 215, 233, 0.75);
+    margin: 3em 0 0.75em 0;
+    padding: 10px 15px 15px 15px;
+    overflow: auto;
+    height: auto;
+    width: auto;
+    font-family: sans-serif;
+    color: #000000;
+  }
+
+  @media only screen and (min-width: 320px) and (max-width: 767px) {
+    .mpharm-year1,
+    .mpharm-year2,
+    .mpharm-year3,
+    .mpharm-year4 {
+      background-image: none;
+    }
+    .year1-box,
+    .year2-box,
+    .year3-box,
+    .year4-box {
+      background-color: rgb(201, 218, 234);
+      margin: 2em 0 -1em 0;
+    }
+  }
+
+  .modified {
+    display: none;
+  }
