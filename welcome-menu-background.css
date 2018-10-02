@@ -177,7 +177,7 @@
     background-color: #f4f5f7;
   }
 
-  .accordion:after {
+  .accordion::after {
     content: "\f13a";
     font-family: FontAwesome;
     font-size: 1.5em;
@@ -188,10 +188,10 @@
     right: 2%;
   }
 
-  .active-year1:after,
-  .active-year2:after,
-  .active-year3:after,
-  .active-year4:after {
+  .active-year1::after,
+  .active-year2::after,
+  .active-year3::after,
+  .active-year4::after {
     content: "\f139";
     font-family: FontAwesome;
   }
