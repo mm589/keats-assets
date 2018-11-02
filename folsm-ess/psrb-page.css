@@ -1,46 +1,45 @@
+.psrb-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 0.5em;
+  font: 1em sans-serif;
+  line-height: 1.3;
+}
+
+.psrb-box1,
+.psrb-box2,
+.psrb-box3,
+.psrb-box4 {
+  margin: 1px;
+  padding: 5px;
+  border: 2px solid rgb(125, 159, 211);
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+@supports not (display: grid) {
   .psrb-wrapper {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: minmax(100px, auto);
-	  grid-gap: 0.5em;
-    font: 1em sans-serif;
-		line-height: 1.3;
+    display: block;
   }
+}
 
-  .psrb-box1,
-  .psrb-box2,
-  .psrb-box3,
-  .psrb-box4 {
-    margin: 1px;
-    padding: 5px;
-    border: 2px solid rgb(125, 159, 211);
-    border-radius: 5px;
-    background-color: transparent;
+@media screen and (max-width: 595px) {
+  .psrb-wrapper {
+    display: block;
+    font-size: 1em;
   }
-	
-	@supports not (display: grid) {
-		.psrb-wrapper {
-			display: block;
-		}
-	}
+}
 
-  @media screen and (max-width: 595px) {
-    .psrb-wrapper {
-      display: block;
-      font-size: 1em;
-    }
-  }
+.psrb-wrapper a {
+  text-decoration: none;
+  border-bottom: 1px solid #707070;
+  padding: 0 1px 0;
+  margin: 0 -1px 0;
+}
 
-  .psrb-wrapper a {
-    text-decoration: none;
-		border-bottom: 1px solid #707070;
-		padding: 0 1px 0;
-		margin: 0 -1px 0;
-  }
-
-  .psrb-wrapper a:hover {
-    background-color: #f8f8f8;
-		border-bottom-width: 3px;
-		margin-bottom: -2px;
-  }
-  
+.psrb-wrapper a:hover {
+  background-color: #f8f8f8;
+  border-bottom-width: 3px;
+  margin-bottom: -2px;
+}
