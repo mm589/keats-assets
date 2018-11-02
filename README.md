@@ -7,6 +7,6 @@
   <li>JavaScript files for additional features;</li>
   <li>Image files for the key people sections;</li>
   <li>King's Corporate web font formats;</li>
-  <li>Other files as needed, e.g. other SBE programme web files.</li>
+  <li>Other files as needed, e.g. other SBE programme web files.**</li>
 </ul>
-<p>There are additional folders containing stylesheets and HTML files relating to other pages or web projects associated with the FoLSM category in KEATS, and they are titled respectively.</p>
+<p>** There are additional folders containing stylesheets and HTML files relating to other pages or web projects associated with the FoLSM category in KEATS, and they are titled respectively.</p>
