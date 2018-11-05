@@ -86,7 +86,7 @@ td[scope="row"] {
   margin-bottom: -2px;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 560px) {
   .psrb-contacts table,
   .psrb-contacts tbody,
   .psrb-contacts th,
