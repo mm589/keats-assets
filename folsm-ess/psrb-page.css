@@ -44,62 +44,62 @@
   margin-bottom: -2px;
 }
 
-  .psrb-contacts {
-    table-layout: auto;
-    width: 100%;
-    border-collapse: collapse;
-    font: 1em sans-serif;
-    line-height: 2;
-  }
+.psrb-contacts {
+  table-layout: auto;
+  width: 100%;
+  border-collapse: collapse;
+  font: 1em sans-serif;
+  line-height: 2;
+}
 
-  .psrb-contacts th[scope="col"],
-  th[scope="row"],
-  td[scope="row"] {
-    font-weight: bold;
-    text-align: left;
-    border: 3px solid rgb(125, 159, 211);
-    padding: 2px;
-  }
+.psrb-contacts th[scope="col"],
+th[scope="row"],
+td[scope="row"] {
+  font-weight: bold;
+  text-align: left;
+  border: 3px solid rgb(125, 159, 211);
+  padding: 2px;
+}
 
-  .psrb-contacts tr:nth-child(odd) {
-    background-color: whitesmoke;
-  }
+.psrb-contacts tr:nth-child(odd) {
+  background-color: whitesmoke;
+}
 
+.psrb-contacts th[scope="col"] {
+  background-color: #cedff5;
+}
+
+.psrb-contacts a {
+  text-decoration: none;
+  border-bottom: 1px solid #707070;
+  padding: 0 1px 0;
+  margin: 0 -1px 0;
+}
+
+.psrb-contacts a:hover {
+  background-color: #f8f8f8;
+  border-bottom-width: 3px;
+  margin-bottom: -2px;
+}
+
+@media only screen and (max-width: 500px) {
+  .psrb-contacts table,
+  .psrb-contacts tbody,
+  .psrb-contacts th,
+  .psrb-contacts td,
+  .psrb-contacts tr {
+    display: block;
+    border: 1px solid rgb(125, 159, 211);
+    background-color: transparent;
+  }
   .psrb-contacts th[scope="col"] {
-    background-color: #cedff5;
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
   }
-
-  .psrb-contacts a {
-    text-decoration: none;
-    border-bottom: 1px solid #707070;
-    padding: 0 1px 0;
-    margin: 0 -1px 0;
+  .psrb-contacts td {
+    position: relative;
+    white-space: normal;
+    text-align: left;
   }
-
-  .psrb-contacts a:hover {
-    background-color: #f8f8f8;
-    border-bottom-width: 3px;
-    margin-bottom: -2px;
-  }
-
-  @media only screen and (max-width: 500px) {
-    .psrb-contacts table,
-    .psrb-contacts tbody,
-    .psrb-contacts th,
-    .psrb-contacts td,
-    .psrb-contacts tr {
-      display: block;
-      border: 1px solid rgb(125, 159, 211);
-      background-color: transparent;
-    }
-    .psrb-contacts th[scope="col"] {
-      position: absolute;
-      top: -9999px;
-      left: -9999px;
-    }
-    .psrb-contacts td {
-      position: relative;
-      white-space: normal;
-      text-align: left;
-    }
-  }
+}
