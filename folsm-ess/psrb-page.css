@@ -5,6 +5,7 @@
   grid-gap: 0.5em;
   font: 1em sans-serif;
   line-height: 1.5;
+  color: black;
 }
 
 .psrb-box1,
@@ -44,12 +45,15 @@
   margin-bottom: -2px;
 }
 
+/* Styling for "Who's Who" table */
+
 .psrb-contacts {
   table-layout: auto;
   width: 100%;
   border-collapse: collapse;
   font: 1em sans-serif;
   line-height: 2;
+  color: black;
 }
 
 .psrb-contacts th[scope="col"],
