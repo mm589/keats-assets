@@ -30,6 +30,7 @@
     width: 168px;
     margin-left: -16px;
     filter: brightness(1.2);
+    pointer-events: none;
   }
 
   #RBP {
@@ -39,6 +40,7 @@
     filter: brightness(1.25);
     margin-left: -37px;
     image-rendering: auto;
+    pointer-events: none;
   }
 
   /* End fix image frames*/
