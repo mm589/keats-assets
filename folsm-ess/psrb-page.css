@@ -1,4 +1,5 @@
 /* styling for grid box and other page elements */
+
 .psrb-wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -10,9 +11,15 @@
 }
 
 .psrb-info {
-    font: 1em sans-serif;
-    line-height: 1.5;
-    color: black;
+  font: 1em sans-serif;
+  line-height: 1.5;
+  color: black;
+}
+
+.ess-info {
+  font: 1em sans-serif;
+  line-height: 1.5;
+  color: black;
 }
 
 .psrb-box1,
@@ -40,14 +47,19 @@
 }
 
 /* styling for hyperlinks */
-.psrb-wrapper a, .psrb-info a {
+
+.psrb-wrapper a,
+.psrb-info a,
+.ess-info a {
   text-decoration: none;
   border-bottom: 1px solid #707070;
   padding: 0 1px 0;
   margin: 0 -1px 0;
 }
 
-.psrb-wrapper a:hover, .psrb-info a:hover {
+.psrb-wrapper a:hover,
+.psrb-info a:hover,
+.ess-info a:hover {
   background-color: #f8f8f8;
   border-bottom-width: 3px;
   margin-bottom: -2px;
