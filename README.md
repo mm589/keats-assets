@@ -1,4 +1,4 @@
-# keats-sbe-mpharm-1819
+# KEATS Assets
 <h4>Repository for MPharm 18-19 KEATS course pages in the School of Bioscience Education (SBE) course category structure</h4>
 <p>This repository contains all CSS, HTML, JavaScript and other files for use on the MPharm KEATS pages:</p>
 <ul>
