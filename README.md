@@ -1,5 +1,5 @@
 # KEATS Assets
-<h4>Repository for KEATS (Moodle) assets for courses in the School of Bioscience Education (SBE) course category structure</h4>
+<h4>Repository for KEATS (Moodle) assets for courses in the School of Bioscience Education (SBE)</h4>
 <p>This repository contains all CSS, HTML, JavaScript and other files for use on the MPharm KEATS pages:</p>
 <ul>
   <li>CSS stylesheets to define the HTML files for the Year Course Noticeboards, the MPharm homepage and other KEATS course pages;</li>
