@@ -1,4 +1,4 @@
-/* styling for grid box and and other page elements */
+/* styling for grid box and other page elements */
 .psrb-wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
