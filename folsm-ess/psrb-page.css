@@ -10,12 +10,7 @@
   color: black;
 }
 
-.psrb-info {
-  font: 1em sans-serif;
-  line-height: 1.5;
-  color: black;
-}
-
+.psrb-info,
 .ess-info {
   font: 1em sans-serif;
   line-height: 1.5;
