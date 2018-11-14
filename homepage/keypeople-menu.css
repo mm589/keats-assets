@@ -1,7 +1,9 @@
   @import url('https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
   .mpharm-1819-keypeople {
-    font: 1.1em sans-serif;
+    font: 1em sans-serif;
   }
+
+  /* styling for departmental links section */
 
   .departmental-links li {
     list-style-type: none;
@@ -17,35 +19,50 @@
     font-family: FontAwesome;
   }
 
-  .mpharm-teaching-staff,
-  .mpharm-senior-leadership {
+  /* styling for teaching leadership section and teaching staff table */
+
+  .mpharm-teaching-staff
+  /* teaching staff contacts table */
+
+    {
     width: 100%;
     table-layout: fixed;
     border-collapse: collapse;
   }
 
-  @media only screen and (min-width: 150px) and (max-width: 370px) {
-    .mpharm-teaching-staff,
-    .mpharm-senior-leadership {
-      table-layout: auto;
+  @media only screen and (max-width: 665px) {
+    .mpharm-teaching-staff table,
+    .mpharm-teaching-staff tbody,
+    .mpharm-teaching-staff th,
+    .mpharm-teaching-staff td,
+    .mpharm-teaching-staff tr {
+      display: block;
+    }
+    .mpharm-teaching-staff th[scope="col"] {
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+    }
+    .mpharm-teaching-staff td[scope="row"],
+    .mpharm-years-headers td[scope="col"] {
+      position: relative;
+      white-space: normal;
+      text-align: left;
     }
   }
 
   .mpharm-teaching-staff th[scope="col"],
-  td[scope="col"],
-  .mpharm-senior-leadership th[scope="col"],
   td[scope="col"] {
-    border: 3px solid #7d9fd3;
-    font: bold 1.1em sans-serif;
+    border: 2px solid #7d9fd3;
+    font: bold 1em sans-serif;
     text-align: left;
     padding: 5px;
     background-color: #eeeeee;
   }
 
-  .mpharm-teaching-staff td[scope="row"],
-  .mpharm-senior-leadership td[scope="row"] {
+  .mpharm-teaching-staff td[scope="row"] {
     font: 1em sans-serif;
-    border: 3px solid #7d9fd3;
+    border: 2px solid #7d9fd3;
     text-align: left;
     padding: 5px;
   }
@@ -60,7 +77,7 @@
     padding: 2px;
     color: #545454;
     text-align: left;
-    font: bold 1.6em sans-serif;
+    font: bold 1.4em sans-serif;
   }
 
   .year-modules ul {
@@ -72,6 +89,45 @@
     vertical-align: top;
     font: 1em sans-serif;
   }
+
+  .psrb-wrapper
+  /* teaching leadership grid boxes */
+
+    {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 0;
+    font: 1em sans-serif;
+    color: black;
+  }
+
+  .psrb-box1,
+  .psrb-box2 {
+    margin: 1px;
+    padding: 5px;
+    border: 2px solid #7d9fd3;
+    background-color: transparent;
+  }
+
+  @supports not (display: grid) {
+    .psrb-wrapper {
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 695px) {
+    .psrb-wrapper {
+      display: block;
+      font-size: 1em;
+    }
+    .psrb-box1 .resize-image,
+    .psrb-box2 .resize-image {
+      display: none;
+    }
+  }
+
+  /* styling for accordion menu buttons and div panels */
 
   .accordion {
     background-color: #eee;
@@ -147,10 +203,10 @@
   .mpharm2,
   .mpharm3,
   .mpharm4 {
-    border: 3px solid #7d9fd3;
+    border: 2px solid #7d9fd3;
   }
 
-  /* Resizing images */
+  /* resize images to fit within specified div container */
 
   .resize-image {
     display: inline;
@@ -179,7 +235,7 @@
     pointer-events: none;
   }
 
-  /* End resizing images */
+  /* don't display modified datestamp */
 
   .modified {
     display: none;
