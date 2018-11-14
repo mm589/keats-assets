@@ -39,16 +39,22 @@
     .mpharm-teaching-staff tr {
       display: block;
     }
-    .mpharm-teaching-staff th[scope="col"] {
+    .mpharm-teaching-staff th[scope="col"],
+    .mpharm-years-headers td[scope="col"] {
       position: absolute;
       top: -9999px;
       left: -9999px;
     }
-    .mpharm-teaching-staff td[scope="row"],
-    .mpharm-years-headers td[scope="col"] {
+    .mpharm-teaching-staff td[scope="row"] {
       position: relative;
       white-space: normal;
       text-align: left;
+    }
+    .mpharm1 td[scope="row"],
+    .mpharm2 td[scope="row"],
+    .mpharm3 td[scope="row"],
+    .mpharm4 td[scope="row"] {
+      border: 1px solid #7d9fd3 !important;
     }
   }
 
