@@ -49,6 +49,7 @@
       position: relative;
       white-space: normal;
       text-align: left;
+      border: 1px solid #7d9fd3;
     }
     .mpharm1 td[scope="row"],
     .mpharm2 td[scope="row"],
@@ -64,7 +65,7 @@
     font: bold 1em sans-serif;
     text-align: left;
     padding: 5px;
-    background-color: #eeeeee;
+    background-color: whitesmoke;
   }
 
   .mpharm-teaching-staff td[scope="row"] {
@@ -76,7 +77,7 @@
 
   #mpharm-years {
     font: bold 1.1em sans-serif;
-    background-color: #eeeeee;
+    background-color: whitesmoke;
   }
 
   #caption {
@@ -166,7 +167,7 @@
 
   .mpharm-panel .year-modules ul li:nth-child(2n+1) {
     border: dotted 2px;
-    background-color: #eeeeee;
+    background-color: whitesmoke;
   }
 
   .accordion::after {
