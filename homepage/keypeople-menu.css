@@ -49,7 +49,7 @@
       position: relative;
       white-space: normal;
       text-align: left;
-      border: 1px solid #7d9fd3;
+      border: 1.25px solid #7d9fd3 !important;
     }
     .mpharm1 td[scope="row"],
     .mpharm2 td[scope="row"],
