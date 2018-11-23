@@ -72,6 +72,7 @@
 
   #DV {
     margin-top: -10px;
+    width: 140px;
     filter: brightness(1.05);
     image-rendering: auto;
     pointer-events: none;
@@ -88,9 +89,9 @@
   }
 
   #JP {
-    height: 120px;
-    width: 180px;
-    margin-left: -28px;
+    height: 140px;
+    width: 200px;
+    margin-left: -38px;
     filter: brightness(1.15);
     image-rendering: auto;
     pointer-events: none;
