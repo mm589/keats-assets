@@ -60,6 +60,9 @@
     tr.mpharm-teachingstaff {
       border: 2px solid #7d9fd3;
     }
+    .mpharm-panel {
+    overflow-y: auto;
+    }
   }
 
   .mpharm-teaching-staff th[scope="col"],
