@@ -49,19 +49,12 @@
       position: relative;
       white-space: normal;
       text-align: left;
-      border: none !important;
     }
     .mpharm1 td[scope="row"],
     .mpharm2 td[scope="row"],
     .mpharm3 td[scope="row"],
     .mpharm4 td[scope="row"] {
       border: 1px solid #7d9fd3 !important;
-    }
-    tr.mpharm-teachingstaff {
-      border: 2px solid #7d9fd3;
-    }
-    .mpharm-panel {
-    overflow-y: auto;
     }
   }
 
@@ -72,6 +65,12 @@
     text-align: left;
     padding: 5px;
     background-color: whitesmoke;
+  }
+
+  @media only screen and (max-width: 566px) {
+    tr.mpharm-teaching-staff {
+      border: 2px solid #7d9fd3;
+    }
   }
 
   .mpharm-teaching-staff td[scope="row"] {
@@ -169,6 +168,12 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+  }
+
+  @media only screen and (max-width: 450px) {
+    .mpharm-panel {
+      overflow-y: auto;
+    }
   }
 
   .mpharm-panel .year-modules ul li:nth-child(2n+1) {
