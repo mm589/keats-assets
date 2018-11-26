@@ -49,6 +49,7 @@
       position: relative;
       white-space: normal;
       text-align: left;
+      border: none !important;
     }
     .mpharm1 td[scope="row"],
     .mpharm2 td[scope="row"],
