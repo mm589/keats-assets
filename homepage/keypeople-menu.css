@@ -56,6 +56,9 @@
     .mpharm4 td[scope="row"] {
       border: 1px solid #7d9fd3 !important;
     }
+    tr.mpharm-teaching-staff {
+      border: 2px solid #7d9fd3;
+    }
   }
 
   .mpharm-teaching-staff th[scope="col"],
@@ -65,12 +68,6 @@
     text-align: left;
     padding: 5px;
     background-color: whitesmoke;
-  }
-
-  @media only screen and (max-width: 566px) {
-    tr.mpharm-teaching-staff {
-      border: 2px solid #7d9fd3;
-    }
   }
 
   .mpharm-teaching-staff td[scope="row"] {
