@@ -49,13 +49,18 @@
       position: relative;
       white-space: normal;
       text-align: left;
-      border: 1.25px solid #7d9fd3 !important;
     }
     .mpharm1 td[scope="row"],
     .mpharm2 td[scope="row"],
     .mpharm3 td[scope="row"],
     .mpharm4 td[scope="row"] {
       border: 1px solid #7d9fd3 !important;
+    }
+    #mpharm-years {
+      border: 2px solid #7d9fd3;
+    }
+    tr.mpharm-teachingstaff {
+      border: 2px solid #7d9fd3;
     }
   }
 
