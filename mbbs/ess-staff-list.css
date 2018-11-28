@@ -7,7 +7,7 @@
 }
 
 .mbbs-acadctr th[scope="col"], td[scope="col"] {
-  font: bold 1.2em sans-serif;
+  font: bold 1.1em sans-serif;
   border: 3px solid #7d9fd3;
   text-align: left;
   padding: 5px;
@@ -15,7 +15,7 @@
 }
 
 .mbbs-acadctr td[scope="row"] {
-  font: bold 1.1em sans-serif;
+  font: bold 1em sans-serif;
   border: 3px solid #7d9fd3;
   text-align: left;
   padding: 5px;
@@ -31,7 +31,7 @@
 #caption {
   margin: 3px;
   padding: 2px;
-  font: bold 2em sans-serif;
+  font: bold 1.6em sans-serif;
   color: #0B5578;
   text-align: center;
   line-height: 2;
