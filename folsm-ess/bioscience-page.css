@@ -1,3 +1,5 @@
+@import src("https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+
 /* styling for grid box and other page elements */
 .bioscience-wrapper {
     display: grid;
