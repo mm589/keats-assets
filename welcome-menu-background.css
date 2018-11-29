@@ -308,6 +308,9 @@
     #psrb-tldr {
       display: none;
     }
+    .year4-box blockquote {
+      display: none;
+    }
   }
 
   .modified {
