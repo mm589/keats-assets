@@ -242,7 +242,6 @@
 .psrb-box2 {
   margin: 1px;
   padding: 5px;
-  border: 2px solid #028E90;
   background-color: transparent;
 }
 
@@ -257,4 +256,14 @@
     display: block;
     font-size: 1em;
   }
+}
+
+.psrb-name {
+  padding: 3px;
+  background-color: #028E90;
+  color: whitesmoke;
+}
+
+.psrb-info {
+  border: 1px solid #028E90;
 }
