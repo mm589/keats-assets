@@ -1,7 +1,9 @@
-  @import url('https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
-
   h2 {
     display: none;
+  }
+
+  .psrb-wrapper h4 {
+    margin: 5px;
   }
 
   .year1-box h4,
@@ -20,6 +22,32 @@
     font-weight: 700;
   }
 
+  /* Styling for grid boxes */
+
+  .psrb-wrapper {
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-rows: auto;
+    grid-gap: 0.5em;
+    font: 1em sans-serif;
+    line-height: 1.5;
+    color: black;
+    padding: 5px;
+    border: 3px;
+    border-top: 0;
+    border-color: #028E90;
+    border-style: solid;
+  }
+
+  .psrb-box1,
+  .psrb-box2 {
+    margin: 1px;
+    padding: 5px;
+    border: 1px solid #028E90;
+    border-radius: 5px;
+    background-color: whitesmoke;
+  }
+
   /* Fixing image frames for key people */
 
   .resize-image {
@@ -32,7 +60,7 @@
     overflow: hidden;
   }
 
-  /* Specific people pages for each year */
+  /* Styling for images of individual key people for each year */
 
   #B-Jubraj {
     height: 140px;
@@ -108,154 +136,12 @@
     display: inline;
   }
 
-  .year1-keypeople img,
-  .year2-keypeople img,
-  .year3-keypeople img,
-  .year4-keypeople img {
-    float: left;
-  }
-
-  /* accordion menu styling */
-
-  .accordion {
-    background-color: #eee;
-    font: 1.1em sans-serif;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    margin-bottom: 2px;
-    width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-  }
-
-  .active-year1,
-  .active-year2,
-  .active-year3,
-  .active-year4,
-  .accordion:hover {
-    background-color: #ccc;
-  }
-
-  .accordion:focus,
-  .accordion:active {
-    color: #333;
-  }
-
-  .year1-panel,
-  .year2-panel,
-  .year3-panel,
-  .year4-panel {
-    margin: 0;
-    padding: 0;
-    background-color: white;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.25s ease-out;
-  }
-
   .person-desc {
     font: bold 1.1em sans-serif;
     line-height: 1.3;
   }
 
-  .year1-panel table,
-  .year2-panel table,
-  .year3-panel table,
-  .year4-panel table {
-    box-sizing: border-box;
-    border-collapse: collapse;
-    width: 100%;
-    table-layout: auto;
-    border: 2px solid none;
-  }
-
-  .year1-panel td,
-  .year2-panel td,
-  .year3-panel td,
-  .year4-panel td {
-    background-color: #f4f5f7;
-  }
-
-  .accordion::after {
-    content: "\f13a";
-    font-family: FontAwesome;
-    font-size: 1.5em;
-    height: 1.3em;
-    text-align: center;
-    width: 1.5em;
-    position: absolute;
-    right: 2%;
-  }
-
-  .active-year1::after,
-  .active-year2::after,
-  .active-year3::after,
-  .active-year4::after {
-    content: "\f139";
-    font-family: FontAwesome;
-  }
-
-  @media only screen and (max-width: 320px) {
-    /* mobile phones */
-    .accordion::after {
-      right: 5%;
-    }
-    .active-year1::after,
-    .active-year2::after,
-    .active-year3::after,
-    .active-year4::after {
-      right: 5%;
-    }
-    .year1-panel,
-    .year2-panel,
-    .year3-panel,
-    .year4-panel {
-      overflow-y: auto;
-    }
-  }
-
-  @media only screen and (min-width: 321px) and (max-width: 374px) {
-    /* mobile phones */
-    .accordion::after {
-      right: 5%;
-    }
-    .active-year1::after,
-    .active-year2::after,
-    .active-year3::after,
-    .active-year4::after {
-      right: 5%;
-    }
-    .year1-panel,
-    .year2-panel,
-    .year3-panel,
-    .year4-panel {
-      overflow-y: auto;
-    }
-  }
-
-  @media only screen and (min-width: 375px) and (max-width: 767px) {
-    /* mobile phones */
-    .accordion::after {
-      right: 4%;
-    }
-    .active-year1::after,
-    .active-year2::after,
-    .active-year3::after,
-    .active-year4::after {
-      right: 4%;
-    }
-    .year1-panel,
-    .year2-panel,
-    .year3-panel,
-    .year4-panel {
-      overflow-y: auto;
-    }
-  }
-
-  /* Styling for introductory section*/
+  /* Styling for introductory section boxes*/
 
   .mpharm-year1,
   .mpharm-year4 {
@@ -264,6 +150,10 @@
     background-repeat: no-repeat;
     background-position: right top -80px;
     overflow: auto;
+    border: 3px;
+    border-bottom: 0;
+    border-color: #028E90;
+    border-style: solid;
   }
 
   .mpharm-year2,
@@ -272,6 +162,10 @@
     background-color: rgb(201, 218, 234);
     background-repeat: no-repeat;
     overflow: auto;
+    border: 3px;
+    border-bottom: 0;
+    border-color: #028E90;
+    border-style: solid;
   }
 
   .year1-box,
