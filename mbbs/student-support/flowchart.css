@@ -1,0 +1,207 @@
+  @import url("https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+  @font-face {
+    font-family: 'BureauGrotesqueThreeSeven';
+    src: url(https://cdn.jsdelivr.net/gh/mm589/keats-assets/Fonts/BureauGrotesqueThreeSeven.woff) format('woff'), url(https://cdn.jsdelivr.net/gh/mm589/keats-assets/Fonts/KingsBureauGrot-ThreeSeven.ttf) format('truetype');
+    font-family: 'Kings Caslon Display';
+    src: url(https://cdn.jsdelivr.net/gh/mm589/keats-assets/Fonts/KingsCaslonDisplay.ttf) format('truetype');
+  }
+
+  /* Styling for all grid boxes*/
+
+  .linksHeader {
+    grid-area: hd;
+  }
+
+  .linksSocieties {
+    grid-area: ft;
+  }
+
+  .linksWelfare {
+    grid-area: sd;
+  }
+
+  .linksAcademic {
+    grid-area: main;
+  }
+
+  .essSupportLinks {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-auto-rows: auto;
+    grid-template-areas: "hd hd hd hd hd   hd   hd   hd" "sd sd sd sd main main main main" "ft ft ft ft ft   ft   ft   ft";
+    grid-gap: 0.5em;
+    font-family: "Kings Caslon Text", Georgia, sans-serif;
+    font-size: 1.2em;
+    color: black;
+    background-color: rgb(48, 149, 180);
+    border-radius: 5px;
+  }
+
+  @supports not (display: grid) {
+    .essSupportLinks {
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 595px) {
+    .essSupportLinks {
+      display: block;
+    }
+  }
+
+  /* Styling for headings */
+
+  h2 {
+    display: none;
+  }
+
+  .essSupportLinks h3,
+  h4 {
+    color: white;
+    text-align: center;
+  }
+
+  .linksWelfare h5,
+  .linksAcademic h5 {
+    font-size: 1.2em;
+    color: black;
+  }
+
+  .linksSocieties h5 {
+    font-size: 1.2em;
+    color: black;
+    text-align: center;
+  }
+
+  .essSupportLinks ul li {
+    list-style-type: none;
+  }
+
+  .essSupportLinks ul li::before {
+    font-family: "FontAwesome";
+    font-size: 1em;
+    content: "\f0a9";
+    padding-right: 15px;
+    display: inline;
+  }
+
+  .essSupportLinks ul a {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+
+  li.welfareTopic1,
+  li.welfareTopic2,
+  li.welfareTopic3,
+  li.welfareTopic4,
+  li.welfareTopic5,
+  li.academicTopic1,
+  li.academicTopic2,
+  li.academicTopic3,
+  li.academicTopic4,
+  li.academicTopic5,
+  li.academicTopic6 {
+    margin: 3px 0 3px 0;
+  }
+
+  /* Styling for links grid boxes */
+
+  .linksHeader {
+    grid-column-end: span 8;
+  }
+
+  .linksWelfare {
+    background-color: rgb(184, 205, 159);
+    border-radius: 5px;
+    border: 2px solid rgb(115, 134, 57);
+    margin: 5px 0 0 10px;
+    padding: 7px;
+    grid-column-end: span 4;
+  }
+
+  @media screen and (max-width: 595px) {
+    .linksWelfare {
+      display: block;
+      margin-right: 10px;
+    }
+  }
+
+  .linksAcademic {
+    background-color: rgb(255, 230, 153);
+    border-radius: 5px;
+    border: 2px solid rgb(192, 145, 0);
+    margin: 5px 10px 0 0;
+    padding: 7px;
+    grid-column-end: span 4;
+  }
+
+  @media screen and (max-width: 595px) {
+    .linksAcademic {
+      display: block;
+      margin-left: 10px;
+    }
+  }
+
+  .linksSocieties {
+    background-color: rgb(245, 177, 131);
+    border-radius: 5px;
+    border: 2px solid rgb(179, 94, 37);
+    margin: 0 10px 20px 10px;
+    padding: 5px;
+    grid-column-end: span 8;
+  }
+
+  @media screen and (max-width: 595px) {
+    .linksSocieties {
+      display: block;
+      margin: 5px 10px 10px 10px;
+      padding: 7px;
+    }
+  }
+
+  .linksSocieties ul {
+    border-radius: 5px;
+    border: 2px solid rgb(179, 94, 37);
+    background-color: rgb(252, 229, 214);
+    padding-left: 20px;
+  }
+
+  .welfareTopics ul:nth-child(1n) {
+    border-radius: 5px;
+    border: 2px solid rgb(115, 134, 57);
+    background-color: rgb(218, 229, 205);
+    margin-top: 7px;
+  }
+
+  .academicTopics ul:nth-child(1n) {
+    border-radius: 5px;
+    border: 2px solid rgb(192, 145, 0);
+    background-color: rgb(255, 243, 204);
+    margin-top: 7px;
+  }
+
+  .linksSocieties p {
+    background-color: rgb(252, 229, 214);
+    border-radius: 5px;
+    border: 2px solid rgb(179, 94, 37);
+    margin: 15px;
+    padding: 5px;
+  }
+
+  .bsaBox::after {
+    content: "\f063";
+    font-family: "FontAwesome";
+    font-size: 1em;
+    padding-left: 50%;
+  }
+
+  .msaBox::before {
+    content: "\f062";
+    font-family: "FontAwesome";
+    font-size: 1em;
+    padding-left: 50%;
+  }
+
+  .modified {
+    display: none;
+  }
