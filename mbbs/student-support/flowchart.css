@@ -172,6 +172,7 @@
     background-color: rgb(218, 229, 205);
     margin-top: 7px;
     padding-left: 7px;
+    font-weight: bold;
   }
 
   .academicTopics ul:nth-child(1n) {
@@ -180,6 +181,7 @@
     background-color: rgb(255, 243, 204);
     margin-top: 7px;
     padding-left: 7px;
+    font-weight: bold;
   }
 
   .linksSocieties p {
@@ -188,6 +190,7 @@
     border: 2px solid rgb(179, 94, 37);
     margin: 15px;
     padding: 5px;
+    font-weight: bold;
   }
 
   .bsaBox::after {
