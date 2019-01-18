@@ -119,7 +119,7 @@
     grid-column-end: span 4;
   }
 
-  @media screen and (max-width: 595px) {
+  @media screen and (max-width: 611px) {
     .linksWelfare {
       display: block;
       margin-right: 10px;
@@ -135,7 +135,7 @@
     grid-column-end: span 4;
   }
 
-  @media screen and (max-width: 595px) {
+  @media screen and (max-width: 611px) {
     .linksAcademic {
       display: block;
       margin-left: 10px;
@@ -151,7 +151,7 @@
     grid-column-end: span 8;
   }
 
-  @media screen and (max-width: 595px) {
+  @media screen and (max-width: 611px) {
     .linksSocieties {
       display: block;
       margin: 5px 10px 10px 10px;
