@@ -25,7 +25,7 @@ For reference, <code>.woff</code> is for Web Open Font Formats and <code>.ttf</c
 <br>
 <code>p { font-family: 'BureauGrotesqueThreeSeven', Impact, sans-serif; }</code>
 
-For HTML, <code><p style="font-family: BureauGrotesqueThreeSeven";></code>
+For HTML, <code><p style="font-family: BureauGrotesqueThreeSeven;"></code>
 
 <h4>Acceptable font alternatives for web browser compatibility</h4>
 
