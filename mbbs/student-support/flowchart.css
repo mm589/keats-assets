@@ -191,6 +191,11 @@
     font-weight: bold;
   }
 
+  .linksSocieties p a {
+    font-size: 1.2em;
+    text-decoration: underline;
+  }
+
   .bsaBox::after {
     content: "\f063";
     font-family: "FontAwesome";
