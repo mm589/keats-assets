@@ -6,7 +6,7 @@
     src: url(https://cdn.jsdelivr.net/gh/mm589/keats-assets/Fonts/KingsCaslonDisplay.ttf) format('truetype');
   }
 
-  @supports not (display: grid) {
+  @supports (-webkit-appearance:none) {
     .essSupportLinks {
       display: block;
     }
