@@ -173,6 +173,14 @@
     }
   }
 
+  @supports not (display: grid) {
+    .linksSocieties {
+      display: block;
+      margin: 5px 10px 10px 10px;
+      padding: 7px;
+    }
+  }
+
   .linksSocieties ul {
     border-radius: 5px;
     border: 2px solid rgb(179, 94, 37);
