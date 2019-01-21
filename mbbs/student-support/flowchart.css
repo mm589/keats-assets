@@ -153,9 +153,10 @@
 
   @media screen and (max-width: 611px) {
     .linksSocieties {
-      display: block;
+      display: inline-block;
       margin: 5px 10px 10px 10px;
       padding: 7px;
+      width: -webkit-fill-available;
     }
   }
 
