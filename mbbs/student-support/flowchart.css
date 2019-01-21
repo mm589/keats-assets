@@ -6,7 +6,7 @@
     src: url(https://cdn.jsdelivr.net/gh/mm589/keats-assets/Fonts/KingsCaslonDisplay.ttf) format('truetype');
   }
 
-  @supports (-webkit-appearance:none) {
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
     .essSupportLinks {
       display: block;
     }
