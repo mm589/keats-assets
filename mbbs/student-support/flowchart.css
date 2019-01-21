@@ -6,6 +6,17 @@
     src: url(https://cdn.jsdelivr.net/gh/mm589/keats-assets/Fonts/KingsCaslonDisplay.ttf) format('truetype');
   }
 
+  @supports not (display: grid) {
+    .essSupportLinks {
+      display: block;
+    }
+    .linksSocieties {
+      display: block;
+      margin: 5px 10px 10px 10px;
+      padding: 7px;
+    }
+  }
+
   /* Styling for all grid boxes*/
 
   .linksHeader {
@@ -38,12 +49,6 @@
     color: black;
     background-color: rgb(48, 149, 180);
     border-radius: 5px;
-  }
-
-  @supports not (display: grid) {
-    .essSupportLinks {
-      display: block;
-    }
   }
 
   @media screen and (max-width: 611px) {
@@ -170,14 +175,6 @@
       padding: 7px;
       width: -webkit-fill-available;
       width: -moz-available;
-    }
-  }
-
-  @supports not (display: grid) {
-    .linksSocieties {
-      display: block;
-      margin: 5px 10px 10px 10px;
-      padding: 7px;
     }
   }
 
