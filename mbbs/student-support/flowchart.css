@@ -26,8 +26,11 @@
 
   .essSupportLinks {
     display: grid;
+    display: -ms-grid;
     grid-template-columns: repeat(8, 1fr);
+    -ms-grid-columns: ( 1fr )[8];
     grid-auto-rows: auto;
+    -ms-grid-rows: auto;
     grid-template-areas: "hd hd hd hd hd   hd   hd   hd" "sd sd sd sd main main main main" "ft ft ft ft ft   ft   ft   ft";
     grid-gap: 0.5em;
     font-family: "Kings Caslon Text", Georgia, sans-serif;
@@ -108,6 +111,8 @@
 
   .linksHeader {
     grid-column-end: span 8;
+    -ms-grid-column-span: 8;
+    -ms-grid-row: 1;
   }
 
   .linksWelfare {
@@ -117,6 +122,8 @@
     margin: 5px 0 0 10px;
     padding: 7px;
     grid-column-end: span 4;
+    -ms-grid-columns-span: 4;
+    -ms-grid-row: 2;
   }
 
   @media screen and (max-width: 611px) {
@@ -133,6 +140,9 @@
     margin: 5px 10px 0 0;
     padding: 7px;
     grid-column-end: span 4;
+    -ms-grid-column: 5;
+    -ms-grid-column-span: 4;
+    -ms-grid-row: 2;
   }
 
   @media screen and (max-width: 611px) {
@@ -149,6 +159,8 @@
     margin: 0 10px 20px 10px;
     padding: 5px;
     grid-column-end: span 8;
+    -ms-grid-row: 3;
+    -ms-grid-column-span: 8;
   }
 
   @media screen and (max-width: 611px) {
