@@ -6,17 +6,6 @@
     src: url(https://cdn.jsdelivr.net/gh/mm589/keats-assets/Fonts/KingsCaslonDisplay.ttf) format('truetype');
   }
 
-  @supports (-webkit-appearance:none) {
-    .essSupportLinks {
-      display: block;
-    }
-    .linksSocieties {
-      display: block;
-      margin: 5px 10px 10px 10px;
-      padding: 7px;
-    }
-  }
-
   /* Styling for all grid boxes*/
 
   .linksHeader {
@@ -43,12 +32,17 @@
     grid-auto-rows: auto;
     -ms-grid-rows: auto;
     grid-template-areas: "hd hd hd hd hd   hd   hd   hd" "sd sd sd sd main main main main" "ft ft ft ft ft   ft   ft   ft";
-    grid-gap: 0.5em;
     font-family: "Kings Caslon Text", Georgia, sans-serif;
     font-size: 1.2em;
     color: black;
     background-color: rgb(48, 149, 180);
     border-radius: 5px;
+  }
+
+  @supports (grid-gap: 0.5em) {
+    .essSupportLinks {
+      grid-gap: 0.5em;
+    }
   }
 
   @media screen and (max-width: 611px) {
@@ -124,7 +118,7 @@
     background-color: rgb(184, 205, 159);
     border-radius: 5px;
     border: 2px solid rgb(115, 134, 57);
-    margin: 5px 0 0 10px;
+    margin: 5px 5px 0 10px;
     padding: 7px;
     grid-column-end: span 4;
     -ms-grid-column-span: 4;
@@ -161,7 +155,7 @@
     background-color: rgb(245, 177, 131);
     border-radius: 5px;
     border: 2px solid rgb(179, 94, 37);
-    margin: 0 10px 20px 10px;
+    margin: 5px 10px 20px 10px;
     padding: 5px;
     grid-column-end: span 8;
     -ms-grid-row: 3;
@@ -170,11 +164,15 @@
 
   @media screen and (max-width: 611px) {
     .linksSocieties {
-      display: inline-block;
       margin: 5px 10px 10px 10px;
       padding: 7px;
       width: -webkit-fill-available;
       width: -moz-available;
+    }
+    @supports (display: grid) {
+      .linksSocieties {
+        display: inline-block;
+      }
     }
   }
 
