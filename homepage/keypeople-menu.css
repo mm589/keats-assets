@@ -59,6 +59,7 @@
     }
     tr.mpharm-table-row {
       border: 2px solid #7d9fd3;
+      border-bottom: 1px;
     }
   }
 
@@ -220,6 +221,7 @@
   .mpharm3,
   .mpharm4 {
     border: 2px solid #7d9fd3;
+    border-top: 1px;
   }
 
   /* resize images to fit within specified div container */
