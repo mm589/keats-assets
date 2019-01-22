@@ -84,6 +84,12 @@
     background-color: whitesmoke;
   }
 
+  @media only screen and (max-width: 665px) {
+    #mpharm-years {
+      border: 2px solid #7d9fd3;
+    }
+  }
+
   #caption {
     margin: 3px;
     padding: 2px;
