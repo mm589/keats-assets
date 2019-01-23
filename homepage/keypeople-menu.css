@@ -198,7 +198,7 @@
     text-align: center;
     width: 1.5em;
     position: absolute;
-    right: 2%;
+    right: 3%;
   }
 
   .active-mpharm::after {
@@ -206,8 +206,18 @@
     font-family: FontAwesome;
   }
 
-  @media only screen and (max-width: 767px) {
-    /* mobile phones */
+  @media only screen and (min-width: 320px) and (max-width: 374px) {
+    /* small mobile phones */
+    .accordion::after {
+      right: 6%;
+    }
+    .active-mpharm::after {
+      right: 6%;
+    }
+  }
+
+  @media only screen and (min-width: 375px) and (max-width: 425px) {
+    /* medium mobile phones */
     .accordion::after {
       right: 5%;
     }
@@ -216,13 +226,43 @@
     }
   }
 
-  @media only screen and (min-width: 375px) and (max-width: 766px) {
-    /* mobile phones */
+  @media only screen and (min-width: 426px) and (max-width: 620px) {
+    /* large mobile phones */
     .accordion::after {
       right: 4%;
     }
     .active-mpharm::after {
       right: 4%;
+    }
+  }
+
+  @media only screen and (min-width: 621px) and (max-width: 767px) {
+    /* tablets */
+    .accordion::after {
+      right: 3.5%;
+    }
+    .active-mpharm::after {
+      right: 3.5%;
+    }
+  }
+
+  @media only screen and (min-width: 975px) and (max-width: 1439px) {
+    /* laptops */
+    .accordion::after {
+      right: 2.5%;
+    }
+    .active-mpharm::after {
+      right: 2.5%;
+    }
+  }
+
+  @media only screen and (min-width: 1440px) {
+    /* large laptops */
+    .accordion::after {
+      right: 2%;
+    }
+    .active-mpharm::after {
+      right: 2%;
     }
   }
 
