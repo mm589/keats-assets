@@ -246,7 +246,7 @@
     }
   }
 
-  @media only screen and (min-width: 975px) and (max-width: 1439px) {
+  @media only screen and (min-width: 975px) and (max-width: 1199px) {
     /* laptops */
     .accordion::after {
       right: 2.5%;
@@ -256,7 +256,7 @@
     }
   }
 
-  @media only screen and (min-width: 1440px) {
+  @media only screen and (min-width: 1200px) {
     /* large laptops */
     .accordion::after {
       right: 2%;
