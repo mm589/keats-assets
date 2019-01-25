@@ -53,10 +53,6 @@
 
   /* Styling for headings */
 
-  h2 {
-    display: none;
-  }
-
   .essSupportLinks h3,
   h4 {
     color: white;
@@ -89,7 +85,6 @@
   .essSupportLinks ul a {
     font-size: 1.2em;
     font-weight: bold;
-    text-decoration: underline;
   }
 
   li.welfareTopic1,
@@ -210,7 +205,6 @@
 
   .linksSocieties p a {
     font-size: 1.2em;
-    text-decoration: underline;
   }
 
   .bsaBox::after {
