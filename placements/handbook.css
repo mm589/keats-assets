@@ -223,47 +223,57 @@
 
   .lab-ranges tr[scope="row"],
   .mrcf-standards tr[scope="row"] {
-    border-bottom: 1px dotted #028E90;
+    border-bottom: 2px dotted #028E90;
   }
 
   /* end styling for tables*/
 
-/* styling for grid boxes in placement contacts section */
+  /* styling for grid boxes in placement contacts section */
 
-.psrb-wrapper {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-auto-rows: minmax(100px, auto);
-  line-height: 1.5;
-  color: black;
-}
-
-.psrb-box1,
-.psrb-box2 {
-  margin: 1px;
-  border: 2px solid #028E90;
-  background-color: transparent;
-}
-
-@supports not (display: grid) {
   .psrb-wrapper {
-    display: block;
+    display: grid;
+    display: -ms-grid;
+    grid-template-columns: repeat(2, 1fr);
+    -ms-grid-columns: ( 1fr)[2];
+    grid-auto-rows: minmax(100px, auto);
+    line-height: 1.5;
+    color: black;
   }
-}
 
-@media screen and (max-width: 595px) {
-  .psrb-wrapper {
-    display: block;
-    font-size: 1em;
+  .psrb-box1 {
+    -ms-grid-column: 1;
   }
-}
 
-.psrb-name {
-  padding: 3px;
-  background-color: #028E90;
-  color: whitesmoke;
-}
+  .psrb-box2 {
+    -ms-grid-column: 2;
+  }
 
-.psrb-info {
-  padding: 3px;
-}
+  .psrb-box1,
+  .psrb-box2 {
+    margin: 1px;
+    border: 2px solid #028E90;
+    background-color: transparent;
+  }
+
+  @supports not (display: grid) {
+    .psrb-wrapper {
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 595px) {
+    .psrb-wrapper {
+      display: block;
+      font-size: 1em;
+    }
+  }
+
+  .psrb-name {
+    padding: 3px;
+    background-color: #028E90;
+    color: whitesmoke;
+  }
+
+  .psrb-info {
+    padding: 3px;
+  }
