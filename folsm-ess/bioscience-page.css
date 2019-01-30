@@ -3,13 +3,35 @@
 /* styling for grid box and other page elements */
 .bioscience-wrapper {
     display: grid;
+    display: -ms-grid;
     grid-template-columns: repeat(2, 1fr);
+    -ms-grid-columns: ( 1fr )[2];
     grid-auto-rows: minmax(100px, auto);
     grid-gap: 0.5em;
     font: 1em sans-serif;
     line-height: 1.5;
     color: black;
   }
+
+	.bioscience-box1 {
+		-ms-grid-column: 1;
+		-ms-grid-row: 1;
+  }
+
+	.bioscience-box2 {
+		-ms-grid-column: 2;
+		-ms-grid-row: 1;
+	}
+
+	.bioscience-box3 {
+		-ms-grid-column: 1;
+		-ms-grid-row: 2;
+	}
+
+	.bioscience-box4 {
+		-ms-grid-column: 2;
+		-ms-grid-row: 2;
+	}
 
   .bioscience-info {
     font: 1em sans-serif;
@@ -32,12 +54,6 @@
     border: 2px solid rgb(125, 159, 211);
     border-radius: 5px;
     background-color: transparent;
-  }
-
-  @supports not (display: grid) {
-    .bioscience-wrapper {
-      display: block;
-    }
   }
 
   @media screen and (max-width: 595px) {
