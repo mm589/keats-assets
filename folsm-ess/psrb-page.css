@@ -50,12 +50,6 @@
   background-color: transparent;
 }
 
-@supports not (display: grid) {
-  .psrb-wrapper {
-    display: block;
-  }
-}
-
 @media screen and (max-width: 595px) {
   .psrb-wrapper {
     display: block;
