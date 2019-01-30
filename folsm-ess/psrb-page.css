@@ -2,7 +2,9 @@
 
 .psrb-wrapper {
   display: grid;
+  display: -ms-grid;
   grid-template-columns: repeat(2, 1fr);
+  -ms-grid-columns: ( 1fr )[2];
   grid-auto-rows: minmax(100px, auto);
   grid-gap: 0.5em;
   font: 1em sans-serif;
@@ -15,6 +17,26 @@
   font: 1em sans-serif;
   line-height: 1.5;
   color: black;
+}
+
+.psrb-box1 {
+  -ms-grid-column: 1;
+  -ms-grid-row: 1;
+}
+
+.psrb-box2 {
+  -ms-grid-column: 2;
+  -ms-grid-row: 1;
+}
+
+.psrb-box3 {
+  -ms-grid-column: 1;
+  -ms-grid-row: 2;
+}
+
+.psrb-box4 {
+  -ms-grid-column: 2;
+  -ms-grid-row: 2;
 }
 
 .psrb-box1,
