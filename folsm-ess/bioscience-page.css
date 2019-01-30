@@ -1,143 +1,144 @@
 @import src("https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
-
 /* styling for grid box and other page elements */
+
 .bioscience-wrapper {
-    display: grid;
-    display: -ms-grid;
-    grid-template-columns: repeat(2, 1fr);
-    -ms-grid-columns: ( 1fr )[2];
-    grid-auto-rows: minmax(100px, auto);
-    grid-gap: 0.5em;
-    font: 1em sans-serif;
-    line-height: 1.5;
-    color: black;
+  display: grid;
+  display: -ms-grid;
+  grid-template-columns: repeat(2, 1fr);
+  -ms-grid-columns: ( 1fr)[2];
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 0.5em;
+  font: 1em sans-serif;
+  line-height: 1.5;
+  color: black;
+}
+
+.bioscience-box1 {
+  -ms-grid-column: 1;
+  -ms-grid-row: 1;
+}
+
+.bioscience-box2 {
+  -ms-grid-column: 2;
+  -ms-grid-row: 1;
+}
+
+.bioscience-box3 {
+  -ms-grid-column: 1;
+  -ms-grid-row: 2;
+}
+
+.bioscience-box4 {
+  -ms-grid-column: 2;
+  -ms-grid-row: 2;
+}
+
+.bioscience-info {
+  font: 1em sans-serif;
+  line-height: 1.5;
+  color: black;
+}
+
+.bioscience-info blockquote {
+  padding: 10px;
+  background-color: whitesmoke;
+  border-left: 5px solid rgb(125, 159, 211);
+}
+
+.bioscience-box1,
+.bioscience-box2,
+.bioscience-box3,
+.bioscience-box4 {
+  margin: 1px;
+  padding: 5px;
+  border: 2px solid rgb(125, 159, 211);
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 595px) {
+  .bioscience-wrapper {
+    display: block;
+    font-size: 1em;
   }
-
-	.bioscience-box1 {
-		-ms-grid-column: 1;
-		-ms-grid-row: 1;
-  }
-
-	.bioscience-box2 {
-		-ms-grid-column: 2;
-		-ms-grid-row: 1;
-	}
-
-	.bioscience-box3 {
-		-ms-grid-column: 1;
-		-ms-grid-row: 2;
-	}
-
-	.bioscience-box4 {
-		-ms-grid-column: 2;
-		-ms-grid-row: 2;
-	}
-
-  .bioscience-info {
-    font: 1em sans-serif;
-    line-height: 1.5;
-    color: black;
-  }
-
-  .bioscience-info blockquote {
-    padding: 10px;
-    background-color: whitesmoke;
-    border-left: 5px solid rgb(125, 159, 211);
-  }
-
-  .bioscience-box1,
-  .bioscience-box2,
-  .bioscience-box3,
-  .bioscience-box4 {
-    margin: 1px;
-    padding: 5px;
-    border: 2px solid rgb(125, 159, 211);
-    border-radius: 5px;
-    background-color: transparent;
-  }
-
-  @media screen and (max-width: 595px) {
-    .bioscience-wrapper {
-      display: block;
-      font-size: 1em;
-    }
-  }
+}
 
 /* styling for hyperlinks */
-  .bioscience-wrapper a {
-    text-decoration: none;
-    border-bottom: 1px solid #707070;
-    padding: 0 1px 0;
-    margin: 0 -1px 0;
+
+.bioscience-wrapper a {
+  text-decoration: none;
+  border-bottom: 1px solid #707070;
+  padding: 0 1px 0;
+  margin: 0 -1px 0;
+}
+
+.bioscience-wrapper a:hover {
+  background-color: #f8f8f8;
+  border-bottom-width: 3px;
+  margin-bottom: -2px;
+}
+
+/* styling for "Who's Who" table */
+
+.bioscience-contacts {
+  table-layout: auto;
+  width: 100%;
+  border-collapse: collapse;
+  font: 1em sans-serif;
+  line-height: 2;
+  color: black;
+}
+
+.bioscience-contacts th[scope="col"],
+th[scope="row"],
+td[scope="row"] {
+  font-weight: bold;
+  text-align: left;
+  border: 3px solid rgb(125, 159, 211);
+  padding: 2px;
+}
+
+.bioscience-contacts tr:nth-child(odd) {
+  background-color: whitesmoke;
+}
+
+.bioscience-contacts th[scope="col"] {
+  background-color: #cedff5;
+}
+
+.bioscience-contacts a,
+.bioscience-info a {
+  text-decoration: none;
+  border-bottom: 1px solid #707070;
+  padding: 0 1px 0;
+  margin: 0 -1px 0;
+}
+
+.bioscience-contacts a:hover,
+.bioscience-info a:hover {
+  background-color: #f8f8f8;
+  border-bottom-width: 3px;
+  margin-bottom: -2px;
+}
+
+@media only screen and (max-width: 560px) {
+  .bioscience-contacts table,
+  .bioscience-contacts tbody,
+  .bioscience-contacts th,
+  .bioscience-contacts td,
+  .bioscience-contacts tr {
+    display: block;
+    border: 1px solid rgb(125, 159, 211);
+    background-color: transparent;
   }
-
-  .bioscience-wrapper a:hover {
-    background-color: #f8f8f8;
-    border-bottom-width: 3px;
-    margin-bottom: -2px;
-  }
-
-  /* styling for "Who's Who" table */
-
-  .bioscience-contacts {
-    table-layout: auto;
-    width: 100%;
-    border-collapse: collapse;
-    font: 1em sans-serif;
-    line-height: 2;
-    color: black;
-  }
-
-  .bioscience-contacts th[scope="col"],
-  th[scope="row"],
-  td[scope="row"] {
-    font-weight: bold;
-    text-align: left;
-    border: 3px solid rgb(125, 159, 211);
-    padding: 2px;
-  }
-
-  .bioscience-contacts tr:nth-child(odd) {
-    background-color: whitesmoke;
-  }
-
   .bioscience-contacts th[scope="col"] {
-    background-color: #cedff5;
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
   }
-
-  .bioscience-contacts a,
-  .bioscience-info a {
-    text-decoration: none;
-    border-bottom: 1px solid #707070;
-    padding: 0 1px 0;
-    margin: 0 -1px 0;
+  .bioscience-contacts td {
+    position: relative;
+    white-space: normal;
+    text-align: left;
   }
-
-  .bioscience-contacts a:hover,
-  .bioscience-info a:hover {
-    background-color: #f8f8f8;
-    border-bottom-width: 3px;
-    margin-bottom: -2px;
-  }
-
-  @media only screen and (max-width: 560px) {
-    .bioscience-contacts table,
-    .bioscience-contacts tbody,
-    .bioscience-contacts th,
-    .bioscience-contacts td,
-    .bioscience-contacts tr {
-      display: block;
-      border: 1px solid rgb(125, 159, 211);
-      background-color: transparent;
-    }
-    .bioscience-contacts th[scope="col"] {
-      position: absolute;
-      top: -9999px;
-      left: -9999px;
-    }
-    .bioscience-contacts td {
-      position: relative;
-      white-space: normal;
-      text-align: left;
-    }
-  }
+}
