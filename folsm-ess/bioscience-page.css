@@ -94,7 +94,7 @@ th[scope="row"],
 td[scope="row"] {
   font-weight: bold;
   text-align: left;
-  border: 3px solid rgb(125, 159, 211);
+  border: 2px solid rgb(125, 159, 211);
   padding: 2px;
 }
 
