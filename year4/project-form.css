@@ -14,15 +14,15 @@
   display: none;
 }
 
-h3.surveyTitle {
+.projectSelection h3.surveyTitle {
   font-size: 1.8em;
 }
 
-h4.surveyDesc {
+.projectSelection h4.surveyDesc {
   font-size: 1.4em;
 }
 
-.no-overflow ol, .no-overflow p {
+.projectSelection ol, .projectSelection p {
   font-family: "Kings Caslon Display", Georgia, sans-serif;
   font-size: 1.2em;
 }
