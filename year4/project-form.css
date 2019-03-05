@@ -1,0 +1,138 @@
+@font-face {
+  font-family: 'BureauGrotesqueThreeSeven';
+  src: url(https://cdn.jsdelivr.net/gh/mm589/keats-assets/Fonts/BureauGrotesqueThreeSeven.woff) format('woff'), url(https://cdn.jsdelivr.net/gh/mm589/keats-assets/Fonts/KingsBureauGrot-ThreeSeven.ttf) format('truetype');
+  font-family: 'Kings Caslon Display';
+  src: url(https://cdn.jsdelivr.net/gh/mm589/keats-assets/Fonts/KingsCaslonDisplay.ttf) format('truetype');
+}
+
+.mod_questionnaire_viewpage {
+  font-family: "BureauGrotesqueThreeSeven", Impact, sans-serif;
+  color: black;
+}
+
+.mod_questionnaire_viewpage h2 {
+  display: none;
+}
+
+h3.surveyTitle {
+  font-size: 1.8em;
+}
+
+h4.surveyDesc {
+  font-size: 1.4em;
+}
+
+.no-overflow ol, .no-overflow p {
+  font-family: "Kings Caslon Display", Georgia, sans-serif;
+  font-size: 1.2em;
+}
+
+div.intro {
+  border-width: 2px 2px 0 2px;
+  border-color: #028e90;
+  border-style: solid;
+  padding: 5px;
+}
+
+div.message {
+  margin-bottom: 10px;
+  font-weight: bold;
+  border-width: 0 2px 2px 2px;
+  border-color: #028e90;
+  border-style: solid;
+  padding: 5px;
+  border-top: 1px dotted #028e90;
+  font-size: 1.2em;
+}
+
+div.yourresponse {
+  border-width: 2px 2px 0 2px;
+  border-style: solid;
+  border-color: #028e90;
+  background-color: ghostwhite;
+  padding: 5px;
+  font-size: 1.2em;
+}
+
+div.allresponses {
+  border-width: 0 2px 2px 2px;
+  border-style: solid;
+  border-color: #028e90;
+  background-color: ghostwhite;
+  padding: 5px;
+  border-top: 1px dotted #028e90;
+  font-size: 1.2em;
+}
+
+.qn-question,
+.qn-answer {
+  font-size: 1.2em;
+  font-family: "Kings Caslon Display";
+}
+
+.qn-question label {
+  font-family: "Kings Caslon Display";
+  font-size: 1em;
+}
+
+.surveyPage {
+  font-family: "Kings Caslon Display";
+  font-size: 1.2em;
+}
+
+.addInfo {
+  font-family: "Kings Caslon Display";
+  font-size: 1.2em;
+}
+
+.surveyTitle {
+  font-family: "BureauGrotesqueThreeSeven";
+  font-size: 1.8em;
+  color: #0b5584;
+}
+
+.qn-info h2.qn-number {
+  font-family: "Kings Caslon Display";
+}
+
+.mod_questionnaire_viewpage h2 {
+  font-family: "BureauGrotesqueThreeSeven";
+  font-size: 1.8em;
+  color: #0b5584;
+}
+
+.mod_questionnaire_viewpage p {
+  font-family: "Kings Caslon Display";
+  font-size: 1.1em;
+}
+
+.mod_questionnaire_viewpage .intro p {
+  font-family: "Kings Caslon Display";
+  font-size: 1.2em;
+}
+
+.complete,
+.yourresponse,
+.allresponses {
+  font-family: "Kings Caslon Display";
+  font-size: 1.2em;
+}
+
+.mod_questionnaire_completepage .generalbox .surveyTitle {
+  font-family: "Kings Caslon Display";
+  font-size: 1.2em;
+}
+
+.mod_questionnaire_completepage .generalbox .addInfo {
+  font-family: "Kings Caslon Display";
+  font-size: 1.2em;
+}
+
+.mod_questionnaire_completepage .generalbox .message {
+  font-family: "Kings Caslon Display";
+  font-size: 1.2em;
+}
+
+.qn-datemsg {
+  display: none;
+}
