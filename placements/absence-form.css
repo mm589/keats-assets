@@ -16,7 +16,14 @@
   font-size: 1em;
 }
 
-.surveyPage {
+.surveyPage,
+.mod_questionnaire_completepage .generalbox .message,
+.mod_questionnaire_completepage .generalbox .addInfo,
+.mod_questionnaire_completepage .generalbox .surveyTitle,
+.complete,
+.yourresponse,
+.allresponses,
+.mod_questionnaire_viewpage .intro p {
   font-family: "Kings Caslon Display", Georgia, sans-serif;
   font-size: 1.2em;
 }
@@ -45,33 +52,6 @@
 .mod_questionnaire_viewpage p {
   font-family: "Kings Caslon Display", Georgia, sans-serif;
   font-size: 1.1em;
-}
-
-.mod_questionnaire_viewpage .intro p {
-  font-family: "Kings Caslon Display", Georgia, sans-serif;
-  font-size: 1.2em;
-}
-
-.complete,
-.yourresponse,
-.allresponses {
-  font-family: "Kings Caslon Display", Georgia, sans-serif;
-  font-size: 1.2em;
-}
-
-.mod_questionnaire_completepage .generalbox .surveyTitle {
-  font-family: "Kings Caslon Display", Georgia, sans-serif;
-  font-size: 1.2em;
-}
-
-.mod_questionnaire_completepage .generalbox .addInfo {
-  font-family: "Kings Caslon Display", Georgia, sans-serif;
-  font-size: 1.2em;
-}
-
-.mod_questionnaire_completepage .generalbox .message {
-  font-family: "Kings Caslon Display", Georgia, sans-serif;
-  font-size: 1.2em;
 }
 
 .qn-datemsg {
