@@ -8,69 +8,69 @@
 .qn-question,
 .qn-answer {
   font-size: 1.2em;
-  font-family: "Kings Caslon Display";
+  font-family: "Kings Caslon Display", Georgia, sans-serif;
 }
 
 .qn-question label {
-  font-family: "Kings Caslon Display";
+  font-family: "Kings Caslon Display", Georgia, sans-serif;
   font-size: 1em;
 }
 
 .surveyPage {
-  font-family: "Kings Caslon Display";
+  font-family: "Kings Caslon Display", Georgia, sans-serif;
   font-size: 1.2em;
 }
 
 .addInfo {
-  font-family: "Kings Caslon Display";
+  font-family: "Kings Caslon Display", Georgia, sans-serif;
   font-size: 1.2em;
 }
 
 .surveyTitle {
-  font-family: "BureauGrotesqueThreeSeven";
+  font-family: "BureauGrotesqueThreeSeven", Impact, sans-serif;
   font-size: 1.8em;
   color: #0b5584;
 }
 
 .qn-info h2.qn-number {
-  font-family: "Kings Caslon Display";
+  font-family: "Kings Caslon Display", Georgia, sans-serif;
 }
 
 .mod_questionnaire_viewpage h2 {
-  font-family: "BureauGrotesqueThreeSeven";
+  font-family: "BureauGrotesqueThreeSeven", Impact, sans-serif;
   font-size: 1.8em;
   color: #0b5584;
 }
 
 .mod_questionnaire_viewpage p {
-  font-family: "Kings Caslon Display";
+  font-family: "Kings Caslon Display", Georgia, sans-serif;
   font-size: 1.1em;
 }
 
 .mod_questionnaire_viewpage .intro p {
-  font-family: "Kings Caslon Display";
+  font-family: "Kings Caslon Display", Georgia, sans-serif;
   font-size: 1.2em;
 }
 
 .complete,
 .yourresponse,
 .allresponses {
-  font-family: "Kings Caslon Display";
+  font-family: "Kings Caslon Display", Georgia, sans-serif;
   font-size: 1.2em;
 }
 
 .mod_questionnaire_completepage .generalbox .surveyTitle {
-  font-family: "Kings Caslon Display";
+  font-family: "Kings Caslon Display", Georgia, sans-serif;
   font-size: 1.2em;
 }
 
 .mod_questionnaire_completepage .generalbox .addInfo {
-  font-family: "Kings Caslon Display";
+  font-family: "Kings Caslon Display", Georgia, sans-serif;
   font-size: 1.2em;
 }
 
 .mod_questionnaire_completepage .generalbox .message {
-  font-family: "Kings Caslon Display";
+  font-family: "Kings Caslon Display", Georgia, sans-serif;
   font-size: 1.2em;
 }
 
