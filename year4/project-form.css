@@ -128,7 +128,7 @@ span.respondentinfo {
 }
 
 /* styling for staff project survey */
-h2.div[role="main"] {
+div[role="main"]>h2 {
   display: none;
 }
 
