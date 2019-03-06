@@ -128,16 +128,16 @@ span.respondentinfo {
 }
 
 /* styling for staff project survey */
-h2#maincontent {
+#yui_3_17_2_1_1551881190272_250 > h2 {
   display: none;
 }
 
-h3.staffSurvey {
+h3#surveyTitle {
   font-family: "BureauGrotesqueThreeSeven", Impact, sans-serif;
   font-size: 1.6em;
 }
 
-p.staffSurvey {
+.staffSurvey p {
   font-family: "Kings Caslon Display", Georgia, sans-serif;
   font-size: 1.2em;
 }
