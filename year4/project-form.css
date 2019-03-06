@@ -126,3 +126,22 @@ span.respondentinfo {
 .qn-datemsg {
   display: none;
 }
+
+/* styling for staff project survey */
+h2#maincontent {
+  display: none;
+}
+
+h3.staffSurvey {
+  font-family: "BureauGrotesqueThreeSeven", Impact, sans-serif;
+  font-size: 1.6em;
+}
+
+p.staffSurvey {
+  font-family: "Kings Caslon Display", Georgia, sans-serif;
+  font-size: 1.2em;
+}
+
+.modified {
+  display: none;
+}
