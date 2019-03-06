@@ -78,7 +78,7 @@ div.allresponses {
   font-size: 0.9em;
 }
 
-.box .generalbox h2 {
+h2.generalbox {
   font-family: "BureauGrotesqueThreeSeven", Impact, sans-serif;
   font-size: 2em;
 }
