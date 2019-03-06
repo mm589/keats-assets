@@ -15,7 +15,7 @@
 }
 
 .projectSelection h3.surveyTitle {
-  font-size: 1.8em;
+  margin-top: 0;
 }
 
 .projectSelection h4.surveyDesc {
@@ -30,7 +30,6 @@ div.intro {
 }
 
 div.message {
-  margin-bottom: 10px;
   font-weight: bold;
   border-width: 0 2px 2px 2px;
   border-color: #028e90;
@@ -41,7 +40,7 @@ div.message {
 }
 
 div.yourresponse {
-  border-width: 2px 2px 0 2px;
+  border-width: 0 2px 0 2px;
   border-style: solid;
   border-color: #028e90;
   background-color: ghostwhite;
@@ -75,6 +74,15 @@ div.allresponses {
   font-family: "Kings Caslon Display", Georgia, sans-serif;
 }
 
+.qn-container td.smalltext {
+  font-size: 0.9em;
+}
+
+.box .generalbox h2 {
+  font-family: "BureauGrotesqueThreeSeven", Impact, sans-serif;
+  font-size: 2em;
+}
+
 .qn-question label {
   font-family: "Kings Caslon Display", Georgia, sans-serif;
   font-size: 1em;
@@ -85,10 +93,12 @@ div.allresponses {
   font-size: 1.2em;
 }
 
+/* ---instructions dialogue box on advanced settings/content options/additional info page, which appear at the top of the first page of the questionnaire---
 .addInfo {
   font-family: "Kings Caslon Display", Georgia, sans-serif;
   font-size: 1.2em;
 }
+*/
 
 .surveyTitle {
   font-family: "BureauGrotesqueThreeSeven", Impact, sans-serif;
@@ -97,6 +107,7 @@ div.allresponses {
 }
 
 .qn-info h2.qn-number {
+  /* styling for question number labels */
   font-family: "Kings Caslon Display", Georgia, sans-serif;
 }
 
@@ -106,7 +117,8 @@ div.allresponses {
   color: #0b5584;
 }
 
-.mod_questionnaire_viewpage p {
+.mod_questionnaire_viewpage p,
+span.respondentinfo {
   font-family: "Kings Caslon Display", Georgia, sans-serif;
   font-size: 1.1em;
 }
