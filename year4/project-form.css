@@ -70,7 +70,6 @@ div.complete {
 .allresponses,
 .mod_questionnaire_viewpage .intro p {
   font-size: 1em;
-  font-family: "Kings Caslon Display", Georgia, sans-serif;
 }
 
 .qn-container td.smalltext {
@@ -78,47 +77,35 @@ div.complete {
 }
 
 .mod_questionnaire_reportpage h2 {
-  font-family: "BureauGrotesqueThreeSeven", Impact, sans-serif;
   font-size: 2em;
 }
 
 .qn-question label {
-  font-family: "Kings Caslon Display", Georgia, sans-serif;
   font-size: 1em;
 }
 
 .surveyPage {
-  font-family: "Kings Caslon Display", Georgia, sans-serif;
   font-size: 1em;
 }
 
 /* ---instructions dialogue box on advanced settings/content options/additional info page, which appear at the top of the first page of the questionnaire---
 .addInfo {
-  font-family: "Kings Caslon Display", Georgia, sans-serif;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 */
 
 .surveyTitle {
-  font-family: "BureauGrotesqueThreeSeven", Impact, sans-serif;
   font-size: 1.8em;
   color: #0b5584;
 }
 
-.qn-info h2.qn-number {
-  /* styling for question number labels */
-  font-family: "Kings Caslon Display", Georgia, sans-serif;
-}
-
 .mod_questionnaire_viewpage h2 {
-  font-family: "BureauGrotesqueThreeSeven", Impact, sans-serif;
   font-size: 1.8em;
   color: #0b5584;
 }
 
 .mod_questionnaire_viewpage p,
 span.respondentinfo {
-  font-family: "Kings Caslon Display", Georgia, sans-serif;
   font-size: 1em;
 }
 
@@ -132,12 +119,10 @@ div[role="main"]>h2 {
 }
 
 h3#surveyTitle {
-  font-family: "BureauGrotesqueThreeSeven", Impact, sans-serif;
   font-size: 1.6em;
 }
 
 .staffSurvey p {
-  font-family: "Kings Caslon Display", Georgia, sans-serif;
   font-size: 1em;
 }
 
