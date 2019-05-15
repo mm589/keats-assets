@@ -59,6 +59,13 @@ div.allresponses {
   margin-bottom: 10px;
 }
 
+div.complete {
+  border-width: 2px 2px 2px 2px;
+  border-style: solid;
+  border-color: #028e90;
+  padding: 5px;
+}
+
 .projectSelection ol,
 .projectSelection p,
 .qn-question,
