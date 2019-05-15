@@ -1,12 +1,4 @@
-@font-face {
-  font-family: 'BureauGrotesqueThreeSeven';
-  src: url(https://cdn.jsdelivr.net/gh/mm589/keats-assets/Fonts/BureauGrotesqueThreeSeven.woff) format('woff'), url(https://cdn.jsdelivr.net/gh/mm589/keats-assets/Fonts/KingsBureauGrot-ThreeSeven.ttf) format('truetype');
-  font-family: 'Kings Caslon Display';
-  src: url(https://cdn.jsdelivr.net/gh/mm589/keats-assets/Fonts/KingsCaslonDisplay.ttf) format('truetype');
-}
-
 .mod_questionnaire_viewpage {
-  font-family: "BureauGrotesqueThreeSeven", Impact, sans-serif;
   color: black;
 }
 
@@ -36,7 +28,7 @@ div.message {
   border-style: solid;
   padding: 5px;
   border-top: 1px dotted #028e90;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 div.yourresponse {
@@ -45,7 +37,7 @@ div.yourresponse {
   border-color: #028e90;
   background-color: ghostwhite;
   padding: 5px;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 div.allresponses {
@@ -55,7 +47,7 @@ div.allresponses {
   background-color: ghostwhite;
   padding: 5px;
   border-top: 1px dotted #028e90;
-  font-size: 1.2em;
+  font-size: 1em;
   margin-bottom: 10px;
 }
 
@@ -97,7 +89,7 @@ div.complete {
 
 .surveyPage {
   font-family: "Kings Caslon Display", Georgia, sans-serif;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 /* ---instructions dialogue box on advanced settings/content options/additional info page, which appear at the top of the first page of the questionnaire---
@@ -127,7 +119,7 @@ div.complete {
 .mod_questionnaire_viewpage p,
 span.respondentinfo {
   font-family: "Kings Caslon Display", Georgia, sans-serif;
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 .qn-datemsg {
@@ -146,7 +138,7 @@ h3#surveyTitle {
 
 .staffSurvey p {
   font-family: "Kings Caslon Display", Georgia, sans-serif;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .modified {
