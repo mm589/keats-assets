@@ -129,3 +129,13 @@ h3#surveyTitle {
 .modified {
   display: none;
 }
+
+/* styling for project category code list on student survey */
+
+.mpharm4-projectlist .headings {
+    font-weight: bold;
+  }
+
+.listItem {
+    margin-left: 15px;
+  }
