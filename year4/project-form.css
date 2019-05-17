@@ -52,6 +52,7 @@ div.allresponses {
 }
 
 div.complete {
+  background-color: ghostwhite;
   border-width: 2px 2px 2px 2px;
   border-style: solid;
   border-color: #028e90;
