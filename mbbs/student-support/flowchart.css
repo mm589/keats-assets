@@ -56,11 +56,13 @@
   .linksWelfare h5,
   .linksAcademic h5 {
     font-size: 1.2em;
+    font-family: Open Sans, sans-serif;
     color: black;
   }
 
   .linksSocieties h5 {
     font-size: 1.2em;
+    font-family: Open Sans, sans-serif;
     color: black;
     text-align: center;
   }
