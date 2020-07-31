@@ -26,8 +26,6 @@
     grid-auto-rows: auto;
     -ms-grid-rows: auto;
     grid-template-areas: "hd hd hd hd hd   hd   hd   hd" "sd sd sd sd main main main main" "ft ft ft ft ft   ft   ft   ft";
-    font-family: "Kings Caslon Text", Georgia, sans-serif;
-    font-size: 1.2em;
     color: black;
     background-color: rgb(48, 149, 180);
     border-radius: 5px;
@@ -46,12 +44,6 @@
   }
 
   /* Styling for headings */
-
-  .essSupportLinks h3,
-  .essSupportLinks h4 {
-    color: white;
-    text-align: center;
-  }
 
   .linksWelfare h5,
   .linksAcademic h5 {
